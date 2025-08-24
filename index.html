@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expert IT, Database & Photography Services in DFW | Manpasand</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Manpasand Technical Services delivers premier IT support, SQL database management, network security, and professional photography for businesses and residents across the Dallas-Fort Worth area.">
+    <meta name="keywords" content="DFW IT services, Dallas SQL consulting, Fort Worth network support, small business IT solutions, real estate photography DFW, technical consulting Dallas">
+    <meta name="author" content="Manpasand Technical Services">
+    <meta name="robots" content="index, follow">
+
+    <!-- Favicon / Website Icon -->
+    <link rel="icon" href="https://placehold.co/32x32/4F46E5/FFFFFF?text=M" type="image/png">
+    <link rel="apple-touch-icon" href="https://placehold.co/180x180/4F46E5/FFFFFF?text=M">
+
+    <!-- Open Graph Meta Tags (for social sharing) -->
+    <meta property="og:title" content="Expert IT, Database & Photography Services in DFW | Manpasand">
+    <meta property="og:description" content="Premier IT support, SQL database management, and professional photography for businesses and residents across Dallas-Fort Worth.">
+    <meta property="og:image" content="https://placehold.co/1200x630/4F46E5/FFFFFF?text=Manpasand+Services">
+    <meta property="og:url" content="https://www.manpasand.com">
+    <meta property="og:type" content="website">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scrollbar-gutter: stable;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #4F46E5, #EC4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .section-fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .section-fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .faq-item .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-in-out;
+        }
+        .faq-item.open .faq-answer {
+            max-height: 1000px; /* Arbitrary large value */
+        }
+        .faq-item .faq-icon {
+            transition: transform 0.3s ease-in-out;
+        }
+        .faq-item.open .faq-icon {
+            transform: rotate(180deg);
+        }
+    </style>
+
+    <!-- JSON-LD Structured Data for Local Business -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Manpasand Technical Services",
+      "image": "https://placehold.co/600x400/1F2937/E0E7FF?text=Manpasand+Logo",
+      "url": "https://www.manpasand.com",
+      "telephone": "+1-715-255-0420",
+      "priceRange": "$$",
+      "description": "Premier provider of integrated IT, database, network, and photography services for the Dallas-Fort Worth metroplex.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Tech Avenue",
+        "addressLocality": "Dallas",
+        "addressRegion": "TX",
+        "postalCode": "75201",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 32.7767,
+        "longitude": -96.7970
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": [
+        "https://www.facebook.com/manpasand",
+        "https://www.twitter.com/manpasand",
+        "https://www.linkedin.com/company/manpasand"
+      ],
+      "areaServed": [
+        {"@type":"City","name":"Dallas"},
+        {"@type":"City","name":"Fort Worth"},
+        {"@type":"City","name":"Plano"},
+        {"@type":"City","name":"Frisco"},
+        {"@type":"City","name":"Arlington"},
+        {"@type":"City","name":"Irving"}
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services",
+        "itemListElement": [
+          {"@type":"Offer","name":"Database Solutions","category":"IT Service"},
+          {"@type":"Offer","name":"Network & Security","category":"IT Service"},
+          {"@type":"Offer","name":"Web Development","category":"IT Service"},
+          {"@type":"Offer","name":"Professional Photography","category":"Photography"},
+          {"@type":"Offer","name":"Small Business IT","category":"IT Service"},
+          {"@type":"Offer","name":"Tech Consulting","category":"Consulting"}
+        ]
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "telephone": "+1-715-255-0420",
+        "areaServed": "US-TX",
+        "availableLanguage": ["English"]
+      }
+    }
+    </script>
+    <!-- JSON-LD: FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What areas do you serve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We provide on-site services across the Dallas-Fort Worth (DFW) metroplex. We also support clients remotely regardless of location for services like database management and web development."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you work with both businesses and individuals?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We offer scalable solutions for small to medium-sized businesses and also provide dedicated services for residential clients, including home network security and family photography."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get a quote for a project?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Simply contact us to schedule a complimentary initial consultation. We will discuss your requirements in detail to provide a comprehensive proposal and a transparent, fixed-price quote."
+          }
+        }
+      ]
+    }
+    </script>
+</head>
+<body class="bg-gray-900 text-gray-200">
+
+    <!-- Header & Navigation -->
+    <header class="bg-gray-900/80 backdrop-blur-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="flex items-center space-x-2">
+                <svg class="h-10 w-10 text-indigo-500" viewBox="0 0 100 100" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M50 0C22.3858 0 0 22.3858 0 50C0 77.6142 22.3858 100 50 100C77.6142 100 100 77.6142 100 50C100 22.3858 77.6142 0 50 0ZM50 10C27.9086 10 10 27.9086 10 50C10 72.0914 27.9086 90 50 90C72.0914 90 90 72.0914 90 50C90 27.9086 72.0914 10 50 10ZM50 25C36.1929 25 25 36.1929 25 50C25 63.8071 36.1929 75 50 75C63.8071 75 75 63.8071 75 50C75 36.1929 63.8071 25 50 25ZM50 35C41.7157 35 35 41.7157 35 50C35 58.2843 41.7157 65 50 65C58.2843 65 65 58.2843 65 50C65 41.7157 58.2843 35 50 35Z" />
+                    <path d="M60 40H40V60H60V40Z" fill="#EC4899"/>
+                </svg>
+                <span class="text-2xl font-bold text-white">Manpasand</span>
+            </a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#about" class="text-gray-300 hover:text-indigo-400 transition duration-300">About</a>
+                <a href="#services" class="text-gray-300 hover:text-indigo-400 transition duration-300">Services</a>
+                <a href="#industries" class="text-gray-300 hover:text-indigo-400 transition duration-300">Industries</a>
+                <a href="#why-us" class="text-gray-300 hover:text-indigo-400 transition duration-300">Why Us</a>
+                <a href="#portfolio" class="text-gray-300 hover:text-indigo-400 transition duration-300">Portfolio</a>
+                <a href="#faq" class="text-gray-300 hover:text-indigo-400 transition duration-300">FAQ</a>
+                <a href="#contact" class="bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-4 rounded-lg transition duration-300">Contact Us</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-gray-300 focus:outline-none" aria-label="Toggle mobile menu">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-2">
+            <a href="#about" class="block text-gray-300 hover:text-indigo-400 transition duration-300">About</a>
+            <a href="#services" class="block text-gray-300 hover:text-indigo-400 transition duration-300">Services</a>
+            <a href="#industries" class="block text-gray-300 hover:text-indigo-400 transition duration-300">Industries</a>
+            <a href="#why-us" class="block text-gray-300 hover:text-indigo-400 transition duration-300">Why Us</a>
+            <a href="#portfolio" class="block text-gray-300 hover:text-indigo-400 transition duration-300">Portfolio</a>
+            <a href="#faq" class="block text-gray-300 hover:text-indigo-400 transition duration-300">FAQ</a>
+            <a href="#contact" class="block bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-4 rounded-lg transition duration-300 mt-2">Contact Us</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="relative min-h-screen flex items-center justify-center bg-gray-900 overflow-hidden">
+            <div class="absolute inset-0 bg-black opacity-50"></div>
+            <div class="absolute inset-0 z-0" aria-hidden="true">
+                <div class="absolute bg-indigo-900/50 rounded-full -left-40 -top-40 w-96 h-96 blur-3xl animate-pulse"></div>
+                <div class="absolute bg-pink-900/50 rounded-full -right-40 -bottom-40 w-96 h-96 blur-3xl animate-pulse animation-delay-4000"></div>
+            </div>
+            <div class="container mx-auto px-6 text-center z-10">
+                <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight mb-4">
+                    Expert Solutions, <span class="gradient-text">Masterfully Delivered.</span>
+                </h1>
+                <p class="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto">
+                    Manpasand is the DFW's trusted partner for integrated technology and creative services. We empower your business with elite database management, secure networks, and captivating photography.
+                </p>
+                <div class="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
+                    <a href="#services" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 transform hover:scale-105">View Our Expertise</a>
+                    <a href="#contact" class="bg-white/10 hover:bg-white/20 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300">Schedule a Free Consultation</a>
+                </div>
+                <p class="mt-6 text-gray-400 text-sm">DFW‑Based • Transparent Pricing • Insured • Confidentiality Assured</p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-20 bg-gray-800 section-fade-in">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Your DFW Partner in Technology & Creativity</h2>
+                    <p class="text-indigo-400 text-lg mt-2">Driven by Excellence, Defined by Partnership</p>
+                </div>
+                <div class="flex flex-col md:flex-row items-center gap-12">
+                    <div class="md:w-1/2 bg-gray-900/50 p-8 rounded-lg shadow-2xl flex items-center justify-center">
+                        <!-- SVG for Team Collaboration -->
+                        <svg class="w-full h-full max-w-md" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" aria-label="An illustration of a team collaborating on a technical project.">
+                            <defs>
+                                <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#4F46E5;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#EC4899;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <rect x="70" y="30" width="60" height="90" rx="5" fill="#374151"/>
+                            <rect x="75" y="35" width="50" height="10" rx="2" fill="url(#grad1)"/>
+                            <rect x="75" y="50" width="50" height="10" rx="2" fill="#4B5563"/>
+                            <rect x="75" y="65" width="50" height="10" rx="2" fill="#4B5563"/>
+                            <rect x="75" y="80" width="50" height="10" rx="2" fill="#4B5563"/>
+                            <circle cx="35" cy="50" r="15" fill="#4F46E5"/>
+                            <path d="M 20 65 C 20 85, 50 85, 50 65 V 120 H 20 Z" fill="#4B5563"/>
+                            <circle cx="165" cy="50" r="15" fill="#EC4899"/>
+                            <path d="M 150 65 C 150 85, 180 85, 180 65 V 120 H 150 Z" fill="#4B5563"/>
+                        </svg>
+                    </div>
+                    <div class="md:w-1/2">
+                        <p class="text-gray-300 mb-4 text-lg">
+                            Founded on a passion for elegant solutions, Manpasand Technical Services is the premier resource for specialized expertise in the DFW metroplex. Our foundation in advanced SQL database architecture, robust network security, and modern web development enables us to solve complex challenges for businesses and homeowners alike.
+                        </p>
+                        <p class="text-gray-300 mb-4 text-lg">
+                            We bridge the gap between the technical and the creative, offering professional photography that captures the essence of your events, properties, and brand. Our mission is to deliver bespoke, high-impact solutions—from safeguarding your digital assets to creating timeless images.
+                        </p>
+                        <p class="text-gray-300 text-lg">
+                            At Manpasand, we build lasting relationships through integrity and performance. We are committed to providing reliable, high-value services that earn your trust and are truly "manpasand" (well-liked).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-20 bg-gray-900 section-fade-in">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Our Core Competencies</h2>
+                    <p class="text-indigo-400 text-lg mt-2">Specialized Solutions for Business & Home</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-gray-800 p-8 rounded-lg shadow-lg transform hover:-translate-y-2 transition duration-300">
+                        <h3 class="text-2xl font-bold text-white mb-4">Database Architecture & ETL</h3>
+                        <p class="text-gray-400">Optimize data flow and integrity with expert SQL administration, scalable architecture, and efficient data warehousing solutions that drive business intelligence.</p>
+                    </div>
+                    <div class="bg-gray-800 p-8 rounded-lg shadow-lg transform hover:-translate-y-2 transition duration-300">
+                        <h3 class="text-2xl font-bold text-white mb-4">Network & Cybersecurity</h3>
+                        <p class="text-gray-400">Protect your digital assets with secure network design, IoT device hardening, and professional security camera installation for total peace of mind.</p>
+                    </div>
+                    <div class="bg-gray-800 p-8 rounded-lg shadow-lg transform hover:-translate-y-2 transition duration-300">
+                        <h3 class="text-2xl font-bold text-white mb-4">Web & Application Development</h3>
+                        <p class="text-gray-400">Establish a powerful online presence with modern, responsive websites and single-page applications engineered for performance and user engagement.</p>
+                    </div>
+                    <div class="bg-gray-800 p-8 rounded-lg shadow-lg transform hover:-translate-y-2 transition duration-300">
+                        <h3 class="text-2xl font-bold text-white mb-4">Commercial & Event Photography</h3>
+                        <p class="text-gray-400">Capture critical moments with high-resolution photography for real estate, corporate events, and family milestones, delivering visually stunning results.</p>
+                    </div>
+                    <div class="bg-gray-800 p-8 rounded-lg shadow-lg transform hover:-translate-y-2 transition duration-300">
+                        <h3 class="text-2xl font-bold text-white mb-4">Small Business IT Support</h3>
+                        <p class="text-gray-400">Gain an on-demand IT partner. We manage POS systems, office networks, and provide comprehensive tech support to ensure seamless operations.</p>
+                    </div>
+                    <div class="bg-gray-800 p-8 rounded-lg shadow-lg transform hover:-translate-y-2 transition duration-300">
+                        <h3 class="text-2xl font-bold text-white mb-4">Strategic Tech Consulting</h3>
+                        <p class="text-gray-400">Navigate technological complexity with confidence. We provide expert guidance to align technology with your strategic goals and budget.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Industries We Serve -->
+        <section id="industries" class="py-20 bg-gray-800 section-fade-in">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Industries We Empower</h2>
+                    <p class="text-indigo-400 text-lg mt-2">Specialized Experience Across Key DFW Sectors</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <div class="bg-gray-900 p-8 rounded-lg">
+                        <h3 class="text-xl font-bold text-white">Retail & Hospitality</h3>
+                        <p class="text-gray-400 mt-2">POS networks, secure guest Wi-Fi, surveillance systems, and digital signage.</p>
+                    </div>
+                    <div class="bg-gray-900 p-8 rounded-lg">
+                        <h3 class="text-xl font-bold text-white">Real Estate & Development</h3>
+                        <p class="text-gray-400 mt-2">Premium listing photography, virtual tours, and back-office IT support.</p>
+                    </div>
+                    <div class="bg-gray-900 p-8 rounded-lg">
+                        <h3 class="text-xl font-bold text-white">Professional Services</h3>
+                        <p class="text-gray-400 mt-2">SQL/ETL for data analysis, secure cloud infrastructure, and corporate websites.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section id="why-us" class="py-20 bg-gray-900 section-fade-in">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">The Manpasand Advantage</h2>
+                    <p class="text-indigo-400 text-lg mt-2">Your Partner in DFW for Strategic Excellence</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <div class="bg-gray-800 p-8 rounded-lg">
+                        <h3 class="text-2xl font-bold text-white mb-3">Local DFW Expertise</h3>
+                        <p class="text-gray-400">As a local business, we offer rapid on-site response and a deep understanding of the DFW market landscape.</p>
+                    </div>
+                    <div class="bg-gray-800 p-8 rounded-lg">
+                        <h3 class="text-2xl font-bold text-white mb-3">Unified Service Delivery</h3>
+                        <p class="text-gray-400">We provide a seamless, single point of contact for both your technical and creative project requirements, ensuring cohesive results.</p>
+                    </div>
+                    <div class="bg-gray-800 p-8 rounded-lg">
+                        <h3 class="text-2xl font-bold text-white mb-3">Client-Centric Approach</h3>
+                        <p class="text-gray-400">Our focus is on building long-term partnerships through transparent communication and solutions precisely tailored to your objectives.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Guarantees & SLAs -->
+        <section id="guarantees" class="py-20 bg-gray-800 section-fade-in">
+          <div class="container mx-auto px-6">
+            <div class="text-center mb-10">
+              <h2 class="text-3xl md:text-4xl font-bold text-white">Our Commitment to You</h2>
+              <p class="text-indigo-400 text-lg mt-2">Reliability and Professionalism, Guaranteed.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div class="bg-gray-900 rounded-lg p-8">
+                <h3 class="text-xl font-bold text-white">Transparent Proposals</h3>
+                <p class="text-gray-300 mt-2">You receive a detailed scope of work and fixed pricing before any project begins. No hidden fees, no surprises.</p>
+              </div>
+              <div class="bg-gray-900 rounded-lg p-8">
+                <h3 class="text-xl font-bold text-white">Responsive Communication</h3>
+                <p class="text-gray-300 mt-2">We guarantee responses within one business day, with critical support requests acknowledged within two hours.</p>
+              </div>
+              <div class="bg-gray-900 rounded-lg p-8">
+                <h3 class="text-xl font-bold text-white">Workmanship Guarantee</h3>
+                <p class="text-gray-300 mt-2">We stand by our work. Any defects within the original scope will be remediated at no cost within 14 days of project completion.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="py-20 bg-gray-900 section-fade-in">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Our Work</h2>
+                    <p class="text-indigo-400 text-lg mt-2">A Glimpse of Our Projects</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Project One -->
+                    <div class="bg-gray-800 rounded-lg shadow-lg overflow-hidden group">
+                        <div class="w-full h-64 bg-gray-700 flex items-center justify-center p-8">
+                            <svg class="w-full h-full text-white group-hover:scale-105 transition duration-300" viewBox="0 0 100 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Icon representing professional photography.">
+                                <rect x="10" y="15" width="80" height="60" rx="8" fill="#4F46E5"/>
+                                <circle cx="50" cy="45" r="18" fill="#374151"/>
+                                <circle cx="50" cy="45" r="10" fill="#EC4899"/>
+                                <rect x="75" y="5" width="15" height="10" rx="3" fill="#4B5563"/>
+                            </svg>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-white">Corporate Headshots</h3>
+                            <p class="text-gray-400 mt-2">Professional photography for a local business.</p>
+                        </div>
+                    </div>
+                    <!-- Project Two -->
+                    <div class="bg-gray-800 rounded-lg shadow-lg overflow-hidden group">
+                        <div class="w-full h-64 bg-gray-700 flex items-center justify-center p-8">
+                           <svg class="w-full h-full text-white group-hover:scale-105 transition duration-300" viewBox="0 0 100 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Icon representing network security.">
+                                <path d="M85 40H65C62.2386 40 60 42.2386 60 45V65C60 67.7614 62.2386 70 65 70H85C87.7614 70 90 67.7614 90 65V45C90 42.2386 87.7614 40 85 40Z" fill="#4F46E5"/>
+                                <rect x="10" y="40" width="30" height="30" rx="5" fill="#EC4899"/>
+                                <rect x="10" y="10" width="80" height="10" rx="5" fill="#4B5563"/>
+                                <line x1="25" y1="20" x2="25" y2="40" stroke="#4B5563" stroke-width="4"/>
+                                <line x1="75" y1="20" x2="75" y2="40" stroke="#4B5563" stroke-width="4"/>
+                            </svg>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-white">Small Business Network</h3>
+                            <p class="text-gray-400 mt-2">Complete network overhaul for a retail store.</p>
+                        </div>
+                    </div>
+                    <!-- Project Three -->
+                    <div class="bg-gray-800 rounded-lg shadow-lg overflow-hidden group">
+                        <div class="w-full h-64 bg-gray-700 flex items-center justify-center p-8">
+                            <svg class="w-full h-full text-white group-hover:scale-105 transition duration-300" viewBox="0 0 100 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Icon representing real estate photography.">
+                                <path d="M5 30L50 5L95 30V75H5V30Z" stroke="#4F46E5" stroke-width="4" fill="#374151"/>
+                                <rect x="40" y="50" width="20" height="25" fill="#EC4899"/>
+                                <circle cx="50" cy="30" r="10" stroke="#EC4899" stroke-width="3"/>
+                            </svg>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-white">Real Estate Photography</h3>
+                            <p class="text-gray-400 mt-2">Stunning visuals for a DFW property listing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="py-20 bg-gray-800 section-fade-in">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">What Our Clients Say</h2>
+                    <p class="text-indigo-400 text-lg mt-2">Trusted by the DFW Community</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-900 p-8 rounded-lg">
+                        <p class="text-gray-300 italic">"Manpasand streamlined our entire database system. The efficiency gains were immediate and impressive. Highly professional and knowledgeable!"</p>
+                        <p class="text-white font-bold mt-4">- John D., Small Business Owner</p>
+                    </div>
+                    <div class="bg-gray-900 p-8 rounded-lg">
+                        <p class="text-gray-300 italic">"The photos for our real estate listing were absolutely breathtaking. They captured the essence of the home perfectly and it sold in a week!"</p>
+                        <p class="text-white font-bold mt-4">- Jane S., Real Estate Agent</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="py-20 bg-gray-900 section-fade-in">
+            <div class="container mx-auto px-6 max-w-4xl">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Frequently Asked Questions</h2>
+                    <p class="text-indigo-400 text-lg mt-2">Your Questions, Answered</p>
+                </div>
+                <div class="space-y-4">
+                    <div class="faq-item bg-gray-800 rounded-lg">
+                        <button class="faq-question w-full flex justify-between items-center text-left p-6">
+                            <span class="text-xl font-semibold text-white">What areas do you serve?</span>
+                            <svg class="faq-icon w-6 h-6 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div class="faq-answer px-6 pb-6">
+                            <p class="text-gray-400">We provide on-site services across the Dallas-Fort Worth (DFW) metroplex. We also support clients remotely regardless of location for services like database management and web development.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item bg-gray-800 rounded-lg">
+                        <button class="faq-question w-full flex justify-between items-center text-left p-6">
+                            <span class="text-xl font-semibold text-white">Do you work with both businesses and individuals?</span>
+                            <svg class="faq-icon w-6 h-6 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div class="faq-answer px-6 pb-6">
+                            <p class="text-gray-400">Yes. We offer scalable solutions for small to medium-sized businesses and also provide dedicated services for residential clients, including home network security and family photography.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item bg-gray-800 rounded-lg">
+                        <button class="faq-question w-full flex justify-between items-center text-left p-6">
+                            <span class="text-xl font-semibold text-white">How do I get a quote for a project?</span>
+                            <svg class="faq-icon w-6 h-6 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div class="faq-answer px-6 pb-6">
+                            <p class="text-gray-400">Simply contact us to schedule a complimentary initial consultation. We will discuss your requirements in detail to provide a comprehensive proposal and a transparent, fixed-price quote.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Area -->
+        <section id="service-area" class="py-16 bg-gray-800 section-fade-in">
+          <div class="container mx-auto px-6">
+            <h2 class="text-2xl md:text-3xl font-bold text-white text-center">Proudly Serving the DFW Metroplex</h2>
+            <p class="text-gray-400 text-center mt-2">Dallas • Fort Worth • Plano • Frisco • Arlington • Irving • Garland • McKinney • Richardson • Grapevine</p>
+            <div class="mt-8 rounded-lg overflow-hidden shadow-lg">
+              <iframe title="DFW Service Area Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d428623.5524671438!2d-97.24052349868797!3d32.82092944739506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647678f!2sDallas-Fort%20Worth%20metropolitan%20area!5e0!3m2!1sen!2sus!4v1662586659714!5m2!1sen!2sus" class="w-full h-72 border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 bg-gray-900 section-fade-in">
+            <div class="container mx-auto px-6 text-center">
+                   <div class="text-center mb-12">
+                        <h2 class="text-3xl md:text-4xl font-bold text-white">Start Your Project Today</h2>
+                        <p class="text-indigo-400 text-lg mt-2">Let's transform your vision into reality.</p>
+                   </div>
+                <p class="text-gray-300 text-xl mb-8">
+                    Ready to discuss your needs? Reach out for a complimentary, no-obligation consultation.
+                </p>
+                <a href="mailto:Info@manpasand.com" class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-4 px-8 rounded-full text-xl transition duration-300 transform hover:scale-105">
+                    Email Us: Info@manpasand.com
+                </a>
+                <p class="mt-4 text-xl"><a class="text-indigo-400 hover:text-indigo-300 font-semibold" href="tel:+1-715-255-0420">Or Call: (715) 255-0420</a></p>
+            </div>
+        </section>
+        
+        <!-- Legal Section -->
+        <section id="legal" class="py-12 bg-gray-900">
+          <div class="container mx-auto px-6 max-w-5xl text-sm text-gray-400">
+            <h3 class="text-white font-bold text-lg mb-3">Privacy & Terms</h3>
+            <p class="mb-2">We collect only the information you provide to respond to your inquiry. We never sell your data.</p>
+            <p>By using this site, you agree to our standard terms including payment, scheduling, and warranty limitations for third‑party products.</p>
+          </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 border-t border-gray-700">
+        <div class="container mx-auto px-6 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+                <div>
+                    <h3 class="text-xl font-bold text-white mb-4">Manpasand</h3>
+                    <p class="text-gray-400">Expert Solutions, Masterfully Delivered. Your DFW partner for technology and creative services.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-white mb-4">Navigate</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#about" class="text-gray-400 hover:text-indigo-400">About Us</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-indigo-400">Services</a></li>
+                        <li><a href="#industries" class="text-gray-400 hover:text-indigo-400">Industries Served</a></li>
+                        <li><a href="#guarantees" class="text-gray-400 hover:text-indigo-400">Our Commitment</a></li>
+                        <li><a href="#service-area" class="text-gray-400 hover:text-indigo-400">Service Area</a></li>
+                        <li><a href="#portfolio" class="text-gray-400 hover:text-indigo-400">Portfolio</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-indigo-400">FAQ</a></li>
+                        <li><a href="#legal" class="text-gray-400 hover:text-indigo-400">Privacy & Terms</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-indigo-400">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-white mb-4">Contact Information</h3>
+                    <p class="text-gray-400">Dallas-Fort Worth, TX</p>
+                    <p class="text-gray-400">Email: <a href="mailto:Info@manpasand.com" class="hover:text-indigo-400">Info@manpasand.com</a></p>
+                    <p class="text-gray-400">Phone: <a href="tel:+1-715-255-0420" class="hover:text-indigo-400">(715) 255-0420</a></p>
+                </div>
+            </div>
+            <div class="mt-12 border-t border-gray-700 pt-6 text-center text-gray-400">
+                <p>&copy; <span id="copyright-year"></span> Manpasand Technical Services. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        document.querySelectorAll('#mobile-menu a, #mobile-menu button').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Set copyright year
+        document.getElementById('copyright-year').textContent = new Date().getFullYear();
+
+        // Section fade-in animation on scroll
+        const sections = document.querySelectorAll('.section-fade-in');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, {
+            threshold: 0.1
+        });
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+
+        // FAQ Accordion
+        const faqItems = document.querySelectorAll('.faq-item');
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            question.addEventListener('click', () => {
+                const isOpen = item.classList.contains('open');
+                faqItems.forEach(i => i.classList.remove('open'));
+                if (!isOpen) {
+                    item.classList.add('open');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
