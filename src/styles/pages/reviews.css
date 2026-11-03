@@ -1,0 +1,24 @@
+/* /reviews/ — scoped to body.pg-reviews. Tokens only; breakpoints 800 / 640. */
+
+/* §01 testimonials: index label (3fr) beside a full-width card (9fr, max 880px), like the section head */
+.pg-reviews .rv-list{display:grid;gap:clamp(40px,5vw,64px)}
+.pg-reviews .rv-item{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,9fr);gap:24px clamp(24px,4vw,64px);align-items:start}
+.pg-reviews .rv-item .quote{max-width:var(--maxw-narrow)}
+.pg-reviews .rv-idx{padding-top:12px;border-top:2px solid var(--ink);color:var(--accent);position:sticky;top:calc(var(--header-h) + 24px)}
+.pg-reviews .rv-idx span{display:block;margin-top:6px;color:var(--muted)}
+/* Jane S.'s sale-timing note: keep it clearly readable on this page */
+.pg-reviews .quote-note{font-size:var(--fs-sm);color:var(--ink-2)}
+@media (max-width:800px){
+  .pg-reviews .rv-item{grid-template-columns:minmax(0,1fr);gap:12px}
+  .pg-reviews .rv-idx{position:static;display:flex;gap:12px;justify-self:start;min-width:min(220px,60%);padding-top:10px}
+  .pg-reviews .rv-idx span{margin-top:0}
+}
+
+/* §02 how we handle reviews: numbered ruled rows + "leave a review" callout */
+.pg-reviews .rv-policy{border-top:2px solid var(--ink)}
+.pg-reviews .rv-policy li{display:grid;grid-template-columns:3.5rem minmax(0,1fr);gap:16px;padding:20px 0;border-bottom:1px solid var(--rule)}
+.pg-reviews .rv-policy .label{padding-top:6px;color:var(--accent)}
+.pg-reviews .rv-policy h3{font-size:1.375rem}
+.pg-reviews .rv-policy li p:not(.label){margin-top:6px;color:var(--ink-2);font-size:1rem}
+.pg-reviews .rv-leave{font-size:1rem}
+@media (max-width:640px){ .pg-reviews .rv-policy li{grid-template-columns:2.5rem minmax(0,1fr);gap:8px} }

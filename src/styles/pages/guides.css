@@ -1,0 +1,34 @@
+/* /guides/ hub (.page-guides) and guide pages (.page-guide). Tokens only. */
+
+/* ---------- guide pages ---------- */
+.page-guide .hero h1{font-size:var(--fs-h1-guide);line-height:1.06;max-width:22ch}
+.page-guide .hero .lead{max-width:40em}
+.page-guide .guide-faq{margin-top:0}
+.page-guide .guide-faq h2{margin-top:2.4em}
+.page-guide .guide-faq .faq{margin-top:20px}
+.page-guide .guide-disclaimer{margin-top:clamp(40px,5vw,56px);max-width:var(--maxw-prose)}
+.page-guide .guide-main .sources{max-width:var(--maxw-prose)}
+.page-guide .guide-related > .label{margin-bottom:8px}
+/* ≥961: the aside runs the full article height; only the TOC is sticky (inside its rail),
+   so the related services and direct line never sit off-screen under a tall sticky block. */
+.page-guide .guide-body .guide-aside{position:static;align-self:stretch;display:flex;flex-direction:column;gap:40px}
+.page-guide .toc-rail{flex:1}
+.page-guide .toc-rail .toc{position:sticky;top:calc(var(--header-h) + 24px)}
+/* ≤960: the TOC stays above the article; related services + direct line move below it. */
+@media (max-width:960px){
+  .page-guide .guide-body .guide-aside{display:contents}
+  .page-guide .guide-body .toc-rail{order:-1}
+  .page-guide .toc-rail .toc{position:static}
+  .page-guide .guide-body .guide-aside .guide-related,
+  .page-guide .guide-body .guide-aside .direct{order:1}
+}
+/* "Back to contents" after each section: phones and tablets only (the TOC rail is sticky on desktop). */
+.page-guide .back-to{margin-top:16px;font:500 .75rem/1.4 var(--font-mono);letter-spacing:.09em;text-transform:uppercase}
+.page-guide .back-to a{display:inline-flex;align-items:center;gap:6px;min-height:44px;color:var(--muted)}
+@media (min-width:961px){ .page-guide .back-to{display:none} }
+
+/* ---------- hub ---------- */
+.page-guides .hero h1{max-width:none}
+.page-guides .guides-topics{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,9fr);gap:16px clamp(24px,4vw,64px);align-items:center}
+.page-guides .guides-topics > .label{padding-top:12px;border-top:2px solid var(--ink);align-self:start}
+@media (max-width:800px){ .page-guides .guides-topics{grid-template-columns:minmax(0,1fr)} .page-guides .guides-topics > .label{justify-self:start;min-width:min(220px,60%)} }

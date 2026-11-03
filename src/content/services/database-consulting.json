@@ -1,0 +1,233 @@
+{
+  "slug": "database-consulting",
+  "name": "SQL Database & ETL",
+  "eyebrow": "Database consulting",
+  "title": "SQL Server Consultant, Dallas & Remote | Manpasand",
+  "description": "SQL Server, PostgreSQL and MySQL design, tuning and ETL for small and mid-size teams. Based near Dallas, working on-site in DFW or remotely anywhere.",
+  "h1": "SQL Server databases, fast and documented",
+  "lede": "We tune slow queries, set up backups and prove they restore, clean up schemas and build the ETL and reporting tables behind your dashboards, in SQL Server, PostgreSQL or MySQL. We’re based in Rowlett, TX, and work on-site across Dallas–Fort Worth or remotely anywhere.",
+  "summary": "SQL Server, PostgreSQL and MySQL: query tuning, tested backups, schema design, ETL and reporting tables. On-site in DFW or remote.",
+  "audience": [
+    "Offices whose accounting, inventory or practice software runs on SQL Server",
+    "Owners who aren’t sure last night’s backup would actually restore",
+    "Teams that rebuild the same report in Excel by hand every week",
+    "Developers who want a second look at a schema or a slow query",
+    "Businesses outside Dallas–Fort Worth that need remote database help"
+  ],
+  "included": [
+    "Health check: versions, settings, backups, security and disk space",
+    "Slow-query and index tuning, measured before and after",
+    "Backup schedules, plus a timed test restore on a separate machine",
+    "Schema design and cleanup for new or growing applications",
+    "ETL jobs that move and clean data between systems on a schedule",
+    "Reporting views and tables for Excel, Power BI or other BI tools",
+    "Upgrade plans for database versions that are out of support",
+    "A written runbook: what changed, where backups live, how to restore"
+  ],
+  "sections": [
+    {
+      "heading": "What a SQL Server consultant does for a small business",
+      "paragraphs": [
+        "Most small businesses don’t need a full-time database administrator. They need someone to find out why the invoicing screen crawls at month-end, confirm last night’s backup would really restore, and write down how it all works. That’s our work in SQL Server, PostgreSQL and MySQL, whether the database came with vendor software or your own developer built it. You can also read [what two clients told us](/reviews/).",
+        "Tuning starts with measuring. In SQL Server that means Query Store, which records queries, plans and run-time statistics. It’s on by default only for new databases since SQL Server 2022, so older systems need it turned on first. PostgreSQL has pg_stat_statements; MySQL has its slow query log. The usual culprits are a missing or wrong index, a query that reads a whole table to show one row, or stale statistics. A long transaction can block everyone, and in PostgreSQL autovacuum can fall behind. We change one thing at a time, measure again and keep a script to undo each change. If the bottleneck is the server or the network, that’s [small business IT support](/services/small-business-it/).",
+        "Some vendor software runs on the free SQL Server Express edition, which has hard limits. In SQL Server 2025, Express:"
+      ],
+      "list": [
+        "Caps each database at 50 GB (10 GB in SQL Server 2022 and 2019)",
+        "Uses at most one socket or 4 cores, and 1,410 MB of memory for its data cache",
+        "Has no SQL Server Agent, so backups don’t schedule themselves"
+      ],
+      "after": [
+        "When a database hits those limits, no index will fix it. The choices are archiving old data or moving to Standard edition, and we’ll price both."
+      ]
+    },
+    {
+      "heading": "Backups you’ve test-restored, not just scheduled",
+      "paragraphs": [
+        "Microsoft’s documentation is blunt: “You don’t have a restore strategy until you test your backups.” A job that reports success only proves a file was written. Even RESTORE VERIFYONLY checks that a backup is complete and readable, not that the data inside is structurally sound. So we restore to a separate machine, run DBCC CHECKDB on the copy and time it, so you know how long you’d really be down.",
+        "The schedule follows two questions: how much work could you stand to re-enter, and how long can you go without the system? If losing an hour of orders would hurt, you need log backups every few minutes; a database that changes only on payday may need one nightly backup. In PostgreSQL the usual choice is nightly pg_dump files or continuous archiving for point-in-time recovery. One trap we check for is the full recovery model with no log backups. The log can’t be cleared and grows until it runs out of room. Then SQL Server lets you read the data but not update it.",
+        "Then a copy leaves the building. CISA’s backup guidance for small businesses recommends the 3-2-1 rule: three copies, on two types of storage, with one off-site. A USB drive plugged into the server shares its fate in a fire, theft or ransomware attack. North Texas has its own reminder. During Winter Storm Uri in February 2021, 69 percent of Texans lost power at some point, for an average of 42 hours, according to a University of Houston survey. A cloud copy can be restored elsewhere while the office is dark. Our guide to [protecting office tech from power outages](/guides/power-outage-protection-office-tech/) covers the UPS side."
+      ]
+    },
+    {
+      "heading": "Do you need a data warehouse, or just better reports?",
+      "paragraphs": [
+        "Most small-business reporting trouble isn’t a missing warehouse. It’s a report that runs against the live system and slows everyone down, a sales number that changes depending on who pulls it, or a Monday spreadsheet someone assembles by hand from three exports.",
+        "Often the fix is modest: a few indexed reporting views, or a nightly copy of the tables your reports use, with the business rules (what counts as a sale, which fiscal calendar) written down once. That works for one or two source systems. When data comes from several systems that don’t share customer or product IDs, an ETL pipeline into a small warehouse of fact and dimension tables earns its extra build and upkeep. We’ll tell you which side of that line you’re on.",
+        "We build for the reporting tool you use, whether that’s Excel, Power BI or something else. Two Power BI facts are worth knowing. First, a free license only lets you build reports for yourself, so sharing with coworkers generally takes paid Pro or Premium Per User licenses. Second, a database on your own server is reached through Microsoft’s on-premises data gateway. That’s a small Windows program that connects outbound, so no inbound firewall ports get opened. We set up the data side. Which licenses to buy stays your call."
+      ]
+    },
+    {
+      "heading": "Access, confidentiality and what Texas law requires",
+      "paragraphs": [
+        "Database work means seeing your data, so we keep that exposure small: a login with only the permissions the job needs, work on a copy when we can, and a reminder to disable our login when the project ends.",
+        "Texas law also gives us a duty to you. Under Business and Commerce Code §521.053(c), anyone who maintains computerized data containing sensitive personal information they don’t own has a duty to the owner. If they discover a breach in which that information was, or is reasonably believed to have been, acquired by someone unauthorized, they must notify the owner immediately. If we ever discover a breach in data we maintain for you, we’ll tell you right away. Then your clock runs. You notify affected people without unreasonable delay and within 60 days after you determine the breach occurred. If 250 or more Texans are involved, you also notify the Texas Attorney General within 30 days. Our [breach notification guide](/guides/texas-data-breach-notification/) has details; it’s general information, not legal advice.",
+        "The same chapter requires reasonable procedures to protect that information and the destruction of customer records containing it that you don’t need to keep (§521.052). Texas defines that information mainly as a name paired with an unencrypted Social Security number, driver’s license or government ID number, or card or account number with its access code. Health information tied to a person counts too. During a health check we look for those columns stored in plain text, and for old tables nobody uses, so you can decide what to encrypt, lock down or purge."
+      ]
+    }
+  ],
+  "process": [
+    {
+      "title": "Free consultation",
+      "text": "Tell us what’s slow, broken or missing and what software sits on the database. We don’t need access to your data for this conversation."
+    },
+    {
+      "title": "Scope and fixed price",
+      "text": "You get a written scope of work and a fixed-price quote before anything starts. Often the first job is a health check that shows what to fix first."
+    },
+    {
+      "title": "Change, test, measure",
+      "text": "We make changes on a copy or in a window you approve, one at a time, measuring before and after, with a way to roll each one back."
+    },
+    {
+      "title": "Runbook and handover",
+      "text": "You get a written record of what changed, where backups live and how to restore them. Our 14-day workmanship guarantee applies ([guarantee terms](/terms/#guarantee))."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should a small business use SQL Server or PostgreSQL?",
+      "a": "If your accounting, inventory or practice-management software requires SQL Server, use SQL Server, and the free Express edition is fine until you hit its limits. For a new custom application, PostgreSQL is free under a permissive open-source license with no editions to outgrow, while Microsoft’s estimated retail price for SQL Server 2025 Standard is $3,945 per two-core pack, with a four-core minimum per processor (or $989 per server plus $230 per user or device); your reseller sets the final price. MySQL Community Edition is also free and is what many web apps expect, WordPress among them, and our [web development](/services/web-development/) work covers the site side."
+    },
+    {
+      "q": "We’re still on SQL Server 2016. Is that a problem?",
+      "a": "It’s a risk to plan around. Microsoft’s extended support for SQL Server 2016 ended in July 2026, so it gets no more security updates unless you pay for Extended Security Updates, and SQL Server 2017 follows in October 2027. The same goes for other databases: PostgreSQL 13 reached end of life in November 2025, PostgreSQL 14’s end-of-life date is November 12, 2026, and Oracle moved MySQL 8.0 to Sustaining Support in April 2026. Check which versions your software vendor supports, test the upgrade on a copy, then move; if the vendor’s answer is an expensive new license, get [a second opinion on the quote](/services/tech-consulting/)."
+    },
+    {
+      "q": "How do I speed up a slow SQL Server database?",
+      "a": "First pin down what’s slow: one screen, one report or everything, and all day or only while certain jobs run. Then check the basics: free disk space, whether the server is short on memory, and whether backups or maintenance overlap your busy hours. If one query or report is the problem, the fix is usually an index, a rewritten query or fresh statistics, and Query Store will show which queries cost the most. A bigger server can help, but measure first so you pay to fix the real bottleneck."
+    },
+    {
+      "q": "What is ETL, and does my business need it?",
+      "a": "ETL stands for extract, transform, load: pulling data out of one system, cleaning it up and loading it somewhere else on a schedule. If someone on your team copies exports from two or three systems into a spreadsheet every week, that’s ETL done by hand, and automating it gives back those hours and removes the copy-paste mistakes. If your reports come from one system with decent built-in reporting, you probably don’t need it."
+    },
+    {
+      "q": "Can database consulting be done remotely?",
+      "a": "Yes, most of it. We connect through your VPN or a remote-access tool you approve, with a login limited to what the job needs. We come on-site when the work involves server hardware, the office network, or people who would rather show us than tell us, anywhere in our [Dallas–Fort Worth service area](/service-areas/)."
+    },
+    {
+      "q": "How much does database consulting cost?",
+      "a": "It depends on the job: a one-time health check, a backup fix and a multi-source ETL build are very different amounts of work. After a [free consultation](/contact/#estimate), we send a written scope and a fixed-price quote before any work begins, with no hidden fees. If Texas sales tax applies to the work, it’s shown as its own line on the quote."
+    }
+  ],
+  "related": [
+    "tech-consulting",
+    "web-development",
+    "small-business-it"
+  ],
+  "cta": "Tell us which screen is slow, which backup worries you or which report you wish you had, and we’ll reply within one business day to set up a free consultation.",
+  "sources": [
+    {
+      "claim": "Tex. Bus. & Com. Code §521.053(c): a person who maintains computerized data with sensitive personal information it doesn’t own must notify the owner or license holder immediately after discovering a breach, if the information was or is reasonably believed to have been acquired by an unauthorized person",
+      "url": "https://tcss.legis.texas.gov/resources/BC/htm/BC.521.htm"
+    },
+    {
+      "claim": "Tex. Bus. & Com. Code §521.053(b) and (i): notify individuals without unreasonable delay and no later than the 60th day, and the Texas Attorney General as soon as practicable and no later than the 30th day if at least 250 Texas residents are involved, both counted from when the person determines the breach occurred",
+      "url": "https://tcss.legis.texas.gov/resources/BC/htm/BC.521.htm"
+    },
+    {
+      "claim": "Tex. Bus. & Com. Code §521.052: reasonable procedures to protect sensitive personal information; destroy customer records not to be retained by shredding, erasing or making the information unreadable",
+      "url": "https://tcss.legis.texas.gov/resources/BC/htm/BC.521.htm"
+    },
+    {
+      "claim": "Tex. Bus. & Com. Code §521.002(a)(2): sensitive personal information = name plus unencrypted SSN, driver’s license/government ID number, or account/card number with required access code; or information identifying an individual relating to health, health care or payment for health care",
+      "url": "https://tcss.legis.texas.gov/resources/BC/htm/BC.521.htm"
+    },
+    {
+      "claim": "SQL Server 2025 Express: free; described as the best choice for independent software vendors, developers and hobbyists; maximum relational database size 50 GB; compute limited to lesser of 1 socket or 4 cores; 1,410 MB buffer pool; SQL Server Agent not included",
+      "url": "https://learn.microsoft.com/en-us/sql/sql-server/editions-and-components-of-sql-server-2025"
+    },
+    {
+      "claim": "SQL Server 2022 Express: maximum relational database size 10 GB; Query Store on by default for new databases",
+      "url": "https://learn.microsoft.com/en-us/sql/sql-server/editions-and-components-of-sql-server-2022"
+    },
+    {
+      "claim": "SQL Server 2019 Express: maximum relational database size 10 GB",
+      "url": "https://learn.microsoft.com/en-us/sql/sql-server/editions-and-components-of-sql-server-2019"
+    },
+    {
+      "claim": "Query Store captures a history of queries, plans and runtime statistics; not on by default in SQL Server 2016/2017/2019; on by default for new databases starting with SQL Server 2022",
+      "url": "https://learn.microsoft.com/en-us/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store"
+    },
+    {
+      "claim": "pg_stat_statements tracks planning and execution statistics of all SQL statements executed by a server",
+      "url": "https://www.postgresql.org/docs/current/pgstatstatements.html"
+    },
+    {
+      "claim": "MySQL slow query log records SQL statements that take longer than long_query_time to execute",
+      "url": "https://dev.mysql.com/doc/refman/8.4/en/slow-query-log.html"
+    },
+    {
+      "claim": "PostgreSQL requires periodic VACUUM (to reclaim space and update planner statistics); autovacuum automates it",
+      "url": "https://www.postgresql.org/docs/current/routine-vacuuming.html"
+    },
+    {
+      "claim": "Microsoft: “You don’t have a restore strategy until you test your backups”; restore to a test system and run DBCC CHECKDB; store copies off-site; keep backups on separate storage from the database",
+      "url": "https://learn.microsoft.com/en-us/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases"
+    },
+    {
+      "claim": "RESTORE VERIFYONLY checks that the backup set is complete and readable but does not attempt to verify the structure of the data in the backup",
+      "url": "https://learn.microsoft.com/en-us/sql/t-sql/statements/restore-statements-verifyonly-transact-sql"
+    },
+    {
+      "claim": "Under the FULL recovery model, a log that is never backed up can’t truncate and fills (error 9002); a database with a full log stays online but can only be read, not updated",
+      "url": "https://learn.microsoft.com/en-us/sql/relational-databases/logs/troubleshoot-a-full-transaction-log-sql-server-error-9002"
+    },
+    {
+      "claim": "PostgreSQL backup approaches: SQL dump, file system level backup, continuous archiving (point-in-time recovery)",
+      "url": "https://www.postgresql.org/docs/current/backup.html"
+    },
+    {
+      "claim": "CISA small-business backup guidance calls the 3-2-1 rule “a trusted guideline”: 3 copies of important files, 2 different types of storage media, 1 copy off-site; perform scheduled recovery tests",
+      "url": "https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business/back-up-business-data"
+    },
+    {
+      "claim": "Winter Storm Uri (Feb. 14–20, 2021): 69 percent of Texans lost power at some point, average disruption 42 hours (UH Hobby School survey, reported by the Texas Comptroller)",
+      "url": "https://comptroller.texas.gov/economy/fiscal-notes/archive/2021/oct/winter-storm-impact.php"
+    },
+    {
+      "claim": "Power BI free license: create content for your own use, can’t share with others; Pro/PPU licenses needed to share (except Premium/Fabric capacity workspaces)",
+      "url": "https://learn.microsoft.com/en-us/power-bi/fundamentals/service-features-license-type"
+    },
+    {
+      "claim": "On-premises data gateway: locally installed Windows software that connects the Power BI service to on-premises data using outbound connections, so no inbound ports need opening",
+      "url": "https://learn.microsoft.com/en-us/power-bi/connect-data/service-gateway-onprem"
+    },
+    {
+      "claim": "SQL Server 2025 pricing sheet, open no-level (NL) estimated retail prices: Standard per core $3,945 (2-core pack); Standard server $989; CAL $230 (per user or device); Express and Developer free; “For your specific pricing, contact your Microsoft reseller”",
+      "url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/bade/documents/products-and-services/en-us/cloud/SQL-Server-2025-Pricing.pdf"
+    },
+    {
+      "claim": "SQL Server core licenses are sold in two-core packs, with a minimum of four licenses per physical processor (and per virtual OSE)",
+      "url": "https://www.microsoft.com/licensing/guidance/SQL"
+    },
+    {
+      "claim": "PostgreSQL is released under the PostgreSQL License, a liberal open-source license similar to BSD or MIT",
+      "url": "https://www.postgresql.org/about/licence/"
+    },
+    {
+      "claim": "MySQL Community Edition is the freely downloadable version, available under the GPL",
+      "url": "https://www.mysql.com/products/community/"
+    },
+    {
+      "claim": "WordPress requirements: MySQL 8.0 or greater, or MariaDB 10.11 or greater (WordPress runs on MySQL or MariaDB)",
+      "url": "https://wordpress.org/about/requirements/"
+    },
+    {
+      "claim": "SQL Server 2016 extended support ended July 2026 (end date 7/15/2026 6:59 AM PT); Extended Security Updates Year 1 begins 7/15/2026",
+      "url": "https://learn.microsoft.com/en-us/lifecycle/products/sql-server-2016"
+    },
+    {
+      "claim": "SQL Server 2017 extended support ends October 2027 (end date 10/13/2027 6:59 AM PT)",
+      "url": "https://learn.microsoft.com/en-us/lifecycle/products/sql-server-2017"
+    },
+    {
+      "claim": "PostgreSQL supports each major version for 5 years; PostgreSQL 13 final release November 13, 2025; PostgreSQL 14 final release November 12, 2026",
+      "url": "https://www.postgresql.org/support/versioning/"
+    },
+    {
+      "claim": "As of April 21, 2026, MySQL 8.0 is covered under Oracle Sustaining Support; users encouraged to move to 8.4 or 9.7 LTS",
+      "url": "https://www.mysql.com/support/eol-notice.html"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+/* Long-form prose (design-final.md §6.15): guides, service/city sections, legal pages. Shared file. */
+.prose{max-width:var(--maxw-prose);font-size:1.0625rem;line-height:var(--lh-prose);color:var(--ink-2)}
+.prose--count{counter-reset:sec}
+.prose > section:first-child > h2:first-child,.prose > h2:first-child{margin-top:0}
+.prose h2{font:400 var(--fs-h2-prose)/1.1 var(--font-serif);letter-spacing:var(--track-head);color:var(--ink);margin:2.4em 0 .6em}
+.prose--count h2::before{counter-increment:sec;content:"§ " counter(sec,decimal-leading-zero);display:block;width:min(220px,40%);margin-bottom:12px;padding-top:12px;border-top:2px solid var(--ink);font:500 .75rem/1 var(--font-mono);letter-spacing:.09em;color:var(--accent)}
+.prose h3{font:600 var(--fs-h3-prose)/1.3 var(--font-sans);letter-spacing:0;color:var(--ink);margin:1.8em 0 .4em}
+.prose p + p,.prose ul + p,.prose ol + p,.prose p + ul,.prose p + ol{margin-top:1.1em}
+.prose ul > li{position:relative;padding-left:1.6em}
+.prose ul > li::before{content:"";position:absolute;left:.25em;top:.62em;width:7px;height:7px;background:var(--signal)}
+.prose ol{counter-reset:ol}
+.prose ol > li{counter-increment:ol;position:relative;padding-left:2.4em}
+.prose ol > li::before{content:counter(ol,decimal-leading-zero) ".";position:absolute;left:0;top:.2em;font:500 .8125rem/1.6 var(--font-mono);color:var(--accent)}
+.prose li + li{margin-top:.5em}
+.prose strong{color:var(--ink);font-weight:600}
+.prose em{font-family:var(--font-serif);font-style:italic;font-size:1.06em;color:var(--ink)}
+.prose code{font:500 .9em var(--font-mono);background:var(--surface);border:1px solid var(--rule);padding:0 .3em;border-radius:var(--radius)}
+.prose blockquote{margin:1.6em 0;padding-left:20px;border-left:2px solid var(--signal);font:italic 400 1.375rem/1.4 var(--font-serif);color:var(--ink)}
+.prose .table-wrap,.prose .callout,.prose figure,.prose hr{margin-block:1.6em}
+.prose a{overflow-wrap:break-word}

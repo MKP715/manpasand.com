@@ -1,0 +1,210 @@
+{
+  "slug": "rowlett-tx",
+  "city": "Rowlett",
+  "eyebrow": "Rowlett, TX",
+  "title": "IT Support in Rowlett, TX – Our Home Base | Manpasand",
+  "description": "IT support, networks and home Wi‑Fi from a business based in Rowlett, TX. On-site across 75088 and 75089; database and web work done remotely.",
+  "h1": "IT support and tech help, right here in Rowlett",
+  "lede": "Rowlett is our home base. We’re in 75088 and provide IT support on-site anywhere in town, on the Dallas County and Rockwall County sides alike: office networks, PCs, point-of-sale setups, home Wi‑Fi and meeting rooms. We take listing photos and headshots here too.",
+  "summary": "Our home base in 75088. On-site IT, network and home Wi‑Fi help across Rowlett, with database and web work done remotely.",
+  "sections": [
+    {
+      "heading": "IT support from Rowlett: what we do on-site and what runs remotely",
+      "paragraphs": [
+        "Manpasand is based in Rowlett, TX 75088. We don’t run a walk-in shop or publish a street address. We come to you, anywhere in 75088 or 75089, on the Dallas County side of town or the Rockwall County side. The neighbors are close too. From the middle of Rowlett it’s about 11 minutes / 6 miles to [Sachse](/service-areas/sachse-tx/), 13 minutes / 7 miles to [Garland](/service-areas/garland-tx/) and 20 minutes / 10 miles across Lake Ray Hubbard to [Rockwall](/service-areas/rockwall-tx/), with no traffic.",
+        "Being local matters most for work that depends on your building. Office networks, PCs, printers and [the network your POS runs on](/services/small-business-it/) are on-site jobs. So are [home Wi‑Fi that reaches the back bedroom](/services/home-network/), [meeting-room video setups](/services/conference-room-av/) and [listing photos and headshots](/services/photography/). [Database](/services/database-consulting/) and [website projects](/services/web-development/) can run remotely, but if you’d rather plan one across a table, we can meet at your Rowlett office or shop.",
+        "We work Mon–Fri, 9 AM – 5 PM, reply within one business day and acknowledge critical support requests within two hours during those hours. Being nearby doesn’t change those commitments, and we won’t promise an arrival time on this page; we agree on one when we reply. The [first consultation is free](/contact/#estimate), and you get a detailed scope and a fixed-price quote before any project begins.",
+        "For a Rowlett example, see the website we built for [Mahnken Painting & More](/work/mahnken-painting-website/), a painting company here in town: our first version in October 2025, then a rebuild in November 2026 that turned one page into 22 pages search engines can list."
+      ]
+    },
+    {
+      "heading": "Who lives and works here, and what that means for your tech",
+      "paragraphs": [
+        "Rowlett is mostly houses. The Census Bureau’s American Community Survey for 2020–2024 counts about 65,500 residents in 23,350 households. Of the homes, 83% are detached single-family houses, three in four are owner-occupied, and the median one was built in 1997. In a detached house, weak Wi‑Fi is usually a matter of distance and walls, not the internet plan. The router often sits where the provider’s line comes in, and the home office is at the other end of the house.",
+        "Rowlett is also where the DART Blue Line ends, at Downtown Rowlett station. Even so, under 1% of working residents commute by transit, while about 18% work from home. That puts a lot of work laptops on home networks they share with game consoles, smart TVs and the kids’ tablets. We put those on separate networks, so a compromised smart TV can’t reach the work laptop, and we check that your upload speed can carry a video call.",
+        "Most Rowlett businesses are small. In the Census Bureau’s 2023 ZIP Code Business Patterns, 75088 and 75089 held 1,016 establishments with paid employees, and about three in four had fewer than 10 employees. Construction (159), health care (129), retail (109), food service and lodging (107) and professional services (98) were among the largest groups. If IT is the owner’s side job at your business, that’s the gap we fill: the office network and firewall, the PCs, and a card-terminal network kept apart from the guest Wi‑Fi."
+      ]
+    },
+    {
+      "heading": "Power and internet: who to call, and what to check",
+      "paragraphs": [
+        "On Power to Choose, the Public Utility Commission of Texas’s plan-comparison site, every electricity plan listed for 75088 and 75089 names Oncor as the delivery company. Oncor runs the lines that deliver your power, so outages go to Oncor, not to the company that bills you: call 1-888-313-4747 (24 hours a day), [report it online](https://www.oncor.com/outages/), or text OUT to 66267 once you’ve signed up for MyOncor Alerts. If a line is down, stay away from it and call 911.",
+        "When the power comes back, the tech is your problem, not Oncor’s: a modem that didn’t reconnect, a card terminal that lost its link, a PC that shut off mid-save. A battery backup (UPS) under the modem, router and POS rides through short outages. Our [guide to protecting office tech from power outages](/guides/power-outage-protection-office-tech/) covers sizing one and what to plug into it.",
+        "For internet, the FCC’s [National Broadband Map](https://broadbandmap.fcc.gov/home) lists the providers, technologies and advertised speeds reported at your address. In its June 30, 2026 data, providers report fiber available to about 85% of Rowlett’s residential units, so check your own address rather than a neighbor’s. If the map gets your address wrong, you can file a challenge from the map. For a home office, compare upload speeds as well as download: video calls and cloud backups send data up."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Counties",
+      "value": "Dallas and Rockwall"
+    },
+    {
+      "label": "ZIP codes",
+      "value": "75088, 75089 (and 75030)"
+    },
+    {
+      "label": "Homes",
+      "value": "83% detached single-family; median built 1997 (Census ACS)"
+    },
+    {
+      "label": "Work from home",
+      "value": "About 18% of working residents (Census ACS)"
+    },
+    {
+      "label": "DART rail",
+      "value": "Downtown Rowlett, end of the Blue Line"
+    },
+    {
+      "label": "Power outages",
+      "value": "Oncor, 1-888-313-4747"
+    }
+  ],
+  "services": [
+    {
+      "slug": "small-business-it",
+      "text": "In Rowlett’s two main ZIP codes, about three in four employers have fewer than 10 employees. We set up and look after the office network, PCs and POS network so IT doesn’t have to be the owner’s side job."
+    },
+    {
+      "slug": "home-network",
+      "text": "About 18% of working Rowlett residents work from home. We get Wi‑Fi to the far rooms and give work laptops, guests and smart TVs their own networks."
+    },
+    {
+      "slug": "web-development",
+      "text": "The build happens remotely, and we can meet at your Rowlett office or shop to plan it. Our local example is the site we built and rebuilt for Mahnken Painting & More."
+    },
+    {
+      "slug": "photography",
+      "text": "Ground-level interior and exterior photos for Rowlett listings, plus headshots, event and product photos for local businesses."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is there local IT support in Rowlett?",
+      "a": "Yes. Manpasand is based in Rowlett, 75088, and works on-site across 75088 and 75089, on both the Dallas County and Rockwall County sides. We don’t run a walk-in shop, so we come to your home or office, Mon–Fri, 9 AM – 5 PM. Call (715) 255-0420 or email info@manpasand.com, and we’ll reply within one business day."
+    },
+    {
+      "q": "Do you make house calls in Rowlett?",
+      "a": "Yes, for home networks: Wi‑Fi that doesn’t reach every room, router and mesh setup, and separate networks for work laptops, guests and smart TVs. We don’t install security cameras, video doorbells or alarm systems. Texas requires a DPS Private Security license for that work, and we don’t hold one, so hire a licensed company; you can [check any installer’s license](https://tops.portal.texas.gov/) on the state’s TOPS site."
+    },
+    {
+      "q": "Who do I call about a power outage in Rowlett?",
+      "a": "Oncor, the delivery company for Rowlett’s ZIP codes: call 1-888-313-4747 at any hour, or text OUT to 66267 if you’re enrolled in MyOncor Alerts. The retail company that sends your bill can’t fix an outage. If a line is down, stay away and call 911. Once the lights are back, our [power outage guide](/guides/power-outage-protection-office-tech/) covers protecting the modem, PCs and POS next time."
+    },
+    {
+      "q": "Which internet providers serve my Rowlett address?",
+      "a": "Look it up on the FCC’s [National Broadband Map](https://broadbandmap.fcc.gov/home): enter your address to see each provider’s technology and advertised speeds. Providers report to it twice a year, and it shows what’s offered, not how well it performs. If you’re choosing a plan for a home office or shop, we can help you compare the options against what your setup needs."
+    }
+  ],
+  "nearby": [
+    "rockwall-tx",
+    "garland-tx",
+    "sachse-tx"
+  ],
+  "sources": [
+    {
+      "claim": "Rowlett is in Dallas and Rockwall counties; its ZIP codes are 75030, 75088 and 75089; the city sits on Lake Ray Hubbard",
+      "url": "https://en.wikipedia.org/wiki/Rowlett,_Texas"
+    },
+    {
+      "claim": "Lake Ray Hubbard: the SH 66 bridge (about 1.8 miles) across the lake joins Rowlett and Rockwall; I-30 crosses the lake on a causeway of about 2.9 miles",
+      "url": "https://en.wikipedia.org/wiki/Lake_Ray_Hubbard"
+    },
+    {
+      "claim": "Census 2024 Gazetteer internal points used for drive times: Rowlett 32.915926, -96.548587; Sachse 32.969015, -96.579523; Garland 32.909826, -96.630334; Rockwall 32.918056, -96.43805",
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_gaz_place_48.txt"
+    },
+    {
+      "claim": "Rowlett to Sachse: about 11 minutes / 5.8 miles, free-flow without traffic (OSRM)",
+      "url": "https://router.project-osrm.org/route/v1/driving/-96.548587,32.915926;-96.579523,32.969015?overview=false"
+    },
+    {
+      "claim": "Rowlett to Garland: about 13 minutes (808 s) / 6.9 miles, free-flow without traffic (OSRM)",
+      "url": "https://router.project-osrm.org/route/v1/driving/-96.548587,32.915926;-96.630334,32.909826?overview=false"
+    },
+    {
+      "claim": "Rowlett to Rockwall: about 20 minutes / 10.2 miles, free-flow without traffic (OSRM)",
+      "url": "https://router.project-osrm.org/route/v1/driving/-96.548587,32.915926;-96.43805,32.918056?overview=false"
+    },
+    {
+      "claim": "ACS 2020–2024 5-year, Rowlett city: population 65,463; 23,352 households; 75.2% owner-occupied (17,568); 83.2% of housing units 1-unit detached (20,142 of 24,216); median year built 1997; 18.4% of workers worked from home (6,448 of 35,018); 0.9% commuted by public transportation (313)",
+      "url": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B01003,B11001,B25003,B08301,B25024,B25035,B28002&geo_ids=16000US4863572"
+    },
+    {
+      "claim": "Census Reporter profile of Rowlett, TX (ACS 2024 data; companion to the table figures above)",
+      "url": "https://censusreporter.org/profiles/16000US4863572-rowlett-tx/"
+    },
+    {
+      "claim": "DART: “The terminus stations on the Blue Line are downtown Rowlett and UNT Dallas.”",
+      "url": "https://www.dart.org/guide/transit-and-use/rail/rail-line-details/dart-blue-line"
+    },
+    {
+      "claim": "Downtown Rowlett station is the northern terminus of the Blue Line; rail service opened December 3, 2012",
+      "url": "https://en.wikipedia.org/wiki/Downtown_Rowlett_station"
+    },
+    {
+      "claim": "2023 ZIP Code Business Patterns: 75088 had 703 establishments and 75089 had 313 (1,016 total); 768 (75.6%) had fewer than 10 employees; by sector, construction 159, health care 129, retail 109, accommodation and food services 107, professional/scientific/technical services 98; other services (NAICS 81, e.g. repair and personal care) also had 129, so the page says these are “among the largest groups” rather than the top five",
+      "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2023/zbp23detail.zip"
+    },
+    {
+      "claim": "Census Bureau 2023 County Business Patterns dataset page (ZIP Code totals and detail files; latest year available on 2026-11-03)",
+      "url": "https://www.census.gov/data/datasets/2023/econ/cbp/2023-cbp.html"
+    },
+    {
+      "claim": "Power to Choose is “the official and unbiased electric choice website of the Public Utility Commission of Texas”",
+      "url": "https://www.powertochoose.org/"
+    },
+    {
+      "claim": "All 171 plans listed on Power to Choose for ZIP 75088 name Oncor Electric Delivery as the TDU (checked 2026-11-03)",
+      "url": "https://api.powertochoose.org/api/PowerToChoose/plans?zip_code=75088"
+    },
+    {
+      "claim": "All 171 plans listed on Power to Choose for ZIP 75089 name Oncor Electric Delivery as the TDU (checked 2026-11-03)",
+      "url": "https://api.powertochoose.org/api/PowerToChoose/plans?zip_code=75089"
+    },
+    {
+      "claim": "Oncor: report outages at 888-313-4747 (24 hours a day, 7 days a week) or online; text OUT to 66267 if signed up for MyOncor Alerts (register by texting REG); if power lines are down, leave the area and call 911",
+      "url": "https://www.oncor.com/content/oncorwww/us/en/home/faqs/faqs-details.html"
+    },
+    {
+      "claim": "Oncor online outage reporting page (also lists call 888-313-4747 and text OUT to 66267)",
+      "url": "https://www.oncor.com/outages/"
+    },
+    {
+      "claim": "In Texas, transmission and distribution of electricity is handled by TDUs (Oncor here); a retail electric provider “isn’t able to do anything about an outage”, so outages go to the TDU",
+      "url": "https://www.gexaenergy.com/residential/learn-and-explore/how-do-i-report-a-power-outage-in-my-area"
+    },
+    {
+      "claim": "FCC National Broadband Map: search by address to see the providers that can serve it and the types of service and speeds offered; Location and Availability Challenges can be filed from the map; providers report data as of June 30 and December 31 each year",
+      "url": "https://broadbandmap.fcc.gov/about"
+    },
+    {
+      "claim": "FCC National Broadband Map home (address search)",
+      "url": "https://broadbandmap.fcc.gov/home"
+    },
+    {
+      "claim": "FCC Broadband Data Collection: the map shows each provider’s reported technology and maximum advertised speeds, not quality of service or network performance; availability challenges can be filed for a location",
+      "url": "https://www.fcc.gov/sites/default/files/bdc-challenge-overview.pdf"
+    },
+    {
+      "claim": "FCC help center: how to file an availability challenge from the National Broadband Map",
+      "url": "https://help.bdc.fcc.gov/hc/en-us/articles/10476040597787-How-to-File-an-Availability-Challenge"
+    },
+    {
+      "claim": "FCC National Broadband Map, Rowlett place, residential, fiber, data as of June 30, 2026 (last updated 10/24/26): about 85% of units covered (84.9% of 27,404 units in the area-summary data), at every speed tier up to 1000/100; map_processing_updates for the June 30, 2026 filing: data_as_of 2026-06-30, last_updated 2026-10-24 (tech code 3 = fiber to the premises)",
+      "url": "https://broadbandmap.fcc.gov/area-summary/fixed?version=jun2026&geoid=4863572&type=place&zoom=11&br=r&speed=1000_100&tech=3"
+    },
+    {
+      "claim": "Texas Occupations Code ch. 1702: “alarm system” includes a camera system that records images in a residence or business; offering to perform alarm-systems-company services without a license is prohibited",
+      "url": "https://tcss.legis.texas.gov/resources/OC/htm/OC.1702.htm"
+    },
+    {
+      "claim": "Texas DPS TOPS portal has a public “Search Licensees” lookup for private security licenses",
+      "url": "https://tops.portal.texas.gov/"
+    },
+    {
+      "claim": "Mahnken Painting & More is a painter based in Rowlett, TX (site title “Painter in Rowlett, TX”; address locality Rowlett, 75088)",
+      "url": "https://mahnkenpainting.com/"
+    }
+  ]
+}

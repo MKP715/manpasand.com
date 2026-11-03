@@ -1,0 +1,6 @@
+/* /privacy/ and /terms/ (src/pages/legal.mjs). Scoped to .page-legal. */
+.page-legal .legal-main > .callout{max-width:var(--maxw-prose);margin-bottom:clamp(32px,4vw,48px)}
+.page-legal .legal-prose h3{scroll-margin-top:calc(var(--header-h) + 12px)}
+.page-legal .hero h1{max-width:none}
+.page-legal .legal-more{max-width:var(--maxw-prose);margin-top:clamp(48px,6vw,72px);padding-top:12px;border-top:2px solid var(--ink)}
+.page-legal .legal-more .related{margin-top:12px}

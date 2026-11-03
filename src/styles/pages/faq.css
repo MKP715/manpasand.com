@@ -1,0 +1,21 @@
+/* /faq/ — grouped questions with a sticky topic index (src/pages/faq.mjs). Scoped to .page-faq. */
+.page-faq .faqp-intro > .label{margin-bottom:0}
+.page-faq .faqp-nav ol{border-top:1px solid var(--rule)}
+.page-faq .faqp-nav a{display:grid;grid-template-columns:44px minmax(0,1fr) auto;align-items:center;gap:8px;min-height:56px;padding:10px 0;border-bottom:1px solid var(--rule);color:var(--ink);text-decoration:none}
+.page-faq .faqp-nav a .label{color:var(--accent)}
+.page-faq .faqp-nav .faqp-nav-n{color:var(--muted);font-size:var(--fs-label-sm)}
+.page-faq .faqp-nav-t{font:400 1.1875rem/1.25 var(--font-serif)}
+.page-faq .faqp-nav a:hover .faqp-nav-t{color:var(--accent);text-decoration:underline;text-underline-offset:.2em}
+.page-faq .faqp-ask{margin-top:32px;padding:20px 24px;background:var(--surface);border:1px solid var(--rule)}
+.page-faq .faqp-ask-t{font:400 1.25rem/1.25 var(--font-serif);color:var(--ink)}
+.page-faq .faqp-ask p:not(.faqp-ask-t){margin-top:8px;font-size:var(--fs-sm);color:var(--ink-2)}
+.page-faq .faqp-ask .more{margin-top:8px}
+.page-faq .faqp-group + .faqp-group{margin-top:clamp(48px,6vw,80px)}
+.page-faq .faqp-group > .label{display:block}
+.page-faq .faqp-group h2{font-size:var(--fs-h2-prose);line-height:1.1;margin:12px 0 20px}
+.page-faq .faq .a .callout{margin-bottom:1em}
+.page-faq .faq .a .callout p{max-width:none}
+@media (max-width:800px){
+  .page-faq .faqp-ask{margin-top:24px}
+  .page-faq .faqp-groups{margin-top:16px}
+}

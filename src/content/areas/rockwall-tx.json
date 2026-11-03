@@ -1,0 +1,212 @@
+{
+  "slug": "rockwall-tx",
+  "city": "Rockwall",
+  "eyebrow": "Rockwall, TX",
+  "title": "IT Support & Network Security in Rockwall, TX | Manpasand",
+  "description": "On-site IT, network security and Wi-Fi help for Rockwall offices, shops and homes, from just across Lake Ray Hubbard in Rowlett. Free consultation.",
+  "h1": "IT support for Rockwall businesses and homes",
+  "lede": "We’re based in Rowlett, across Lake Ray Hubbard and about 20 minutes from Rockwall. Our on-site IT support covers Rockwall offices, shops and homes: we set up, fix and secure networks, Wi‑Fi, computers and the network your point-of-sale system runs on. Database and web work we can handle remotely.",
+  "summary": "The Rockwall County seat, one lake crossing from our Rowlett base: on-site network security, small business IT and home Wi‑Fi help.",
+  "sections": [
+    {
+      "heading": "On-site IT support in Rockwall, from across the lake",
+      "paragraphs": [
+        "Rockwall is the seat of Rockwall County, which the Texas State Historical Association calls the smallest county in Texas. The city sits on the east shore of Lake Ray Hubbard, and we’re across the water in [Rowlett](/service-areas/rowlett-tx/). Two highways cross the water between us: the SH 66 bridge, which links the two cities directly, and I‑30, which runs over the lake on a 2.9-mile causeway farther south. Center to center, the drive is about 20 minutes / 10 miles without traffic, and the quickest route uses SH 66.",
+        "I‑30 is the crossing to watch. TxDOT is widening it across the lake and adding frontage-road bridges, with the project expected to finish by early 2028. Until then, the City of Rockwall notes, an incident on the lake bridge can cause bottlenecks and road closures. When a visit depends on the interstate, we check TxDOT’s closure notices before we set a time.",
+        "Most of this work happens on-site: office networks and Wi‑Fi, network cabling for computers, phones and Wi‑Fi, [PCs, printers and point-of-sale networks](/services/small-business-it/), [meeting-room video setups](/services/conference-room-av/) and photography. [Database](/services/database-consulting/) and [web](/services/web-development/) projects can be done remotely, so the lake doesn’t matter for those. Either way, the [first consultation is free](/contact/#estimate), and you get a detailed scope and a fixed-price quote before any work begins."
+      ]
+    },
+    {
+      "heading": "A fast-growing city, and networks set up in a hurry",
+      "paragraphs": [
+        "Census Bureau estimates put Rockwall at 53,980 people in July 2025, up about 14% from 47,308 at the April 2020 base. Rockwall County grew faster, by about 30%, from 107,884 to 140,738. Growth like that means new offices, storefronts and restaurants, and a new location’s network often goes in during the rush to open: the internet provider’s router on its default settings, one Wi‑Fi name shared by staff, customers and the card terminal, and nobody quite sure who has the admin password.",
+        "If you run a restaurant or shop near The Harbor, the lakefront dining and entertainment district just south of I‑30, guest Wi‑Fi is probably part of the service. The FTC’s small-business cybersecurity guides are plain about it: Wi‑Fi for guests and customers should be separate from, and not connected to, your business network. They also say to change the router’s default name and password, turn off remote management, use WPA2 or WPA3 encryption, and require multi-factor authentication for the parts of your network that hold sensitive information.",
+        "When we secure a Rockwall office or shop, the [network security](/services/network-security/) work usually covers:"
+      ],
+      "list": [
+        "A map of what’s connected: modem, router, switches, access points, PCs, printers and the POS",
+        "Separate networks for guests, staff devices and payment equipment",
+        "New admin passwords, and remote management turned off where you don’t use it",
+        "WPA2 or WPA3 on every access point, with firmware brought up to date",
+        "Multi-factor sign-in on email and admin accounts"
+      ]
+    },
+    {
+      "heading": "Power and internet: know who to call before something fails",
+      "paragraphs": [
+        "Electric service in Rockwall isn’t one utility. Depending on the address, the lines in and around Rockwall belong to Oncor or to Farmers Electric Cooperative, a member-owned co-op based in Greenville that serves parts of 12 Texas counties, Rockwall County among them. Outages are reported to whichever utility owns your lines, so check your bill and save the right outage number before the next storm.",
+        "A blip in the middle of a lunch rush can drop the modem, the router, the card terminal and the back-office PC at once. A battery backup (UPS) under the network gear and the POS keeps them running through short outages and gives computers time to shut down cleanly. Our [guide to protecting office tech from power outages](/guides/power-outage-protection-office-tech/) covers sizing and what to plug in where.",
+        "For internet, look before you sign a lease or move into a new subdivision. The FCC’s National Broadband Map lists the providers, technology (fiber, cable, DSL, fixed wireless or satellite) and maximum advertised speeds reported for each address. It shows what’s available, not how well it performs, so we’re glad to help you compare the options or weigh a second connection as a backup if your business can’t go offline."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drive from Rowlett",
+      "value": "About 20 minutes / 10 miles (no traffic)"
+    },
+    {
+      "label": "County",
+      "value": "Rockwall County seat (smallest Texas county)"
+    },
+    {
+      "label": "ZIP codes",
+      "value": "75032, 75087 (75032 also covers Heath)"
+    },
+    {
+      "label": "Population",
+      "value": "53,980 (Census estimate, July 2025)"
+    },
+    {
+      "label": "Lake crossings",
+      "value": "SH 66 bridge and the I‑30 causeway"
+    },
+    {
+      "label": "Electric lines",
+      "value": "Oncor or Farmers Electric Co‑op, by address"
+    }
+  ],
+  "services": [
+    {
+      "slug": "network-security",
+      "text": "For Rockwall offices, shops and restaurants, we keep guest Wi‑Fi apart from staff PCs and the POS network, replace default router settings and turn on multi-factor sign-in for the accounts that matter."
+    },
+    {
+      "slug": "small-business-it",
+      "text": "On-site setup and support for a Rockwall office’s PCs, printers, network cabling and point-of-sale network, with a fixed-price quote before the work starts."
+    },
+    {
+      "slug": "home-network",
+      "text": "In a larger Rockwall house, we find the Wi‑Fi dead zones, choose between moving the router, wired access points or mesh, and put smart TVs, speakers and thermostats on their own network."
+    },
+    {
+      "slug": "photography",
+      "text": "Ground-level interior and exterior photos for Rockwall listings, offices and storefronts, plus headshots and event coverage."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you offer on-site IT support in Rockwall?",
+      "a": "Yes. We’re based in Rowlett, across the lake, and we come to Rockwall offices, shops and homes Mon–Fri, 9 AM – 5 PM. We don’t have an office in Rockwall. We respond within one business day, and critical support requests are acknowledged within two hours during business hours."
+    },
+    {
+      "q": "Who provides electricity in Rockwall, Oncor or Farmers Electric?",
+      "a": "Both serve the Rockwall area, and which one you have depends on the address, so check your electric bill. Report outages to the utility that owns your lines: Oncor at (888) 313-4747 (or text OUT to 66267), or Farmers Electric Cooperative at (903) 455-1715. Both numbers appear on the Public Utility Commission of Texas’s list of utility outage contacts."
+    },
+    {
+      "q": "How do I secure a small business network in Rockwall?",
+      "a": "Start with the FTC’s basics: change the router’s default name and password, turn off remote management, use WPA2 or WPA3, keep guest Wi‑Fi separate from your business network and require multi-factor authentication wherever sensitive information lives. Then set software to update automatically and back up important files. If you’d rather have it done, we’ll come out for a free consultation, check each item and quote a fixed price for whatever needs fixing."
+    },
+    {
+      "q": "Do you also serve Heath and Fate?",
+      "a": "Yes. Heath borders Rockwall to the south and shares its 75032 ZIP code; it’s about 24 minutes / 13 miles from Rowlett without traffic. Fate, east of Rockwall along SH 66, is about 26 minutes / 14 miles. We also make on-site visits to Royse City."
+    }
+  ],
+  "nearby": [
+    "rowlett-tx",
+    "garland-tx",
+    "sachse-tx"
+  ],
+  "sources": [
+    {
+      "claim": "TSHA Handbook: “Rockwall County is the smallest county in Texas” (147 square miles); Rockwall has always been the county seat",
+      "url": "https://www.tshaonline.org/handbook/entries/rockwall-county"
+    },
+    {
+      "claim": "Rockwall is the county seat of Rockwall County, on the eastern shore of Lake Ray Hubbard; ZIP codes 75032 and 75087",
+      "url": "https://en.wikipedia.org/wiki/Rockwall,_Texas"
+    },
+    {
+      "claim": "City of Rockwall: Rockwall is the County Seat of Rockwall County, about 22 miles east of downtown Dallas on Interstate 30",
+      "url": "https://www.rockwall.com/NewsServices.asp"
+    },
+    {
+      "claim": "I‑30 crosses the lake with six lanes on a 2.9-mile causeway; the 1.8-mile SH 66 bridge joins Rowlett and Rockwall",
+      "url": "https://en.wikipedia.org/wiki/Lake_Ray_Hubbard"
+    },
+    {
+      "claim": "Census 2024 Gazetteer internal points used as route endpoints: Rowlett 32.915926, -96.548587; Rockwall 32.918056, -96.43805; Heath 32.853507, -96.463641; Fate 32.949274, -96.383211",
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_gaz_place_48.txt"
+    },
+    {
+      "claim": "Rowlett to Rockwall: 10.2 miles, about 20 minutes free-flow without traffic (OSRM); routed via President George Bush Highway and Lakeview Parkway (TX 66) across the SH 66 bridge",
+      "url": "https://router.project-osrm.org/route/v1/driving/-96.548587,32.915926;-96.43805,32.918056?overview=false&steps=true"
+    },
+    {
+      "claim": "Rowlett to Heath: 13.0 miles, about 24 minutes free-flow without traffic (OSRM)",
+      "url": "https://router.project-osrm.org/route/v1/driving/-96.548587,32.915926;-96.463641,32.853507?overview=false"
+    },
+    {
+      "claim": "Rowlett to Fate: 13.7 miles, about 26 minutes free-flow without traffic (OSRM)",
+      "url": "https://router.project-osrm.org/route/v1/driving/-96.548587,32.915926;-96.383211,32.949274?overview=false"
+    },
+    {
+      "claim": "TxDOT I-30 corridor expansion ($348 million, Texas Clear Lanes) widens the interstate and builds new frontage-road bridges across Lake Ray Hubbard; expected to finish by early 2028 (traffic advisory dated Oct. 14, 2026)",
+      "url": "https://content.govdelivery.com/accounts/TXDOT/bulletins/42f1db5"
+    },
+    {
+      "claim": "City of Rockwall: the I‑30 expansion widens I‑30 from Bass Pro Dr. to the Hunt County Line and adds continuous frontage roads, including across Lake Ray Hubbard; the current configuration results in bottlenecks and road closures when there is an incident on the lake bridge",
+      "url": "https://www.rockwall.com/TxDOT_I30Expansion.asp"
+    },
+    {
+      "claim": "Rockwall city population: 47,308 (April 2020 estimates base) and 53,980 (July 1, 2025 estimate), about +14% (Census Bureau Vintage 2025 subcounty estimates)",
+      "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/cities/totals/sub-est2025_48.csv"
+    },
+    {
+      "claim": "Rockwall County population: 107,884 (April 2020 estimates base) and 140,738 (July 1, 2025 estimate), about +30% (Census Bureau Vintage 2025 county estimates)",
+      "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv"
+    },
+    {
+      "claim": "The Harbor is a lakefront district for music entertainment and dining on Lake Ray Hubbard (Summer Lee Drive), per the City of Rockwall visitor page",
+      "url": "https://www.rockwall.com/visitrockwall_todo.asp"
+    },
+    {
+      "claim": "The Harbor is located just south of I-30 on the east side of Lake Ray Hubbard, with restaurants, shops, a boardwalk and an amphitheater (CBS Texas, 2011)",
+      "url": "https://www.cbsnews.com/dfw/news/guide-to-the-harbor-at-rockwall"
+    },
+    {
+      "claim": "FTC Secure Remote Access: if you offer Wi‑Fi on your business premises for guests and customers, make sure it’s separate from and not connected to your business network; change pre-set router passwords and the default router name; WPA2 or WPA3; require multi-factor authentication to access areas of the network with sensitive information",
+      "url": "https://www.ftc.gov/system/files/attachments/secure-remote-access/cybersecurity_sb_secureremoteaccess.pdf"
+    },
+    {
+      "claim": "FTC Cybersecurity Basics: change the router’s default name and password, turn off remote management, use WPA2 or WPA3; set software updates to happen automatically; back up important files; require multi-factor authentication",
+      "url": "https://www.ftc.gov/system/files/attachments/cybersecurity-basics/cybersecurity_sb_cyber-basics.pdf"
+    },
+    {
+      "claim": "Farmers Electric Cooperative serves 12 Texas counties including Rockwall; main office in Greenville, TX",
+      "url": "https://farmerselectric.coop/about-my-cooperative/who-we-are/"
+    },
+    {
+      "claim": "Farmers Electric Cooperative outage reporting: (903) 455-1715 or the online outage viewer",
+      "url": "https://farmerselectric.coop/outages-safety/outage-center/"
+    },
+    {
+      "claim": "Oncor delivers power to parts of Rockwall: Oncor informed the City of Rockwall of scheduled outages near Downtown Rockwall (March 2022)",
+      "url": "https://blueribbonnews.com/2022/03/oncor-electric-delivery-outages-planned-for-saturday-april-2/"
+    },
+    {
+      "claim": "Rockwall-area storm coverage (May 28, 2024) lists both Oncor and Farmers Electric outage centers for the Rockwall area (no public map found of exactly which Rockwall addresses each utility serves, so the page says “depending on the address” and “the Rockwall area”)",
+      "url": "https://blueribbonnews.com/2024/05/severe-thunderstorm-causes-prolonged-power-outages-for-rockwall-area/"
+    },
+    {
+      "claim": "PUC Texas utility outage contacts: Oncor Electric Delivery Co. 888-313-4747; Farmers Electric Coop, Inc. 903-455-1715",
+      "url": "https://www.puc.texas.gov/storm/contact"
+    },
+    {
+      "claim": "Oncor outage reporting: call 888.313.4747, text OUT to 66267 or use the MyOncor app",
+      "url": "https://www.oncor.com/content/oncorwww/oncor-maintenance.html"
+    },
+    {
+      "claim": "FCC National Broadband Map shows availability (not performance) as reported by ISPs: providers, technology (fiber, cable, DSL, satellite, fixed wireless) and maximum advertised download/upload speeds per location; map at BroadbandMap.FCC.gov",
+      "url": "https://help.bdc.fcc.gov/hc/en-us/articles/10476040597787-How-to-Use-the-National-Broadband-Map"
+    },
+    {
+      "claim": "Heath uses ZIP code 75032 and is bordered to the north by Rockwall and to the west by Lake Ray Hubbard",
+      "url": "https://en.wikipedia.org/wiki/Heath,_Texas"
+    },
+    {
+      "claim": "Downtown Fate is 4.8 miles east of downtown Rockwall along SH 66",
+      "url": "https://en.wikipedia.org/wiki/Fate,_Texas"
+    }
+  ]
+}

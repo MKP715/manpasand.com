@@ -1,0 +1,31 @@
+/* /service-areas/ hub (.page-areas) and city pages (.page-area). Tokens only. */
+
+/* ---------- city pages ---------- */
+.page-area .hero h1{max-width:20ch}
+.page-area .area-services .related{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:clamp(24px,4vw,56px);border-top:0}
+.page-area .area-services .related li{border-top:2px solid var(--ink);border-bottom:0}
+.page-area .area-services .related a{align-items:start;padding:18px 0 24px}
+.page-area .area-services .related .go{margin-top:6px}
+@media (max-width:800px){
+  .page-area .area-services .related{grid-template-columns:minmax(0,1fr)}
+  .page-area .area-services .related li + li{border-top:1px solid var(--rule)}
+}
+/* ≤960: the TOC stays above the prose; the direct-line card moves below it. */
+@media (max-width:960px){
+  .page-area .area-detail .guide-aside{display:contents}
+  .page-area .area-detail .guide-aside .toc{order:-1}
+  .page-area .area-detail .guide-aside .direct{order:1}
+}
+
+/* ---------- hub ---------- */
+.page-areas .plate--drive svg{display:block}
+.page-areas .area-more{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,9fr);gap:16px clamp(24px,4vw,64px);margin-top:clamp(40px,5vw,64px);align-items:start}
+.page-areas .area-more > .label{padding-top:12px;border-top:2px solid var(--ink)}
+.page-areas .area-more-note{margin-top:16px;font-size:var(--fs-sm);color:var(--ink-2)}
+@media (max-width:800px){ .page-areas .area-more{grid-template-columns:minmax(0,1fr)} .page-areas .area-more > .label{justify-self:start;min-width:min(220px,60%);padding-top:10px} }
+
+.page-areas .area-or > div{display:flex;flex-direction:column}
+.page-areas .area-or-h{display:flex;justify-content:space-between;gap:12px;padding-top:12px;border-top:2px solid var(--ink)}
+.page-areas .area-or-h .label:first-child{color:var(--accent)}
+.page-areas .area-or-t{margin:14px 0 20px;color:var(--ink-2);max-width:36em}
+@media (max-width:960px){ .page-areas .area-or{gap:48px} }

@@ -1,0 +1,15 @@
+[
+  {
+    "name": "John D.",
+    "role": "Small Business Owner",
+    "service": "database-consulting",
+    "text": "Manpasand streamlined our entire database system. The efficiency gains were immediate and impressive. Highly professional and knowledgeable!"
+  },
+  {
+    "name": "Jane S.",
+    "role": "Real Estate Agent",
+    "service": "photography",
+    "text": "The photos for our real estate listing were absolutely breathtaking. They captured the essence of the home perfectly and it sold in a week!",
+    "note": "Every sale is different. Price, location, condition and the market decide how quickly a home sells. Good photos help a listing look its best, but we don’t claim they set the sale date."
+  }
+]

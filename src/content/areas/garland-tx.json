@@ -1,0 +1,172 @@
+{
+  "slug": "garland-tx",
+  "city": "Garland",
+  "eyebrow": "Garland, TX",
+  "title": "Small Business IT Support in Garland, TX | Manpasand",
+  "description": "On-demand IT support for Garland shops, offices and homes: networks, POS, Wi-Fi and network security, from next door in Rowlett. Fixed-price quotes.",
+  "h1": "IT support for Garland’s small businesses",
+  "lede": "We’re based next door in Rowlett, about 13 minutes from the middle of Garland without traffic. Our IT support covers the tech that Garland shops, offices and homes run on: networks, POS systems, Wi‑Fi and battery backup, with a fixed-price quote before any work starts.",
+  "summary": "Networks, POS, Wi‑Fi and outage planning for Garland shops, offices and homes, from Rowlett, about 13 minutes away.",
+  "sections": [
+    {
+      "heading": "Power outages in Garland: who to call, and what to protect",
+      "paragraphs": [
+        "Much of Garland gets its electricity from the city itself. Garland Power & Light (GP&L) is the city’s not-for-profit municipal utility. It has served Garland since 1923 and has more than 77,000 customers. Other addresses are on Oncor’s lines instead. GP&L points out that you and your neighbor may have different providers, so check your electric bill to see which one you have.",
+        "That decides who you call when the power drops. For GP&L, call 972-205-3000 or 833-403-2106, or text OUT to 972-205-4000 from the cell number on your account. GP&L recommends confirming that number before you need it. If you’re on Oncor, call 888-313-4747 or text OUT to 66267. Your internet provider can’t bring the power back, and neither can we.",
+        "Our job comes before and after the outage. Before: a battery backup (UPS) on the modem, router, network switch and POS, so a short blip doesn’t reboot the network in the middle of a sale. We also set up a server or NAS (a network storage box) to shut down cleanly during a long outage instead of crashing. A UPS only covers your side, though. If the outage also knocks out your internet provider’s equipment, the connection drops anyway. After: we check whatever didn’t come back up. Our [guide to protecting office tech from outages](/guides/power-outage-protection-office-tech/) explains how to size a UPS.",
+        "Your surge protection is worth a second look too. GP&L’s advice: not every power strip is a surge protector, and surge protectors wear out. A whole-house protector at the panel or meter only guards against surges on the electric lines. It doesn’t cover surges on phone or TV cable lines, and if you have cable internet, that coax line goes straight into your modem. Installing a whole-house unit is an electrician’s job. Plug-in protection for your computers and network gear is ours."
+      ]
+    },
+    {
+      "heading": "Shops, suppliers and small manufacturers",
+      "paragraphs": [
+        "Garland’s economic development office counts more than 300 manufacturers in the city. Its largest employers include Kraft Heinz, Sherwin-Williams and Epiroc, along with Garland ISD and the city itself. We don’t pitch to plants that size. We work with the smaller businesses around them: the supplier with a front office and a warehouse out back, the store with two registers, the five-person office near Downtown Garland or Firewheel Town Center.",
+        "If your building is half office and half warehouse, you may already know the problems: Wi‑Fi that fades past the office door, a label printer that keeps dropping off the network, and one Wi‑Fi password that every employee, former employee and delivery driver has had for years. We map where you actually need coverage, then add access points or office network cabling for computers, phones and Wi‑Fi. Then we split the network so office PCs, card terminals and guest devices can’t reach each other.",
+        "For a store, the POS network comes first. Card terminals go on their own segment behind a locked-down firewall, and guest Wi‑Fi can’t see them. If customer data is ever exposed anyway, Texas law sets deadlines for notifying the people affected, and in larger breaches the attorney general. Our [Texas data breach notification guide](/guides/texas-data-breach-notification/) walks through them. For day-to-day help, see our [IT help for Garland shops](/services/small-business-it/) and our [network security for small businesses](/services/network-security/)."
+      ]
+    },
+    {
+      "heading": "How IT support in Garland works",
+      "paragraphs": [
+        "We don’t have an office in Garland. We’re based in [Rowlett](/service-areas/rowlett-tx/), and from the center of Rowlett to the center of Garland it’s about 13 minutes and 7 miles without traffic. Network, POS and Wi‑Fi work happens on-site at your shop, office or home. Database and [website work](/services/web-development/) can be done remotely.",
+        "Every job starts with a free consultation. We look at what you have and what’s going wrong, write up the scope, and give you a fixed-price quote before any work begins, with any Texas sales tax shown as its own line and no hidden fees. We reply within one business day (Mon–Fri, 9 AM – 5 PM) and acknowledge critical support requests within two hours during business hours. If a defect within the original scope is reported within 14 days of completion, we fix it at no cost. The [guarantee terms](/terms/#guarantee) spell out the details.",
+        "[Tell us what’s going on](/contact/#estimate) and we’ll set up a time to take a look."
+      ]
+    }
+  ],
+  "facts": [
+    { "label": "Drive from Rowlett", "value": "About 13 minutes / 7 miles without traffic" },
+    { "label": "County", "value": "Dallas, with small portions in Collin and Rockwall" },
+    { "label": "ZIP codes", "value": "75040–75049" },
+    { "label": "Electric utility", "value": "Garland Power & Light (city-owned); Oncor at some addresses" },
+    { "label": "GP&L outage line", "value": "972-205-3000, or text OUT to 972-205-4000" },
+    { "label": "Population", "value": "246,018 (2020 Census), third-largest city in Dallas County" }
+  ],
+  "services": [
+    {
+      "slug": "small-business-it",
+      "text": "On-demand help for Garland offices and shops: PCs, printers, POS systems and the office network, quoted at a fixed price before we start."
+    },
+    {
+      "slug": "network-security",
+      "text": "A firewall and separate networks for office PCs, card terminals and guests, so one weak device or shared password can’t open up everything."
+    },
+    {
+      "slug": "home-network",
+      "text": "About 1 in 8 Garland workers works from home. We get Wi‑Fi to the home office and the far rooms, and give TVs, speakers and thermostats a network of their own."
+    },
+    {
+      "slug": "photography",
+      "text": "Ground-level interior and exterior photos for Garland home listings, plus team headshots and product photos for a supplier’s website or catalog."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is there small business IT support in Garland without a contract?",
+      "a": "Our IT help is on demand. You contact us when something needs doing, we scope it in a free consultation, and you get a fixed-price quote before any work begins. We reply within one business day and acknowledge critical support requests within two hours during business hours."
+    },
+    {
+      "q": "Who do I contact about a power outage in Garland?",
+      "a": "Your electric utility, not your internet provider or us. Much of Garland is on Garland Power & Light: call 972-205-3000 or 833-403-2106, or text OUT to 972-205-4000. Some addresses are on Oncor instead (888-313-4747, or text OUT to 66267), and your bill shows which one you have. Once the power is back, we can check the network and anything that didn’t come back up on its own."
+    },
+    {
+      "q": "Can you set up a POS network for a Garland shop?",
+      "a": "Yes. We set up the network your POS runs on: the internet connection, the firewall, a separate segment for card terminals, guest Wi‑Fi that can’t reach it, and battery backup for the modem and router. Your POS provider still handles the software and your card-processing account, and we build the network to their requirements."
+    },
+    {
+      "q": "Do you also help Garland homeowners?",
+      "a": "Yes. About 1 in 8 Garland workers works from home, so a home network often carries work too. We set up and secure [home Wi‑Fi and networks](/services/home-network/), including better coverage for the office and a separate network for TVs, speakers and thermostats, and we also take family portraits. If you’re choosing an internet provider, the [FCC National Broadband Map](https://broadbandmap.fcc.gov/home) shows which ones report service at your address."
+    }
+  ],
+  "nearby": ["rowlett-tx", "sachse-tx", "richardson-tx"],
+  "sources": [
+    {
+      "claim": "Garland Power & Light: the City of Garland’s locally owned not-for-profit municipal electric utility, serving since 1923, more than 77,000 customers, fourth-largest municipal utility in Texas",
+      "url": "https://www.gpltexas.org/my-account/about-us"
+    },
+    {
+      "claim": "“Much of Garland” is on GP&L: Wikipedia says GP&L powers most of the city (its uncited ~85% figure was NOT used, since no GP&L or Oncor source gives a percentage); GP&L confirms some addresses are on Oncor instead",
+      "url": "https://en.wikipedia.org/wiki/Garland,_Texas"
+    },
+    {
+      "claim": "GP&L: you and your neighbor may have different electric service providers (GP&L/Oncor)",
+      "url": "https://www.gpltexas.org/outage-center/my-power-is-out-neighbor-s-power-is-on"
+    },
+    {
+      "claim": "GP&L outage reporting: call 972-205-3000 or 833-403-2106; text OUT to 972-205-4000 if your cell number is on your GP&L account (or text the account number); confirm or update the phone number on the account",
+      "url": "https://www.gpltexas.org/outage-center/outage-text-reporting"
+    },
+    {
+      "claim": "GP&L outage map page repeats the 972-205-3000 / 833-403-2106 / text OUT to 972-205-4000 reporting options",
+      "url": "https://www.gpltexas.org/outage-center/gp-l-power-outage-map"
+    },
+    {
+      "claim": "GP&L outage prep advice: protect electronics with a surge protector or by unplugging; consider battery backup or a generator if uninterrupted power is essential",
+      "url": "https://www.gpltexas.org/outage-center/how-you-can-prepare-for-outages"
+    },
+    {
+      "claim": "GP&L on surge protection: not all power strips offer surge protection; surge protectors wear out; whole-house protectors install at the panel or meter base and only cover surges entering through electric lines, not telephone lines or TV/satellite cable",
+      "url": "https://www.gpltexas.org/outage-center/electric-safety/surge-protection"
+    },
+    {
+      "claim": "Oncor outage reporting: call 888-313-4747 or text OUT to 66267",
+      "url": "https://www.oncor.com/outages"
+    },
+    {
+      "claim": "Garland is home to more than 300 manufacturers (Garland Economic Development)",
+      "url": "https://garlandedp.com/invest-grow/key-industries"
+    },
+    {
+      "claim": "Garland’s top employers: Garland ISD, City of Garland, Kraft Heinz, Sherwin-Williams Company, Epiroc; top sectors manufacturing and distribution",
+      "url": "https://garlandedp.com/invest-grow/fast-facts"
+    },
+    {
+      "claim": "Major employer list and locations (Kraft Heinz, Sherwin-Williams, Epiroc and others) from Garland Economic Development",
+      "url": "https://garlandedp.com/choose-garland/employers"
+    },
+    {
+      "claim": "Garland: 2020 population 246,018; third-largest city in Dallas County; mainly in Dallas County with portions in Collin and Rockwall counties; ZIP codes 75040–75049; Downtown Garland",
+      "url": "https://en.wikipedia.org/wiki/Garland,_Texas"
+    },
+    {
+      "claim": "Population ranking check (ACS, Census Reporter API): Dallas 1,326,093; Irving 258,052; Garland 250,571; Grand Prairie 207,618; Mesquite 151,379",
+      "url": "https://api.censusreporter.org/1.0/data/show/latest?table_ids=B01003&geo_ids=16000US4829000,16000US4837000,16000US4830464,16000US4847892,16000US4819000"
+    },
+    {
+      "claim": "Garland’s population is 99.9% in Dallas County and 0.09% in Collin County (Census Reporter, TIGER 2023 parent geographies); the Rockwall County portion has no measurable population share, so the county fact says “small portions”",
+      "url": "https://api.censusreporter.org/1.0/geo/tiger2023/16000US4829000/parents"
+    },
+    {
+      "claim": "Firewheel Town Center is an open-air regional mall in Garland at President George Bush Turnpike and State Highway 78",
+      "url": "https://en.wikipedia.org/wiki/Firewheel_Town_Center"
+    },
+    {
+      "claim": "Garland is a neighboring city of Rowlett (supports “next door”)",
+      "url": "https://en.wikipedia.org/wiki/Rowlett,_Texas"
+    },
+    {
+      "claim": "Drive from Rowlett to Garland: 808.5 s (about 13 minutes) and 11,149 m (about 7 miles), free-flow without traffic (OSRM, between the Census 2024 Gazetteer internal points)",
+      "url": "https://router.project-osrm.org/route/v1/driving/-96.548587,32.915926;-96.630334,32.909826?overview=false"
+    },
+    {
+      "claim": "Census 2024 Gazetteer internal points used for the drive: Rowlett city 32.915926, -96.548587; Garland city 32.909826, -96.630334",
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_gaz_place_48.txt"
+    },
+    {
+      "claim": "About 1 in 8 Garland workers works from home: 15,078 of 121,342 workers 16+ (12.4%), ACS 2020–2024 5-year, table B08301",
+      "url": "https://api.censusreporter.org/1.0/data/show/latest?table_ids=B01003,B08301&geo_ids=16000US4829000"
+    },
+    {
+      "claim": "The FCC National Broadband Map shows the internet services available at individual locations, as reported by internet service providers; searchable by address",
+      "url": "https://www.fcc.gov/BroadbandData"
+    },
+    {
+      "claim": "FCC National Broadband Map address search",
+      "url": "https://broadbandmap.fcc.gov/home"
+    },
+    {
+      "claim": "Texas breach-notification law (Tex. Bus. & Com. Code §521.053) sets deadlines to notify affected individuals and, for larger breaches, the attorney general",
+      "url": "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.521.htm"
+    }
+  ]
+}

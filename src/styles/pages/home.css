@@ -1,0 +1,39 @@
+/* Home page ("/"). Scoped to body.page-home. Tokens only; breakpoints 1120/1100/960/800/720/640/560. */
+
+/* § 03 reviews: stacked ≤960 (split--6-6). */
+.page-home .hm-quotes .quote blockquote p{font-size:clamp(1.375rem,1.1rem + 1.1vw,1.875rem)}
+/* Side by side (>960): the two cards share their rows (label, mark, quote, attribution, note), so both names sit on one line.
+   Jane S.'s FTC note stays inside her card. The spare space falls at the bottom of John D.'s card. */
+@media (min-width:961px){
+  .page-home .hm-quotes{row-gap:0}
+  .page-home .hm-quotes .quote{display:grid;grid-row:span 5;grid-template-rows:subgrid;row-gap:0;align-content:start}
+  .page-home .hm-quotes .quote figcaption{margin-top:0}
+}
+
+/* § 04 case study: lab readout panel beside the case card */
+.page-home .hm-measure{margin:0;display:flex;flex-direction:column;border:1px solid var(--ink);background:var(--surface)}
+.page-home .hm-measure-dl{margin:0;padding:4px 20px 0}
+.page-home .hm-measure-dl div{display:grid;gap:6px;padding:18px 0;border-bottom:1px solid var(--rule)}
+.page-home .hm-measure-dl div:last-child{border-bottom:0}
+.page-home .hm-measure-dl dt{font:500 var(--fs-label)/1.4 var(--font-mono);letter-spacing:var(--track-label);text-transform:uppercase;color:var(--muted)}
+.page-home .hm-measure-dl dd{margin:0;display:flex;align-items:center;flex-wrap:wrap;gap:4px 14px;font-family:var(--font-serif);font-variant-numeric:tabular-nums lining-nums;line-height:1}
+.page-home .hm-before{font-size:1.5rem;color:var(--muted);text-decoration:line-through;text-decoration-thickness:1px;text-decoration-color:var(--rule-ui)}
+.page-home .hm-after{font-size:var(--fs-stat);color:var(--ink);letter-spacing:-.02em}
+.page-home .hm-to{color:var(--accent);flex:none}
+.page-home .hm-measure-note{margin-top:auto;padding:16px 20px 18px;border-top:1px solid var(--rule);font-size:var(--fs-xs);line-height:1.5;color:var(--muted)}
+
+/* § 05 service area: compact city cells (no summary) + "also on-site in" chips */
+.page-home .hm-more-areas{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,9fr);gap:16px clamp(24px,4vw,64px);align-items:start;margin-top:clamp(32px,4vw,48px)}
+.page-home .hm-more-areas > .label{padding-top:14px;color:var(--ink-2)}
+@media (max-width:800px){
+  .page-home .hm-more-areas{grid-template-columns:minmax(0,1fr)}
+  .page-home .hm-more-areas > .label{padding-top:0}
+}
+@media (max-width:640px){
+  .page-home .hm-areas .areas .svc{padding-block:18px 20px}
+  .page-home .hm-areas .areas .svc-top{margin-bottom:6px}
+}
+@media (max-width:560px){
+  .page-home .hm-measure-dl{padding-inline:16px}
+  .page-home .hm-measure-note{padding-inline:16px}
+}

@@ -1,0 +1,17 @@
+{
+  "name": "manpasand.com",
+  "private": true,
+  "type": "module",
+  "description": "Static site for Manpasand Technical Services (served by GitHub Pages).",
+  "scripts": {
+    "build": "node src/build.mjs",
+    "check": "node src/build.mjs --check",
+    "dev": "node src/dev.mjs --port 8100",
+    "images": "python -P src/tools/images.py",
+    "fonts": "python -P src/tools/fonts.py",
+    "serve": "python -m http.server 8080"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

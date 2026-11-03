@@ -1,0 +1,154 @@
+{
+  "slug": "sachse-tx",
+  "city": "Sachse",
+  "eyebrow": "Sachse, TX",
+  "title": "IT Support & Computer Help in Sachse, TX | Manpasand",
+  "description": "Home Wi‑Fi, home-office networks and small business IT for Sachse, about 11 minutes from our Rowlett base. Clear explanations and fixed-price quotes.",
+  "h1": "IT support for Sachse homes and businesses",
+  "lede": "We’re based in Rowlett, about 11 minutes from Sachse via the Bush Turnpike. Our IT support in Sachse, TX covers home Wi‑Fi and home offices, small-business networks and computers, with a fixed-price quote before any work starts.",
+  "summary": "Home Wi‑Fi, home offices and small-business IT in a fast-growing city where about 1 in 4 workers works from home. About 11 minutes from Rowlett.",
+  "sections": [
+    {
+      "heading": "A young, fast-growing city that works from home",
+      "paragraphs": [
+        "Sachse counted 20,329 residents in the 2010 Census and 27,103 in 2020. The Census Bureau’s estimate for July 2025 is 32,834, about 21% more than in 2020. Over the same period Rowlett grew about 9% and Garland about 1%. The housing is young too: the median Sachse home was built in 2005, and about two-thirds of homes date from 2000 or later.",
+        "For tech help, one number stands out. In the Census Bureau’s 2020–2024 American Community Survey, about 25% of working Sachse residents worked from home, compared with about 18% in Rowlett. That puts video calls, a VPN and a work laptop on the same Wi‑Fi as the streaming TVs and game consoles. When we set up a [home office network](/services/home-network/) in Sachse, we start here:"
+      ],
+      "list": [
+        "Look for wiring the builder may have run, like a wiring panel in a closet or network jacks in the walls. A cable to a second access point usually beats a wireless hop.",
+        "Keep work computers on the main network, and move TVs, speakers, thermostats and other smart gadgets to a separate network that can’t reach them.",
+        "Test the speed at the desk where you take calls, not beside the router. Check the upload figure too, because upload carries your side of the call."
+      ]
+    },
+    {
+      "heading": "Internet and power: check your address first",
+      "paragraphs": [
+        "Internet options in Sachse vary from street to street. On the FCC’s National Broadband Map (data as of June 30, 2026), Charter (Spectrum) reports service at about 96% of the city’s homes, T‑Mobile at about 85%, Frontier at about 72%, AT&T at about 43% and Verizon at about 13%. Satellite service is listed everywhere. Type your address into the [FCC map](https://broadbandmap.fcc.gov/home) to see what’s offered at your house. The map shows what providers report, so confirm with the provider before you switch.",
+        "Then think about power. The City of Sachse sends residents to Oncor or to Farmers Electric Cooperative for outage reports, depending on which utility serves the address. After storms on May 28, 2024, the city reported widespread power outages, and two days later it said its own offices had intermittent internet and phone outages. Oncor customers can report an outage by calling 888-313-4747 or texting OUT to 66267, and can sign up for outage updates through [MyOncor Alerts](https://www.oncor.com/outages).",
+        "For a home office, a small battery backup (UPS) on the modem and router rides through the short flickers that drop a call. It can’t help if the provider’s own equipment in the neighborhood loses power too, so for longer outages a phone hotspot is the realistic fallback. Our guide to [protecting office tech from power outages](/guides/power-outage-protection-office-tech/) goes further."
+      ]
+    },
+    {
+      "heading": "On-site IT support in Sachse, and what we do remotely",
+      "paragraphs": [
+        "From Rowlett it’s about 11 minutes and 6 miles to the center of Sachse without traffic, mostly on the President George Bush Turnpike and Merritt Road. On-site visits happen during our hours, Mon–Fri, 9 AM – 5 PM. At a Sachse shop or office, that means the office network and firewall, staff Wi‑Fi with a separate guest network, a point-of-sale network kept apart from both, printers, and new computers set up and ready to use. At home, it’s Wi‑Fi coverage, home-office setup and plain computer help.",
+        "Database and website work doesn’t need a visit, so we do it remotely. Every job starts with a free initial consultation, then a written scope and a fixed-price quote before work begins. If Texas sales tax applies, it’s shown as its own line. If an office needs new network cable runs, we check with the City of Sachse whether a permit is needed before we start. We reply within one business day and acknowledge critical support requests within two hours during business hours. We also work in nearby Wylie and Murphy."
+      ]
+    }
+  ],
+  "facts": [
+    { "label": "Drive from Rowlett", "value": "About 11 minutes / 6 miles without traffic" },
+    { "label": "Counties", "value": "Dallas (about 63% of residents) and Collin" },
+    { "label": "Population", "value": "32,834 (Census estimate, July 2025)" },
+    { "label": "Growth since 2020", "value": "About 21% (Census estimates)" },
+    { "label": "Work from home", "value": "About 1 in 4 workers (ACS 2020–2024)" },
+    { "label": "Typical home", "value": "Median build year 2005 (ACS 2020–2024)" }
+  ],
+  "services": [
+    {
+      "slug": "home-network",
+      "text": "About two-thirds of Sachse homes were built in 2000 or later, so before reaching for mesh we check for network jacks the builder may have installed and use them to wire in a second access point. Smart TVs, speakers and thermostats go on their own network, away from work laptops."
+    },
+    {
+      "slug": "small-business-it",
+      "text": "On-site computer help and office IT for Sachse shops and offices: networks, staff and guest Wi‑Fi, point-of-sale networks, printers and new-computer setup, with a fixed-price quote for each project."
+    },
+    {
+      "slug": "network-security",
+      "text": "Firewall setup and separate networks for staff, guests and smart devices. If something gets in, we contain it, restore your systems, review the logs and close the gap."
+    },
+    {
+      "slug": "photography",
+      "text": "Family portraits at your Sachse home, and ground-level interior and exterior photos when you’re getting a house ready to list."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can someone come set up my Wi‑Fi in Sachse?",
+      "a": "Yes. We come out during our hours, Mon–Fri, 9 AM – 5 PM, find where the signal drops, and place the router or mesh units so the rooms you use are covered. If your house has network jacks in the walls, we use them to wire in a second access point. You get a fixed-price quote before we start."
+    },
+    {
+      "q": "Do you help small businesses in Sachse?",
+      "a": "Yes. We work on-site for networks, Wi‑Fi, point-of-sale networks, printers and computers, and remotely for database and website projects. It starts with a free initial consultation, and you get a written scope and a fixed-price quote before any project begins. If Texas sales tax applies, it’s a separate line on the quote."
+    },
+    {
+      "q": "Is Sachse in Dallas County or Collin County?",
+      "a": "Both. The Census Bureau’s July 2025 estimates put about 20,600 of Sachse’s 32,800 residents in Dallas County and about 12,200 in Collin County. The county line decides things like your school district: the city says residents on the Dallas County side attend Garland ISD and those on the Collin County side attend Wylie ISD. It makes no difference to our service."
+    },
+    {
+      "q": "Which internet providers serve Sachse?",
+      "a": "It depends on the street. The FCC’s National Broadband Map (June 30, 2026 data) lists Charter (Spectrum), T‑Mobile, Frontier, AT&T and Verizon among the home internet providers in parts of Sachse, plus satellite everywhere. Check your exact address on the [FCC map](https://broadbandmap.fcc.gov/home), and ask each provider for the upload speed as well as the download speed."
+    }
+  ],
+  "nearby": ["rowlett-tx", "garland-tx", "plano-tx"],
+  "sources": [
+    {
+      "claim": "Internal points used for the drive: Rowlett 32.915926, -96.548587; Sachse 32.969015, -96.579523 (Census 2024 Gazetteer, Texas places)",
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_gaz_place_48.txt"
+    },
+    {
+      "claim": "Drive from Rowlett to Sachse internal points: 9,331 m (5.8 miles), 687 s (about 11 minutes), free-flow without traffic (OSRM)",
+      "url": "https://router.project-osrm.org/route/v1/driving/-96.548587,32.915926;-96.579523,32.969015?overview=false"
+    },
+    {
+      "claim": "Route runs mostly on the President George Bush Turnpike/Highway (TX 190/PGBT) and Merritt Road, ending on Sachse Road (OSRM turn-by-turn steps)",
+      "url": "https://router.project-osrm.org/route/v1/driving/-96.548587,32.915926;-96.579523,32.969015?overview=false&steps=true"
+    },
+    {
+      "claim": "Sachse population: 20,329 at the 2010 Census and 27,103 at the 2020 Census; July 1, 2025 estimate 32,834, +21.1% from the April 2020 estimates base (Census QuickFacts, V2025)",
+      "url": "https://www.census.gov/quickfacts/fact/table/sachsecitytexas/POP010220"
+    },
+    {
+      "claim": "Census Vintage 2025 estimates: Sachse 27,111 (April 2020 base) to 32,834 (July 1, 2025), +21.1%; Rowlett 62,550 to 67,890, +8.5%; Garland 246,190 to 249,625, +1.4%",
+      "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/cities/totals/sub-est2025_48.csv"
+    },
+    {
+      "claim": "Sachse July 1, 2025 estimate by county part: Dallas County 20,622 (about 63%), Collin County 12,212 (Census Vintage 2025, SUMLEV 157 rows)",
+      "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/cities/totals/sub-est2025_48.csv"
+    },
+    {
+      "claim": "Worked from home (ACS 2020–2024 5-year, table B08301): Sachse 4,104 of 16,227 workers (25.3%); Rowlett 6,448 of 35,018 (18.4%)",
+      "url": "https://api.censusreporter.org/1.0/data/show/latest?table_ids=B08301&geo_ids=16000US4864064,16000US4863572"
+    },
+    {
+      "claim": "Median year structure built, Sachse: 2005 (ACS 2020–2024 5-year, table B25035)",
+      "url": "https://api.censusreporter.org/1.0/data/show/latest?table_ids=B25035&geo_ids=16000US4864064,16000US4863572"
+    },
+    {
+      "claim": "Sachse housing units built 2000 or later: 7,259 of 10,862 (about two-thirds) (ACS 2020–2024 5-year, table B25034)",
+      "url": "https://api.censusreporter.org/1.0/data/show/latest?table_ids=B25034&geo_ids=16000US4864064,16000US4863572"
+    },
+    {
+      "claim": "City of Sachse, Education: “Sachse residents who live in Dallas County attend Garland schools”; “Sachse residents who live in Collin County attend Wylie schools”",
+      "url": "https://www.cityofsachse.com/208/Education"
+    },
+    {
+      "claim": "FCC National Broadband Map, Sachse city, fixed broadband, June 30, 2026 biannual filing (latest published as of Nov 3, 2026), all technologies, percent of residential units served: Charter 95.7%, T-Mobile 85.3%, Frontier 72.3%, AT&T 42.8%, Verizon 12.9%; EchoStar, SpaceX and Viasat (satellite) 100%; also JAB Wireless 8.6% and Centric Infrastructure Group 2.5% (re-checked Nov 3, 2026)",
+      "url": "https://broadbandmap.fcc.gov/area-summary/fixed?geoid=4864064&type=place&tech=acfosw&speed=100_20&report=broadband"
+    },
+    {
+      "claim": "The FCC National Broadband Map lets anyone search availability by address",
+      "url": "https://broadbandmap.fcc.gov/home"
+    },
+    {
+      "claim": "Charter Communications sells its internet service under the Spectrum brand",
+      "url": "https://corporate.charter.com/about-charter"
+    },
+    {
+      "claim": "City of Sachse, May 28, 2024: widespread power outages across the city; report outages to Oncor or to Farmers (Farmers Electric)",
+      "url": "https://www.cityofsachse.com/CivicSend/ViewMessage/message/231651"
+    },
+    {
+      "claim": "City of Sachse update, 9 a.m. May 30, 2024, about city offices and services: “We are experiencing intermittent internet and phone outages”",
+      "url": "https://www.cityofsachse.com/CivicSend/ViewMessage/message/231840"
+    },
+    {
+      "claim": "Oncor outage page: call 888-313-4747 or text OUT to 66267 to report; MyOncor Alerts: “Sign up to receive alerts and status updates about power outages”",
+      "url": "https://www.oncor.com/outages"
+    },
+    {
+      "claim": "Farmers Electric Cooperative is an electric cooperative headquartered in Greenville, Texas, whose service counties include Dallas and Collin",
+      "url": "https://en.wikipedia.org/wiki/Farmers_Electric_Cooperative_(Texas)"
+    }
+  ]
+}

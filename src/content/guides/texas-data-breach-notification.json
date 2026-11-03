@@ -1,0 +1,255 @@
+{
+  "slug": "texas-data-breach-notification",
+  "title": "Texas Data Breach Notification Law, Explained | Manpasand",
+  "description": "Who you must notify after a data breach in Texas, the 60-day and 30-day deadlines, the 250-resident AG rule and the 2025 small business safe harbor.",
+  "h1": "Texas data breach notification law: who to tell, and by when",
+  "lede": "Texas data breach notification law gives a business no more than 60 days to tell the people affected, and no more than 30 days to tell the Attorney General when 250 or more Texans are involved. Here’s what counts as a breach, who gets told, what the penalties are and what to do in the first week.",
+  "summary": "What Texas breach law treats as sensitive data, the 60- and 30-day notice deadlines, penalties, the 2025 safe harbor and a first-week checklist.",
+  "updated": "2026-11-03",
+  "keyTakeaways": [
+    "Texas notice rules apply when someone without permission acquires a person’s name plus a Social Security, driver’s license or usable account number, or their health information; encrypted name-and-number data counts only if the key was taken too.",
+    "Notify each affected person without unreasonable delay and no later than 60 days after you determine the breach occurred.",
+    "If 250 or more Texans are affected, file the Attorney General’s online report within 30 days of that same date; notifying more than 10,000 people at once also means telling Equifax, Experian and TransUnion.",
+    "If you hold sensitive data for another business, Texas law says to tell that business immediately.",
+    "A business with fewer than 250 employees that can show it had a qualifying cybersecurity program at the time of a breach can’t be made to pay punitive damages in a lawsuit over it (claims accruing on or after September 1, 2025), but the notice deadlines and state penalties still apply."
+  ],
+  "sections": [
+    {
+      "heading": "What Texas data breach notification law covers",
+      "paragraphs": [
+        "The rule is §521.053 of the Texas Business and Commerce Code. It applies to anyone who does business in Texas and owns or licenses computerized data containing *sensitive personal information*. A breach is the unauthorized acquisition of that data in a way that compromises its security, confidentiality or integrity. Good-faith acquisition by an employee or agent, for your business’s purposes, isn’t a breach unless the data is then used or disclosed without authorization.",
+        "Sensitive personal information is narrower than most people expect. It means either:"
+      ],
+      "list": [
+        "A person’s first name or first initial and last name, together with their Social Security number, driver’s license or other government ID number, or a bank account or card number plus the security code, access code or password needed to use it, when the name and number aren’t encrypted.",
+        "Information that identifies a person and relates to their physical or mental health, the health care they received, or payment for that care."
+      ],
+      "ordered": false,
+      "callout": {
+        "title": "Encryption: the closest thing to an exemption",
+        "text": "The name-and-number category covers only unencrypted data, and encrypted data counts only if whoever took it also has the key. That can make a stolen laptop with full-disk encryption a very different event from one without it. The statute names no standard, and the health category lacks the “not encrypted” wording, so let your attorney decide when medical data is involved."
+      }
+    },
+    {
+      "heading": "Where that data sits in a small office",
+      "paragraphs": [
+        "Information a government agency has lawfully made public doesn’t count, and neither do names, email addresses and phone numbers on their own. The data that does count sits in predictable places: scanned driver’s licenses in a shared folder, payroll and contractor tax files, patient intake forms and years of email attachments.",
+        "CISA, the federal cybersecurity agency, warns that ransomware groups often copy data and threaten to publish it (“double extortion”), and some skip the encryption and only steal. Treat a ransomware attack as a possible breach until your logs show otherwise."
+      ]
+    },
+    {
+      "heading": "Who you have to notify, and by when",
+      "paragraphs": [
+        "**People whose data was taken.** Notify each one without unreasonable delay and no later than 60 days after you determine the breach occurred. The only allowances are a delay requested by a law enforcement agency that decides notice would impede a criminal investigation, and the time needed to determine the scope of the breach and restore your system. Non-Texans count too; people in a state with its own breach law may be notified under that law instead.",
+        "**The Texas Attorney General.** If 250 or more Texas residents are involved, report it as soon as practicable and no later than 30 days after you determine the breach occurred, on the AG’s online form. (S.B. 768 cut it from 60 days in 2023.) Those two allowances aren’t written into the AG rule, so this report can be due before every letter is out. The AG’s own page says 30 days “after the discovery of the breach,” so count from the earliest date you knew.",
+        "**Credit bureaus and data owners.** Notifying more than 10,000 people at one time means telling Equifax, Experian and TransUnion too. If you hold sensitive data for another business, notify that business immediately. That includes us: if we ever discover a breach in data we maintain for you, we tell you right away."
+      ],
+      "table": {
+        "caption": "Texas breach notice deadlines (Tex. Bus. & Com. Code §521.053)",
+        "head": [
+          "Who you tell",
+          "When it applies",
+          "Deadline",
+          "Section"
+        ],
+        "rows": [
+          [
+            "Each affected person",
+            "Their data was, or is reasonably believed to have been, acquired",
+            "Without unreasonable delay; no later than 60 days after you determine the breach occurred",
+            "§521.053(b)"
+          ],
+          [
+            "Texas Attorney General (online form)",
+            "250 or more Texas residents involved",
+            "As soon as practicable; no later than 30 days after you determine the breach occurred",
+            "§521.053(i)"
+          ],
+          [
+            "Equifax, Experian and TransUnion",
+            "More than 10,000 people notified at one time",
+            "Without unreasonable delay",
+            "§521.053(h)"
+          ],
+          [
+            "The business that owns the data",
+            "You hold sensitive data for someone else",
+            "Immediately after you discover the breach",
+            "§521.053(c)"
+          ]
+        ]
+      },
+      "callout": {
+        "title": "Federal rules can add their own clocks",
+        "text": "HIPAA-covered medical and dental practices must notify patients no later than 60 calendar days after discovering a breach, and report it to HHS: alongside the patient notices for 500 or more people, or in a yearly report for smaller breaches. Tax preparers, mortgage brokers and other businesses the FTC treats as financial institutions must report to the FTC no later than 30 days after discovery when 500 or more consumers’ unencrypted information is involved."
+      }
+    },
+    {
+      "heading": "Sending notices and filing the AG report",
+      "paragraphs": [
+        "Texas doesn’t prescribe what a notice to individuals says. The FTC suggests covering how it happened, what was taken, any known misuse, what you’ve done, how you’re protecting people and who to contact, with no misleading statements. It also suggests offering at least a year of free credit monitoring, particularly if Social Security numbers or financial information were exposed.",
+        "Send a letter to each person’s last known address, or email if it meets the federal E-SIGN Act, which generally means the person agreed beforehand to electronic notices. Substitute notice (email, a conspicuous notice on your website or major statewide media) is allowed if you can show that notice would cost more than $250,000, that more than 500,000 people are affected, or that you lack contact details.",
+        "Only an authorized representative, usually the owner, a manager, an officer or your attorney, should file the AG’s Data Breach Report. The form can’t be saved partway and the browser’s back button clears it, so preview it and gather what the law requires first:"
+      ],
+      "list": [
+        "A detailed description of what happened",
+        "The number of Texans affected, and how many you’ve notified so far by mail or another direct method",
+        "What you’ve done about the breach, and what you plan to do",
+        "Whether law enforcement is investigating"
+      ],
+      "ordered": false,
+      "callout": {
+        "title": "Before you file",
+        "text": "The AG warns that a submitted report is potentially an open record. Reports also go on a public AG list (business name and address, data types, Texans affected, how they were notified) for up to a year, longer if you report another breach. File a separate report for each breach, and an update with total numbers to date if you learn more."
+      }
+    },
+    {
+      "heading": "Penalties, and the 2025 safe harbor for small businesses",
+      "paragraphs": [
+        "The Attorney General enforces the law. Section 521.151 sets a civil penalty of $2,000 to $50,000 per violation, plus up to $100 per person owed notice for each consecutive day you fail to take reasonable action to notify them, capped at $250,000 for a single breach. With 500 people owed notice, that’s up to $50,000 a day until the cap is reached. The AG can also get an injunction and recover its fees and costs.",
+        "Lawsuits from people harmed by a breach are separate, and that’s where S.B. 2610 comes in. Under the chapter 542 it created, a Texas business with fewer than 250 employees that owns or licenses computerized sensitive personal information can’t be made to pay exemplary (punitive) damages in a breach lawsuit if it shows it had implemented and maintained a qualifying cybersecurity program at the time of the breach. It applies only to claims that accrue on or after September 1, 2025.",
+        "The program needs administrative, technical and physical safeguards and must conform to a recognized framework. The statute names NIST, the CIS Controls, ISO/IEC 27000-series standards and SOC 2 among others, plus HIPAA, Gramm–Leach–Bliley and PCI DSS where they apply to you. The expected depth scales with headcount:"
+      ],
+      "list": [
+        "**Fewer than 20 employees:** “simplified requirements, including password policies and appropriate employee cybersecurity training.”",
+        "**20 to 99 employees:** moderate requirements, including CIS Controls Implementation Group 1, the 56 baseline safeguards the Center for Internet Security calls essential cyber hygiene.",
+        "**100 to 249 employees:** full conformity with one or more of the listed frameworks."
+      ],
+      "ordered": false,
+      "callout": {
+        "title": "Know its limits",
+        "text": "Chapter 542 doesn’t change any notice deadline, the Attorney General’s penalties or compensatory damages; it limits only punitive ones. There’s no certificate: you have to show the program existed when the breach happened, so write it down, date it and keep training records. Our [network security](/services/network-security/) and [tech consulting](/services/tech-consulting/) work can help with the technical side, from mapping where sensitive data lives to setting up password, multi-factor and IG1 safeguards. Whether your program meets §542.004 is your attorney’s call."
+      }
+    },
+    {
+      "heading": "Your first week: a practical checklist",
+      "paragraphs": [
+        "Here’s the order we’d work in after a suspected breach. Your attorney or insurer may change it. Log the date and time of each step, since the deadlines run from when you determine a breach occurred."
+      ],
+      "list": [
+        "**Disconnect, don’t wipe.** Unplug the network cable or turn off Wi‑Fi on affected computers, but leave them on. The FTC and CISA both say to disconnect rather than power down, since shutting down can erase information in memory about what happened.",
+        "**Lock the accounts.** From a computer you know is clean, reset passwords and end sessions on affected email and admin accounts, email first, and turn on multi-factor sign-in.",
+        "**Call your attorney, and your insurer if you carry cyber coverage.** Check the policy’s notice terms before you hire anyone or say anything publicly.",
+        "**Call the police.** The FTC says to start with your local police department, then the local FBI office or the U.S. Secret Service if needed. If an agency asks you to hold notice, write the request down.",
+        "**Work out what was exposed.** Which files, mailboxes or database tables held names with ID, Social Security or account numbers, or health information? Was it encrypted, and was the key exposed? How many people, and how many Texans? Firewall, email and server logs can show what was reached.",
+        "**Tell any business whose data you hold.** The law says immediately.",
+        "**Put the deadlines on the calendar.** Day 30 for the AG if 250 or more Texans are involved, day 60 at the latest for individuals, plus any federal deadline, which may count from an earlier date.",
+        "**Preview the AG form and draft the notice letter** with your attorney.",
+        "**Close the gap.** Patch what was exploited, remove unknown accounts and remote-access tools, restore from clean backups, and check that any fix a vendor reports was really made."
+      ],
+      "ordered": true,
+      "callout": {
+        "title": "Where we fit",
+        "text": "We handle the IT side of an incident: contain the attack, restore systems, review logs to see what was affected, close the gap, and pull together the technical details your attorney or insurer asks for. We don’t give legal advice or decide whether an incident is a legal breach. Call (715) 255-0420 (Mon–Fri, 9 AM – 5 PM), email info@manpasand.com or use our [contact page](/contact/). Critical support requests are acknowledged within two hours during business hours."
+      }
+    },
+    {
+      "heading": "Making the next notice list shorter",
+      "paragraphs": [
+        "Section 521.052 already requires reasonable procedures to protect sensitive personal information, and shredding, erasing or otherwise making unreadable the customer records containing it that you no longer keep. Beyond that, the less you keep and the better it’s locked down, the fewer people a breach can touch:"
+      ],
+      "list": [
+        "Delete ID scans and old payroll files you don’t need.",
+        "Encrypt laptops and backup drives, and keep the keys somewhere else.",
+        "Put multi-factor sign-in on email first.",
+        "Limit which database logins can read Social Security or card columns, and encrypt those columns. See [database consulting](/services/database-consulting/).",
+        "Give guest Wi‑Fi, TVs and printers their own network, part of our [small business IT support](/services/small-business-it/)."
+      ],
+      "ordered": false
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long do you have to report a data breach in Texas?",
+      "a": "Affected people must be notified without unreasonable delay and no later than 60 days after you determine the breach occurred. If 250 or more Texans are involved, the Texas Attorney General must get a report through its online form no later than 30 days after that same date. Federal rules such as HIPAA can add separate deadlines."
+    },
+    {
+      "q": "Do we have to notify anyone if only names, emails and phone numbers were exposed?",
+      "a": "Not under §521.053, because those items alone aren’t sensitive personal information under Texas law. A contract, another state’s law or a federal rule could still require notice, so check with your attorney. Even when notice isn’t required, a short heads-up can help customers spot phishing emails that use their leaked details."
+    },
+    {
+      "q": "Do I have to notify the credit bureaus after a breach?",
+      "a": "Only if you notify more than 10,000 people at one time. Then you must tell each nationwide consumer reporting agency (Equifax, Experian and TransUnion) the timing, distribution and content of your notices, without unreasonable delay."
+    },
+    {
+      "q": "What are the penalties for not reporting a data breach in Texas?",
+      "a": "A civil penalty of $2,000 to $50,000 per violation, plus up to $100 per person per day for failing to take reasonable action to notify individuals, capped at $250,000 for a single breach. The Attorney General can also get an injunction and recover its fees and costs."
+    },
+    {
+      "q": "Does Texas have a cybersecurity safe harbor for small businesses?",
+      "a": "Yes, since September 1, 2025. A business with fewer than 250 employees that shows it maintained a cybersecurity program meeting §542.004 at the time of a breach can’t be made to pay exemplary (punitive) damages in a lawsuit over it. It doesn’t change the notice deadlines or the state’s penalties."
+    }
+  ],
+  "relatedServices": [
+    "network-security",
+    "database-consulting",
+    "small-business-it"
+  ],
+  "disclaimer": "General information, not legal advice. This guide summarizes Texas Business and Commerce Code chapters 521 and 542 as published by the Texas Legislature (current through the 2025 sessions), as of November 3, 2026. Laws change, and whether a specific incident is a breach depends on facts only your attorney can weigh. Talk to a Texas attorney before you send notices or file a report.",
+  "sources": [
+    {
+      "label": "Texas Legislature — Business & Commerce Code ch. 521 (§§521.002, 521.052, 521.053, 521.151)",
+      "url": "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.521.htm"
+    },
+    {
+      "label": "Texas Legislature — Business & Commerce Code ch. 542, Cybersecurity Program",
+      "url": "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.542.htm"
+    },
+    {
+      "label": "Texas Legislature — Civil Practice & Remedies Code §41.001 (definition of exemplary damages)",
+      "url": "https://statutes.capitol.texas.gov/Docs/CP/htm/CP.41.htm"
+    },
+    {
+      "label": "Texas Legislature — S.B. 768 (88th Leg., 2023), enrolled bill text",
+      "url": "https://capitol.texas.gov/tlodocs/88R/billtext/html/SB00768F.HTM"
+    },
+    {
+      "label": "Texas Legislature — S.B. 2610 (89th Leg., 2025), enrolled bill text",
+      "url": "https://capitol.texas.gov/tlodocs/89R/billtext/html/SB02610F.HTM"
+    },
+    {
+      "label": "Texas Legislature Online — S.B. 2610 bill history (signed June 20, 2025; effective Sept. 1, 2025)",
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2610"
+    },
+    {
+      "label": "Office of the Texas Attorney General — Data Breach Reporting",
+      "url": "https://www.texasattorneygeneral.gov/consumer-protection/data-breach-reporting"
+    },
+    {
+      "label": "Office of the Texas Attorney General — Data Security Breach Reports (public listing)",
+      "url": "https://oag.my.site.com/datasecuritybreachreport/apex/DataSecurityReportsPage"
+    },
+    {
+      "label": "Federal Trade Commission — Data Breach Response: A Guide for Business",
+      "url": "https://www.ftc.gov/business-guidance/resources/data-breach-response-guide-business"
+    },
+    {
+      "label": "CISA — #StopRansomware Guide",
+      "url": "https://www.cisa.gov/stopransomware/ransomware-guide"
+    },
+    {
+      "label": "Center for Internet Security — CIS Controls Implementation Group 1",
+      "url": "https://www.cisecurity.org/controls/implementation-groups/ig1"
+    },
+    {
+      "label": "eCFR — 16 CFR §314.4 (FTC Safeguards Rule, notifying the FTC)",
+      "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-314/section-314.4"
+    },
+    {
+      "label": "Federal Trade Commission — FTC Safeguards Rule: What Your Business Needs to Know",
+      "url": "https://www.ftc.gov/business-guidance/resources/ftc-safeguards-rule-what-your-business-needs-know"
+    },
+    {
+      "label": "eCFR — 45 CFR §164.404 (HIPAA breach notice to individuals)",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-D/section-164.404"
+    },
+    {
+      "label": "eCFR — 45 CFR §164.408 (HIPAA breach notice to HHS)",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-D/section-164.408"
+    },
+    {
+      "label": "Cornell Legal Information Institute — 15 U.S.C. §7001 (E-SIGN Act consent to electronic records)",
+      "url": "https://www.law.cornell.edu/uscode/text/15/7001"
+    }
+  ]
+}

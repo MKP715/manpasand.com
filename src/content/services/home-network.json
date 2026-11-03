@@ -1,0 +1,210 @@
+{
+  "slug": "home-network",
+  "name": "Home network & Wi‑Fi security",
+  "eyebrow": "Home network & Wi‑Fi",
+  "title": "Home Wi-Fi Setup & Network Security, Rowlett TX | Manpasand",
+  "description": "Home Wi-Fi setup in Rowlett and DFW: mesh or wired access points for rooms that drop out, a locked-down router and a separate network for smart devices.",
+  "h1": "Home Wi‑Fi in Rowlett that reaches the far rooms",
+  "lede": "We set up home Wi‑Fi in Rowlett and across Dallas–Fort Worth so it reaches the rooms you actually use. Then we lock down the router and give your smart TVs, speakers and thermostats a network of their own. You get a fixed-price quote before we start.",
+  "summary": "Wi‑Fi that reaches the far rooms, a locked-down router, a separate network for smart devices, parental controls and a steady home office.",
+  "audience": [
+    "Homes where the back bedroom, upstairs or patio keeps losing Wi‑Fi",
+    "Anyone working from home on video calls most of the day",
+    "Parents who want bedtime pauses and content filters at home",
+    "Households with a growing pile of smart TVs, speakers and gadgets",
+    "People still using the router the internet company installed years ago"
+  ],
+  "included": [
+    "A room-by-room signal check and a look at where the router sits",
+    "A mesh or wired access point plan sized to your house",
+    "Router lockdown: new passwords, WPA3, updates, risky features off",
+    "A separate network for TVs, speakers, thermostats and consoles",
+    "Guest Wi‑Fi that keeps visitors off your own devices",
+    "Parental controls: bedtime pauses and content filtering",
+    "A wired connection for the home office desk where we can get one",
+    "Casting and printing tested from your phone before we leave",
+    "Network names, passwords and settings handed over in writing"
+  ],
+  "sections": [
+    {
+      "heading": "Home Wi‑Fi setup that fixes dead zones: placement, mesh or wired",
+      "paragraphs": [
+        "Before we suggest buying anything, we look at where the router sits. A router on a closet floor at one end of the house often explains the weak bedroom at the other. Google’s advice for its Nest Wifi routers is to keep them off the ground, in the open and away from walls, doors and even aquariums. It also notes that thick brick or concrete walls hurt performance.",
+        "If moving the router isn’t enough, there are two main fixes. A **mesh system** is a set of matching units that relay your connection over Wi‑Fi. It needs no new wiring, but each wireless hop uses airtime your devices could have had. Google says its units work best no more than two rooms apart, and its sizing guide puts one on each floor of a two-story house. **Wired access points**, or mesh units joined by Ethernet (“wired backhaul”), skip that hop. TP-Link describes the result as lower latency with no bandwidth lost to a wireless hop.",
+        "Wired needs a cable path. About 83% of Rowlett’s housing units are detached single-family houses, and the median one was built in 1997 (Census Bureau, 2020–2024 American Community Survey), so wiring varies from house to house. We start by checking what’s already in the walls: Ethernet jacks, cable-TV coax or neither. Where there’s coax, MoCA adapters can carry the network over the existing cable.",
+        "One North Texas detail: mesh units are built for indoor rooms. Google rates its Nest Wifi Pro for dry, indoor spaces at 32–95°F. The National Weather Service puts DFW’s average first 100°F day at July 1 and the last at August 27. An attic or a closed-up garage isn’t air-conditioned, so we don’t hide a unit there to reach the backyard."
+      ]
+    },
+    {
+      "heading": "Locking down the router",
+      "paragraphs": [
+        "Your router is the front door to everything else on the network. In May 2025 the FBI warned that criminals were taking over end-of-life routers with malware called TheMoon, which doesn’t need a password to get in. They used the routers as proxies to hide their own traffic. The FBI says routers from 2010 or earlier likely no longer get software updates. If yours is past end of life, replace it. On whatever router you end up with, we set these, following FTC and NSA home-network guidance:"
+      ],
+      "list": [
+        "A new admin password and network name in place of the factory defaults",
+        "WPA3 Personal, the newer and stronger Wi‑Fi encryption (or WPA2/WPA3 mixed mode if older devices can’t join), with a passphrase of at least 20 characters",
+        "WPS (push-button or PIN pairing), UPnP (lets devices open ports on the router by themselves) and remote management (changing router settings from outside the home) turned off. If a game console then can’t join online games, we open only the ports its maker lists, for that console alone.",
+        "Automatic firmware updates, where the router supports them",
+        "A weekly scheduled reboot, if the router can do it",
+        "A visible network name: hiding it adds no security and can cause connection problems"
+      ]
+    },
+    {
+      "heading": "Separate networks for smart devices, guests and kids",
+      "paragraphs": [
+        "The NSA’s home-network guidance says to split Wi‑Fi into at least three networks: main, guest and smart devices. That keeps the less secure gadgets from talking directly to your laptops and phones. Smart TVs, streaming sticks, speakers, thermostats, printers and game consoles go on the device network. Phones and computers stay on the main one, and visitors get guest Wi‑Fi.",
+        "The trade-off is convenience. Google says your phone has to be on the same Wi‑Fi network as a Chromecast to cast to it, and printers and speakers you reach from your phone can need the same treatment. So the TV you cast to every night may stay on the main network, or, if the router supports it, we let casting and printing cross between the networks. Either way, we test both from your phone before we call the job done.",
+        "Parental controls work best in layers. On the router we can set bedtime pauses and family filtering, such as Cloudflare’s 1.1.1.1 for Families, which can block malware and adult content. That covers the TV and console too. But router rules only see traffic on your Wi‑Fi, so they miss:"
+      ],
+      "list": [
+        "A phone on cellular data.",
+        "A device connected through a VPN.",
+        "Devices using a private (randomized) Wi‑Fi address, a privacy setting on newer phones; Google says its Family Wi‑Fi controls don’t work on them."
+      ],
+      "after": [
+        "The FTC says controls need to be set up on every device your kid uses. So we pair the router rules with Apple, Google or Microsoft family settings on the kids’ own devices.",
+        "All of this is network work. We don’t install or service security cameras, video doorbells, smart locks or alarm sensors; the FAQ below explains why."
+      ]
+    },
+    {
+      "heading": "A home office that holds up on video calls",
+      "paragraphs": [
+        "About 18% of Rowlett workers worked from home in the Census Bureau’s 2020–2024 American Community Survey, against about 14% statewide. For a work-from-home desk, the biggest upgrade is usually a cable. A laptop or dock plugged into Ethernet, or into a wired access point in the same room, doesn’t share airtime with the rest of the house.",
+        "The work computer goes on the main network, never the device network. If your employer manages the laptop, we leave its settings and VPN alone; the NSA points to a VPN as one way to reach work systems safely from home. If calls drop every time the lights flicker, a small battery backup for the modem and router helps, and our guide to [protecting your tech from power outages](/guides/power-outage-protection-office-tech/) covers sizing one. If the home office is a business with staff or customer records, it needs more than home gear: see [network security for small businesses](/services/network-security/) and our [small business IT support](/services/small-business-it/).",
+        "We’re based in Rowlett and come to you, from [Sachse homes](/service-areas/sachse-tx/) to [Plano home offices](/service-areas/plano-tx/). Here are [all the areas we serve](/service-areas/)."
+      ]
+    }
+  ],
+  "process": [
+    {
+      "title": "Free consultation",
+      "text": "Tell us about the house, the rooms that drop out and what’s connected. The consultation is free, and we reply within one business day."
+    },
+    {
+      "title": "Written scope, fixed price",
+      "text": "You get a detailed scope of work and a fixed-price quote before any work starts, with no hidden fees. If Texas sales tax applies, it’s shown as its own line."
+    },
+    {
+      "title": "Set up and test",
+      "text": "We place and configure the equipment, split the networks and lock down the router. Then we check the signal in the rooms you use and test casting and printing from your phone."
+    },
+    {
+      "title": "Walk-through and handoff",
+      "text": "We show you what changed and hand over the network names, passwords and settings in writing. If a defect within the original scope is reported within 14 days of completion, we fix it at no cost ([guarantee terms](/terms/#guarantee))."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Why is my Wi‑Fi slow in some rooms?",
+      "a": "Usually it’s distance plus what’s in the way. Walls and floors weaken the signal, brick and concrete more than drywall, and the faster 5 GHz and 6 GHz bands lose range sooner than 2.4 GHz. A router tucked in a cabinet or on the floor makes it worse. Sometimes it’s the device: a phone or laptop without 6 GHz support can’t use that band at all, so we check both ends."
+    },
+    {
+      "q": "Do I need a mesh Wi‑Fi system?",
+      "a": "Not always. A single, well-placed router can cover a smaller one-story home; Google, for example, rates one Nest Wifi Pro for up to 2,200 square feet. A two-story house, a long layout or brick walls inside often need more than one unit. If the house has Ethernet or coax in the right rooms, wired access points or wired mesh units usually do better than an all-wireless mesh."
+    },
+    {
+      "q": "Is the router from my internet provider good enough?",
+      "a": "Often it’s fine for a smaller home, and your provider may push its updates automatically; the FTC suggests asking yours whether it does. The usual limits are coverage and how much you can change. The NSA suggests connecting a router you own to the provider’s equipment if you want more control over Wi‑Fi and security settings. We’ll tell you whether yours is worth keeping before you buy anything."
+    },
+    {
+      "q": "Should smart home devices be on a separate network?",
+      "a": "Yes, in most homes. The NSA recommends at least three networks (main, guest and one for smart devices) so less secure gadgets can’t talk directly to your computers and phones. The catch is casting and printing from your phone, which need the right setup to work across networks. We set that up and test it before we leave."
+    },
+    {
+      "q": "How much does it cost to have someone set up home Wi‑Fi?",
+      "a": "It depends on the house: its size, how many floors it has, what the walls are made of, whether there’s Ethernet or coax to use, how many devices you have and whether you need new equipment. We don’t publish prices, because two houses rarely need the same work. The [consultation is free](/contact/#estimate), and you get a fixed-price quote before any work starts, with any Texas sales tax shown as its own line."
+    },
+    {
+      "q": "Can you install my video doorbell or security cameras?",
+      "a": "No. In Texas, installing or servicing security cameras, video doorbells, alarm sensors, smart locks or door-access systems for someone else requires a Private Security license from the Texas Department of Public Safety, and we don’t hold one, so we don’t do that work, camera wiring included. Hire a licensed company and contract with them directly; you can check any installer on [DPS’s public license search](https://tops.portal.texas.gov/). We look after the rest: the router, the Wi‑Fi and the devices you use every day."
+    }
+  ],
+  "related": [
+    "network-security",
+    "small-business-it",
+    "tech-consulting"
+  ],
+  "cta": "Tell us which rooms drop out and what’s connected, and we’ll reply within one business day to set up a free consultation.",
+  "sources": [
+    {
+      "claim": "Google (Nest Wifi placement): keep points no more than 2 rooms from the router or another point; place the router off the ground and in plain view; avoid obstructions like walls, doors and aquariums",
+      "url": "https://support.google.com/googlehome/answer/7183150?hl=en"
+    },
+    {
+      "claim": "Google (how many Nest Wifi points): one Nest Wifi Pro covers up to 2,200 sq ft; its example 2,200 sq ft two-story home gets two points, one per floor; heavy furniture and thick concrete or brick walls affect Wi-Fi performance",
+      "url": "https://support.google.com/googlehome/answer/7182840"
+    },
+    {
+      "claim": "NETGEAR: 2.4 GHz gives longer range at slower speeds; 5 GHz less coverage but faster; 6 GHz least coverage, fastest; higher frequencies have a hard time penetrating walls and floors; both router and device need 6 GHz support to use that band",
+      "url": "https://www.netgear.com/hub/wifi/routers/difference-2-4-ghz-5-ghz-and-6-ghz/"
+    },
+    {
+      "claim": "TP-Link: Ethernet backhaul lets mesh units talk over a cable instead of Wi-Fi, giving lower latency and no bandwidth loss from a wireless hop; a strong choice for multi-story homes, thick walls or homes already wired with Ethernet",
+      "url": "https://www.tp-link.com/us/support/faq/1794/"
+    },
+    {
+      "claim": "MoCA Alliance: MoCA reuses existing coax wiring for network coverage",
+      "url": "https://mocalliance.org/"
+    },
+    {
+      "claim": "Rowlett housing (ACS 2020–2024 5-year, tables B25024/B25035): 20,142 of 24,216 housing units (83.2%) are 1-unit detached; median year structure built 1997; Census Reporter republishes Census Bureau ACS tables",
+      "url": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B08301,B25035,B25034,B25024&geo_ids=16000US4863572,04000US48"
+    },
+    {
+      "claim": "Rowlett: 6,448 of 35,018 workers 16+ (18.4%, MOE ±793 workers) worked from home; Texas: 2,051,250 of 14,280,889 (14.4%) (ACS 2020–2024 5-year, table B08301)",
+      "url": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B08301,B25035,B25034,B25024&geo_ids=16000US4863572,04000US48"
+    },
+    {
+      "claim": "Google Nest Wifi Pro safety guide: do not use at ambient temperatures below 0°C (32°F) or above 35°C (95°F); designed for a dry, indoor environment",
+      "url": "https://support.google.com/wifi/answer/7450618"
+    },
+    {
+      "claim": "National Weather Service Fort Worth: DFW average date of first 100°F is July 1 and of last 100°F is August 27 (first/last occurrences 1899–2024)",
+      "url": "https://www.weather.gov/fwd/d100info"
+    },
+    {
+      "claim": "FBI IC3 PSA I-050725-PSA (May 7, 2025): end-of-life routers breached with variants of TheMoon malware, which does not require a password, and used as proxies to commit crimes anonymously; routers dated 2010 or earlier likely no longer receive software updates; replace end-of-life routers",
+      "url": "https://www.ic3.gov/PSA/2025/PSA250507"
+    },
+    {
+      "claim": "FTC (Dec 2022): use WPA3 Personal or WPA2 Personal; change the default admin username, password and network name; turn off remote management, WPS and UPnP; check with your ISP whether it sends automatic updates; set up a guest network",
+      "url": "https://consumer.ftc.gov/articles/how-secure-your-home-wi-fi-network"
+    },
+    {
+      "claim": "CISA (archived 2021 tip): change default router log-in credentials; disable WPS (PIN design flaw); disable UPnP unless needed; turn off remote management",
+      "url": "https://www.cisa.gov/news-events/news/home-network-security"
+    },
+    {
+      "claim": "NSA CSI ‘Best Practices for Securing Your Home Network’ (Feb 2023, Ver. 1.0, still the current edition; the official URL blocks automated fetches, so it was checked via the Internet Archive copy at https://web.archive.org/web/20230603143012id_/https://media.defense.gov/2023/Feb/22/2003165170/-1/-1/0/CSI_BEST_PRACTICS_FOR_SECURING_YOUR_HOME_NETWORK.PDF): the router is the gateway into the home network; update routers, preferably automatically, and replace them at end of life; consider a personally owned router connected to the ISP-provided modem/router for more administrative control; WPA3 or WPA2/3 with a passphrase of at least 20 characters; don’t hide the SSID (no added security, may cause compatibility issues); segment at minimum into primary, guest and IoT networks so less secure devices can’t directly communicate with more secure ones; disable remote administration and UPnP; schedule weekly router reboots; use a VPN to reach work networks during telework",
+      "url": "https://media.defense.gov/2023/Feb/22/2003165170/-1/-1/0/CSI_BEST_PRACTICS_FOR_SECURING_YOUR_HOME_NETWORK.PDF"
+    },
+    {
+      "claim": "Google Chromecast help: your mobile device, tablet or computer must be on the same Wi-Fi network as your Chromecast to cast",
+      "url": "https://support.google.com/chromecast/answer/3006709?hl=en"
+    },
+    {
+      "claim": "Cloudflare 1.1.1.1 for Families: 1.1.1.3 / 1.0.0.3 block malware and adult content",
+      "url": "https://developers.cloudflare.com/1.1.1.1/setup/#1111-for-families"
+    },
+    {
+      "claim": "Astound (eero parental controls): mobile data or a VPN can bypass eero content restrictions",
+      "url": "https://www.astound.com/learn/internet/eero-parental-controls"
+    },
+    {
+      "claim": "Google Family Wi-Fi: features do not work with devices that use a Private Address or Randomized MAC Address",
+      "url": "https://support.google.com/googlenest/answer/7535858?hl=en"
+    },
+    {
+      "claim": "FTC (Apr 22, 2025): parental controls need to be set up on all the devices your kid uses; device tools include Apple Family Sharing, Google Family Link and Microsoft Family Safety",
+      "url": "https://consumer.ftc.gov/consumer-alerts/2025/04/how-use-parental-controls-keep-your-kid-safer-online"
+    },
+    {
+      "claim": "Tex. Occ. Code §1702.002(1)(C): camera systems that record images in a residence or business are ‘alarm systems’; §1702.105(a): selling, installing or servicing an alarm system is acting as an alarm systems company, which needs a DPS license; §1702.105(b) and §1702.1055 cover electronic access control devices (see compliance.md §1)",
+      "url": "https://tcss.legis.texas.gov/resources/OC/htm/OC.1702.htm"
+    },
+    {
+      "claim": "Texas DPS TOPS portal has a public ‘Search Licensees’ lookup (the linked root URL redirects here)",
+      "url": "https://tops.portal.texas.gov/psp-self-service/login/auth"
+    }
+  ]
+}

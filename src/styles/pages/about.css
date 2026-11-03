@@ -1,0 +1,41 @@
+/* /about/ — scoped to body.pg-about. Tokens only; breakpoints 1100 / 960 / 800 / 560. */
+
+/* §01 service groups: three ruled columns, each with its service links */
+.pg-about .ab-groups{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(24px,4vw,48px)}
+.pg-about .ab-group{display:flex;flex-direction:column;border-top:2px solid var(--ink);padding-top:18px}
+.pg-about .ab-group > .label{display:flex;justify-content:space-between;gap:12px}
+.pg-about .ab-group > .label span:last-child{color:var(--accent)}
+.pg-about .ab-group h3{margin-top:22px}
+.pg-about .ab-group > p:not(.label){margin-top:12px;color:var(--ink-2);font-size:1rem}
+.pg-about .ab-links{margin-top:24px}
+.pg-about .ab-links li{border-top:1px solid var(--rule)}
+.pg-about .ab-links li:last-child{border-bottom:1px solid var(--rule)}
+.pg-about .ab-links a{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:48px;padding:10px 0;font-weight:600;color:var(--ink);text-decoration:none}
+.pg-about .ab-links .go{color:var(--accent);transition:transform var(--dur) var(--ease)}
+.pg-about .ab-links a:hover span{color:var(--accent);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.22em}
+.pg-about .ab-links a:hover .go{transform:translateX(3px)}
+@media (max-width:960px){
+  .pg-about .ab-groups{grid-template-columns:minmax(0,1fr)}
+  .pg-about .ab-group h3{margin-top:14px}
+}
+
+/* §02 #why-us: four ruled points */
+.pg-about .ab-why{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(20px,3vw,40px)}
+.pg-about .ab-why li{border-top:2px solid var(--ink);padding-top:18px}
+.pg-about .ab-why .label{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.pg-about .ab-why-ic{display:grid;place-items:center;width:40px;height:40px;border:1.5px solid var(--accent);border-radius:var(--radius);color:var(--accent);flex:none}
+.pg-about .ab-why h3{margin-top:22px}
+.pg-about .ab-why li > p:last-child{margin-top:12px;color:var(--ink-2);font-size:1rem}
+@media (max-width:1100px){ .pg-about .ab-why{grid-template-columns:repeat(2,minmax(0,1fr))} }
+@media (max-width:560px){
+  .pg-about .ab-why{grid-template-columns:minmax(0,1fr)}
+  .pg-about .ab-why h3{margin-top:12px}
+}
+
+/* §04 what we don't do: three callouts */
+.pg-about .ab-dont{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(16px,2.5vw,32px)}
+@media (max-width:960px){ .pg-about .ab-dont{grid-template-columns:minmax(0,1fr)} }
+
+/* §05 check for yourself: related list in two columns */
+.pg-about .ab-check .related{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:clamp(24px,4vw,64px)}
+@media (max-width:800px){ .pg-about .ab-check .related{grid-template-columns:minmax(0,1fr)} }

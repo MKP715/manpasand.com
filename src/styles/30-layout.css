@@ -1,0 +1,48 @@
+/* Layout: container, section rhythm, section heads, splits, generic grids. Shared file.
+   Breakpoints (literal, see design-final.md §2): xl 1120 · lg 1100 · md 960 · sm 800 · xs 720 · xxs 640 · min 560 */
+.wrap{max-width:var(--maxw);margin-inline:auto;padding-inline:var(--gutter)}
+.wrap--narrow{max-width:calc(var(--maxw-narrow) + 2 * var(--gutter))}
+.wrap--prose{max-width:calc(var(--maxw-prose) + 2 * var(--gutter))}
+
+.section{padding-block:var(--section)}
+.section--tight{padding-block:var(--section-sm)}
+.alt{background:var(--paper-2);border-block:1px solid var(--rule)}
+.section + .section:not(.alt):not(.band){border-top:1px solid var(--rule)}
+.alt + .section,.band + .section{border-top:0}
+
+/* Section head (§5): § label (3fr) / H2 + lead + more (9fr) */
+.sec-head{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,9fr);gap:24px clamp(24px,4vw,64px);margin-bottom:clamp(36px,5vw,64px);align-items:start}
+.sec-head > .label{padding-top:12px;border-top:2px solid var(--ink);align-self:start}
+.sec-head h2{font-size:var(--fs-h2);line-height:1.05}
+.sec-head .lead{margin-top:18px}
+.sec-head .more{margin-top:14px}
+.sec-head--compact{margin-bottom:clamp(24px,3vw,36px)}
+@media (max-width:800px){
+  .sec-head{grid-template-columns:minmax(0,1fr)}
+  .sec-head > .label{justify-self:start;padding-top:10px;min-width:min(220px,60%)}
+}
+
+.lead{font-size:var(--fs-lead);line-height:1.55;color:var(--ink-2);max-width:36em;text-wrap:pretty}
+
+/* Splits (§5) — collapse to one column at ≤960 (7/5, 8/4) or ≤800 (4/8). */
+.split{display:grid;gap:clamp(24px,5vw,80px);align-items:start}
+.split--7-5{grid-template-columns:minmax(0,7fr) minmax(0,5fr)}
+.split--5-7{grid-template-columns:minmax(0,5fr) minmax(0,7fr)}
+.split--8-4{grid-template-columns:minmax(0,8fr) minmax(0,4fr)}
+.split--4-8{grid-template-columns:minmax(0,4fr) minmax(0,8fr)}
+.split--6-6{grid-template-columns:repeat(2,minmax(0,1fr))}
+.split--stretch{align-items:stretch}
+@media (max-width:960px){.split--7-5,.split--5-7,.split--8-4,.split--6-6{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:800px){.split--4-8{grid-template-columns:minmax(0,1fr)}}
+
+/* Generic card grids */
+.grid{display:grid;gap:clamp(20px,3vw,40px)}
+.grid--2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.grid--3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.grid--4{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media (max-width:1100px){.grid--4{grid-template-columns:repeat(2,minmax(0,1fr))}.grid--3{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:800px){.grid--2{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:640px){.grid--3,.grid--4{grid-template-columns:minmax(0,1fr)}}
+
+/* Vertical rhythm helper: children spaced by --stack (default 24px) */
+.stack > * + *{margin-top:var(--stack,24px)}

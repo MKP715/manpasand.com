@@ -1,0 +1,193 @@
+{
+  "slug": "small-business-it",
+  "name": "Small Business IT Support",
+  "eyebrow": "Small business IT",
+  "title": "Small Business IT Support in Dallas–Fort Worth | Manpasand",
+  "description": "On-demand IT for DFW small offices: networks, POS systems, computers and printers. Fixed-price quotes, no hidden fees, replies in one business day.",
+  "h1": "IT support for offices without an IT person",
+  "lede": "Our small business IT support covers the computers, printers, Wi‑Fi and accounts that offices of about 2–25 people, and shops with a point-of-sale system, depend on. We write down how it all fits together, and you get a fixed-price quote before any work starts.",
+  "summary": "On-demand help for small offices and shops: computers, printers, POS networks, Microsoft 365 or Google Workspace, backups and staff changes.",
+  "audience": [
+    "Offices of about 2–25 people with no IT person on staff",
+    "Shops and restaurants that take cards on a POS system",
+    "Owners who became the office IT person by default",
+    "Real estate and professional-services offices"
+  ],
+  "included": [
+    "Computer and printer setup, repair and replacement planning",
+    "Office Wi‑Fi, router and network troubleshooting",
+    "POS networks: card readers, receipt printers and payment Wi‑Fi",
+    "Microsoft 365 and Google Workspace accounts, email and admin roles",
+    "Backups set to run on their own, then test-restored",
+    "New-hire setup and account shutoff when someone leaves",
+    "Remote fixes for account, email and software problems",
+    "On-site visits across Dallas–Fort Worth",
+    "A written record of your accounts, devices and admin access"
+  ],
+  "sections": [
+    {
+      "heading": "What small business IT support covers in a 2–25 person office",
+      "paragraphs": [
+        "Most offices this size don’t need a full-time IT person. They need someone who can come in when the printer stops scanning to email, the Wi‑Fi drops in the back room, or a new hire starts Monday and needs a laptop and a login.",
+        "Older PCs need a decision now. Windows 10 security updates stopped on October 14, 2025, except for PCs in Microsoft’s paid Extended Security Updates program. For businesses that means up to three years at $61 per device for the first year, doubling each year, and a late sign-up pays for the years it missed. Windows 11 needs a TPM 2.0 chip and a supported processor, so some older machines can’t upgrade. We check each PC and tell you which can move to Windows 11, which are worth keeping patched for now, and which to replace.",
+        "In a shop or restaurant, the point-of-sale software usually belongs to a vendor, but it runs on your network. We set up and troubleshoot the part that’s yours: the router, the wired connections and the Wi‑Fi your card readers and receipt printers use. The PCI Security Standards Council’s guide for small merchants says that if you offer customers free Wi‑Fi, payments belong on a different network, and the device you take payments on shouldn’t be used for email or browsing. We set it up that way. For firewalls and segmented Wi‑Fi across a larger office, see [network security for small businesses](/services/network-security/).",
+        "A few jobs have their own pages: [conference room AV setup](/services/conference-room-av/) for meeting rooms, [technology consulting](/services/tech-consulting/) when you want a plan or a second opinion before you buy, and [SQL Server consulting](/services/database-consulting/) when the trouble is a database."
+      ]
+    },
+    {
+      "heading": "How support works: remote, on-site, and the quote",
+      "paragraphs": [
+        "Call (715) 255-0420 or email info@manpasand.com. Our hours are Mon–Fri, 9 AM – 5 PM. We respond within one business day, and critical support requests are acknowledged within two hours during those hours. We aren’t a round-the-clock help desk.",
+        "Many problems never need a visit. A locked-out account, a mailbox that won’t sync or a shared folder someone can’t open can usually be fixed remotely, in a session you start and can end at any time. Hardware, network and POS problems usually need us in the room. We’re based in Rowlett, so [Garland small businesses](/service-areas/garland-tx/) are about 13 minutes / 7 miles away without traffic and [Richardson offices](/service-areas/richardson-tx/) about 20 minutes / 12 miles. The [rest of our service area](/service-areas/) covers Dallas–Fort Worth.",
+        "We don’t publish prices, because a two-PC office and a 20-person office with a POS system aren’t the same job. After a free consultation you get a written scope of work and a fixed-price quote before anything starts, with no hidden fees; if Texas sales tax applies, it’s a separate line. To hear from clients first, read [what two clients told us](/reviews/)."
+      ]
+    },
+    {
+      "heading": "What to have written down before something breaks",
+      "paragraphs": [
+        "The hardest IT calls aren’t about broken hardware. They’re about a login nobody has: the person who set up email left years ago, or the router password was on a sticky note that got thrown out. On every job we write down what we find, in a record you keep. It should answer these questions:"
+      ],
+      "list": [
+        "Who has admin rights to Microsoft 365 or Google Workspace? Microsoft recommends fewer than five Global Administrators, each using multifactor authentication.",
+        "Where is your domain registered, in whose account, and when does it renew?",
+        "What’s your internet provider’s account number, and who has the router or firewall login?",
+        "Who uses each computer, printer and tablet, and when does its warranty end?",
+        "What remote-access tools has your POS provider installed? The PCI guide says to ask vendors how to switch remote access off when it isn’t needed.",
+        "Where do backups go, how often do they run, and when was the last test restore?"
+      ]
+    },
+    {
+      "heading": "New hires, departures and backups: the jobs that get skipped",
+      "paragraphs": [
+        "New hires get their own login for everything, with multifactor authentication on and passwords in a password manager the business controls, not a spreadsheet. The PCI guide says never to share logins on payment systems, and Microsoft says its studies show an account is 99.9% less likely to be compromised with multifactor authentication. There’s a legal angle too. Since September 1, 2025, a Texas business with fewer than 250 employees can’t be made to pay exemplary (punitive) damages in a data-breach lawsuit if it had a qualifying cybersecurity program in place when the breach happened. For businesses under 20 employees, that program includes password policies and staff security training. Our guide to [Texas breach notification rules](/guides/texas-data-breach-notification/) has the details.",
+        "When someone leaves, deleting the account is the step people rush, and it’s the one that loses data. Microsoft 365 can restore a deleted user for 30 days, Google Workspace for 20; after that, the mail and files are gone. In Microsoft 365, converting the mailbox to a shared mailbox keeps the email and calendar, and under 50 GB it needs no license, but the old password still works until someone resets it. In Google Workspace, transfer their Drive files and email to a coworker first; anything not transferred is deleted with the account.",
+        "CISA calls the 3-2-1 rule for backups a trusted guideline: three copies of important files, on two kinds of storage, one kept off-site. It also calls for scheduled recovery tests. A backup nobody has restored from is a guess, so we set backups to run on their own and restore a test file to prove they work.",
+        "Power is the other weak spot: a short outage can drop the modem, router and card readers mid-sale. Our guide to [protecting office tech from power outages](/guides/power-outage-protection-office-tech/) covers battery backups. If your POS can take cards offline, know its limits. Square, for example, expires pending offline payments after 72 hours and holds the seller responsible for any that expire, are declined or are disputed."
+      ]
+    }
+  ],
+  "process": [
+    {
+      "title": "Free consultation",
+      "text": "Tell us what’s broken or what’s coming up, by phone or email. We talk through your setup and what you need at no charge."
+    },
+    {
+      "title": "Fixed-price quote",
+      "text": "You get a written scope of work and a fixed price before any work begins. If Texas sales tax applies, it’s shown as its own line."
+    },
+    {
+      "title": "Fix and document",
+      "text": "We do the work remotely or on-site, whichever the problem needs. Then we record the accounts, devices and settings we touched."
+    },
+    {
+      "title": "Walk-through and guarantee",
+      "text": "We show you what changed and hand over the record. If a defect within the original scope is reported within 14 days of completion, we fix it at no cost ([guarantee terms](/terms/#guarantee))."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How much does IT support cost for a small business?",
+      "a": "It depends on how it’s sold. Managed IT providers commonly charge a recurring monthly fee, often per device or per user, while break-fix support is paid for when something needs fixing. We don’t publish prices, because the work varies too much from one office to the next. After a free consultation you get a fixed-price quote, with any Texas sales tax on its own line, before any work starts."
+    },
+    {
+      "q": "What is the difference between managed IT and break-fix support?",
+      "a": "Managed IT is a subscription: the provider watches your systems and handles a defined list of work for a recurring monthly fee. Break-fix means support happens after a problem shows up, and you pay for that job. A managed plan suits an office that wants someone monitoring every day. For a small office with a handful of PCs, paying for the work you actually need is often simpler."
+    },
+    {
+      "q": "Do I need a monthly IT contract?",
+      "a": "Not every office does. Our small business IT support is on demand: you call when something needs doing, and we quote it at a fixed price before we start. If you want systems monitored every day, a managed-services contract is built for that, and we’ll tell you honestly whether an office your size needs one."
+    },
+    {
+      "q": "Can you set up and support our POS system?",
+      "a": "We handle the network side: the router, the wired connections, the Wi‑Fi your card readers and receipt printers use, and keeping payments on a different network from customer Wi‑Fi, as the PCI Security Standards Council advises. Problems inside the POS software or with your merchant account go to your POS provider’s support line. When something stops working, we’ll tell you which side the problem is on."
+    },
+    {
+      "q": "What does small business IT support include?",
+      "a": "For us it means the everyday technology a small office runs on: computers and printers, the office network and Wi‑Fi, the network side of your POS, Microsoft 365 or Google Workspace accounts, backups, new hires and departures, and a written record of all of it. It doesn’t include security cameras or alarm systems. Texas requires a DPS Private Security license for that work, and we don’t hold one. Hire a licensed company — you can check any installer on [DPS’s license search](https://tops.portal.texas.gov/psp-self-service/search/index)."
+    }
+  ],
+  "related": [
+    "network-security",
+    "tech-consulting",
+    "conference-room-av"
+  ],
+  "cta": "Tell us what’s broken, or what’s coming up, and we’ll reply within one business day to set up a free consultation.",
+  "sources": [
+    {
+      "claim": "Windows 10 support ended October 14, 2025; after that, no security fixes without ESU; commercial ESU runs up to three years after end of support; $61 per device for Year One, price doubles each consecutive year; ESUs are cumulative (buying in Year Two means paying for Year One too)",
+      "url": "https://learn.microsoft.com/en-us/windows/whats-new/extended-security-updates"
+    },
+    {
+      "claim": "Windows 11 minimum requirements include TPM version 2.0 and a compatible 64-bit processor",
+      "url": "https://www.microsoft.com/en-us/windows/windows-11-specifications"
+    },
+    {
+      "claim": "PCI SSC small-merchant guide (v3.0, April 2024): if you offer free customer Wi‑Fi, use another network for the payment system; don’t use the payment device for web, email or social media; each employee gets their own login (never share); ask vendors how to disable remote access when not needed",
+      "url": "https://listings.pcisecuritystandards.org/pdfs/Small_Merchant_Guide_to_Safe_Payments.pdf"
+    },
+    {
+      "claim": "Microsoft recommends assigning the Global Administrator role to fewer than five people, all protected with MFA; “Based on our studies, your account is 99.9% less likely to be compromised if you use MFA”",
+      "url": "https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/best-practices"
+    },
+    {
+      "claim": "Microsoft 365: a deleted user account and its data can be restored within 30 days of deletion",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/restore-user"
+    },
+    {
+      "claim": "Microsoft 365: converting a user mailbox to a shared mailbox keeps email and calendar; without a license a shared mailbox is limited to 50 GB; the license can be removed after conversion; the original username and password keep working unless the password is reset; don’t delete the account",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/admin/email/convert-user-mailbox-to-shared-mailbox"
+    },
+    {
+      "claim": "Google Workspace: a deleted user can be restored up to 20 days after deletion; after 20 days the data is gone",
+      "url": "https://knowledge.workspace.google.com/admin/users/restore-a-recently-deleted-user"
+    },
+    {
+      "claim": "Google Workspace: Gmail and Drive data can be transferred to another user; if content isn’t transferred to another user, it is deleted",
+      "url": "https://knowledge.workspace.google.com/admin/getting-started/options-to-preserve-former-employee-data"
+    },
+    {
+      "claim": "CISA calls the 3-2-1 rule a trusted guideline (3 copies, 2 types of storage media, 1 off-site); recommends automatic, regular backups and scheduled recovery tests",
+      "url": "https://www.cisa.gov/back-business-data"
+    },
+    {
+      "claim": "Square: pending offline payments expire after 72 hours if not uploaded; “You’re responsible for any expired, declined, or disputed payments accepted while taking offline payments”",
+      "url": "https://squareup.com/help/us/en/article/5095"
+    },
+    {
+      "claim": "Tex. Bus. & Com. Code §§542.002–.004 (S.B. 2610, eff. Sept 1, 2025): entities with fewer than 250 employees that own or license computerized sensitive personal information are shielded from exemplary damages in a breach action if a compliant cybersecurity program was implemented and maintained at the time of the breach; for fewer than 20 employees the simplified requirements include password policies and appropriate employee cybersecurity training",
+      "url": "https://tcss.legis.texas.gov/resources/BC/htm/BC.542.htm"
+    },
+    {
+      "claim": "Tex. Bus. & Com. Code §521.053: breach-notice deadlines (individuals within 60 days; Texas AG within 30 days if 250+ Texans), covered in the linked guide",
+      "url": "https://tcss.legis.texas.gov/resources/BC/htm/BC.521.htm"
+    },
+    {
+      "claim": "Tex. Occ. Code §1702.002(1)(C): camera systems that record images of a residence or business are alarm systems; §1702.102(a): a license is required to act as or offer to perform the services of an alarm systems company",
+      "url": "https://tcss.legis.texas.gov/resources/OC/htm/OC.1702.htm"
+    },
+    {
+      "claim": "Texas DPS TOPS portal “Search for Licensees” page (individuals and businesses; license types include Alarm and Electronic Access)",
+      "url": "https://tops.portal.texas.gov/psp-self-service/search/index"
+    },
+    {
+      "claim": "Managed IT pricing models include per-device (“one of the most commonly offered”) and per-user, per-month flat fees, plus tiered and other models",
+      "url": "https://www.manageengine.com/products/service-desk-msp/msp-pricing-model.html"
+    },
+    {
+      "claim": "Break/fix: support provided only after technical problems occur; managed services are delivered under a subscription with an ongoing flat or near-fixed monthly fee",
+      "url": "https://en.wikipedia.org/wiki/Managed_services"
+    },
+    {
+      "claim": "Drive from Rowlett to Garland: OSRM 808.5 s / 11,149 m free-flow (about 13 minutes / 7 miles, no traffic), Census internal points; re-checked 2026-11-03, matches the Garland city page",
+      "url": "https://router.project-osrm.org/route/v1/driving/-96.548587,32.915926;-96.630334,32.909826?overview=false"
+    },
+    {
+      "claim": "Drive from Rowlett to Richardson: OSRM 1,171.3 s / 19,933 m free-flow (about 20 minutes / 12 miles, no traffic), Census internal points; re-checked 2026-11-03, matches the Richardson city page",
+      "url": "https://router.project-osrm.org/route/v1/driving/-96.548587,32.915926;-96.708069,32.972291?overview=false"
+    },
+    {
+      "claim": "Internal points used for drive times: Rowlett 32.915926, -96.548587; Garland 32.909826, -96.630334; Richardson 32.972291, -96.708069 (Census 2024 Gazetteer, Texas places)",
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_gaz_place_48.txt"
+    }
+  ]
+}

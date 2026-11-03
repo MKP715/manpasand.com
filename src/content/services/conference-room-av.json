@@ -1,0 +1,215 @@
+{
+  "slug": "conference-room-av",
+  "name": "Conference Room AV",
+  "eyebrow": "Conference room AV",
+  "title": "Conference Room AV Installation in Dallas | Manpasand",
+  "description": "Video bars, mics, displays and tidy cabling for small conference and huddle rooms in DFW, set up for Teams, Zoom or Meet and tested before handover.",
+  "h1": "Conference room AV everyone can see and hear",
+  "lede": "Our conference room AV installation is for small meeting and huddle rooms in Dallas–Fort Worth: people on the screen should see everyone at the table and hear them without echo. We choose the camera, microphones, display and network for your room and platform (Teams, Zoom or Google Meet), then test with real calls.",
+  "summary": "Video bars, mics, displays and a wired network for small meeting rooms, set up for Teams, Zoom or Meet and tested with real calls.",
+  "audience": [
+    "Offices with a huddle room or small conference room of 2–12 seats",
+    "Teams that meet clients or remote staff on Teams, Zoom or Google Meet",
+    "Owners tired of fumbling with cables at the start of every call",
+    "Businesses moving into a new suite and fitting out a meeting room"
+  ],
+  "included": [
+    "A look at seats, sight lines, windows, power and network jacks",
+    "An equipment list sized to the room and your platform",
+    "Display and video bar mounted at the right height",
+    "A wired network connection for the room system",
+    "Teams Rooms, Zoom Rooms or Google Meet room account setup",
+    "A table cable for showing a laptop on the screen",
+    "Echo and pickup checks from every seat",
+    "A scheduling panel by the door, if you want one",
+    "Test calls on your platforms before handover"
+  ],
+  "sections": [
+    {
+      "heading": "A laptop and a video bar, or a dedicated Teams, Zoom or Meet room?",
+      "paragraphs": [
+        "Small rooms usually go one of two ways. The simpler one is a USB video bar under the screen: camera, microphones and speaker in one unit. Whoever runs the meeting plugs in a laptop and joins from the Teams, Zoom or Meet app they already use. Logitech’s MeetUp 2, a typical small-room bar, connects to a laptop with two cables and works with all three platforms. There’s no room license, but someone has to bring and plug in a laptop before every call.",
+        "A room system keeps a small computer and a touch console in the room, signed in to its own room account. People book the room in Outlook or Google Calendar and tap Join. Each room needs a license. Microsoft’s Teams Rooms Basic costs nothing extra with approved Teams Rooms hardware, for up to 25 room systems. Pro adds dual screens, AI noise suppression and more. Zoom Rooms needs a paid license for each room, and Google Meet hardware needs a yearly license per device on top of Google Workspace.",
+        "Skip the shortcut of leaving a spare PC in the room signed in to Teams as an employee. Microsoft says shared meeting devices need a Teams Rooms license, and per-user Microsoft 365 licenses aren’t authorized for them.",
+        "If your clients use another platform, room systems can join their meetings as guests:"
+      ],
+      "list": [
+        "Teams Rooms can join Zoom and Webex meetings.",
+        "Zoom Rooms can join Teams meetings.",
+        "Meet hardware can join Zoom, Webex and Teams meetings."
+      ],
+      "after": [
+        "Not every feature carries over, so we test the ones you rely on.",
+        "Our rule of thumb: a room a few people use a couple of times a week does fine with a laptop and a bar. A room booked most of the day, or used by visitors, is worth a room system. A [tech consulting](/services/tech-consulting/) session can help you weigh it."
+      ]
+    },
+    {
+      "heading": "Screen size, camera placement and field of view",
+      "paragraphs": [
+        "Size the screen for the farthest chair and the smallest thing you’ll show on it, not for the room’s square footage. That’s the logic behind AVIXA’s display-sizing standard, and it’s why spreadsheets need more screen than faces do. As a starting point, Microsoft pairs a small room of about 16 by 16 feet (4–6 people) with a display of 55 inches or more. For an 18-by-20-foot room (6–12 people), it suggests 65 inches or more.",
+        "The camera goes at the front, centered and often just below the display. Microsoft’s guidance puts the lens about 1–1.1 meters (39–43 inches) off the floor for a standard-height table. It also puts it about 1.5 meters (5 feet) from the near end of the table. Don’t aim it at a window: pointed into daylight, the camera shows the people at the table dark and washed out.",
+        "Field of view matters most in small rooms, where the people at the near corners sit close to the lens. A desktop webcam such as Logitech’s C920s sees 78 degrees diagonally, which can leave them half out of the frame. The MeetUp 2 sees 120 degrees. These are meeting cameras for calls. We don’t install security cameras: in Texas that work requires a DPS Private Security license, and we don’t hold one."
+      ]
+    },
+    {
+      "heading": "Microphones, speakers and echo",
+      "paragraphs": [
+        "Echo in a small room usually has one of three causes. The first is two devices with audio on: someone joins from a laptop while the room system is already connected, and Microsoft notes that this sets up a feedback loop. The fix is one device on audio. In Teams, a person joining from a laptop in a Teams Room can choose Room audio and use the room’s microphones and speakers.",
+        "The second is the room. Drywall, glass and hard floors bounce sound back into the microphones. Microsoft’s room guidance calls for acoustic treatment on at least two walls and a carpeted or otherwise treated floor, and says to check for noisy air conditioning. In a small office, a rug and a few fabric wall panels go a long way.",
+        "The third is reach. The MeetUp 2 is rated to pick up voices up to 7 meters (23 feet) away, enough for most huddle rooms. For longer tables, Microsoft suggests at least two table microphones with overlapping coverage, placed so nobody is more than a few feet from one. Keep the speakers apart from the microphones. We check every seat with a real test call."
+      ]
+    },
+    {
+      "heading": "Conference room AV installation: cabling, network and a door panel",
+      "paragraphs": [
+        "Microsoft, Zoom and Google all recommend a wired connection for room systems, and Microsoft suggests 10 Mbps up and 10 Mbps down for each Teams Room. We connect the room computer by cable and put it on your staff network rather than guest Wi‑Fi. We also change its default admin password, which Microsoft says to do as soon as possible on Teams Rooms for Windows. Zoom Rooms’ touch controller talks directly to the room computer, and Wi‑Fi client isolation can block it. Our [network security](/services/network-security/) page covers the rest of your network.",
+        "At the table, plan for power, a network jack and an HDMI or USB‑C cable so someone can show a laptop on the screen without joining the call. A scheduling panel by the door shows green when the room is free and red or purple when it’s booked, and lets people reserve it on the spot. Teams panels generally run on PoE+, so one network cable powers them. They need a Teams Rooms Pro or Teams Shared Device license; Basic doesn’t cover them.",
+        "Texas doesn’t require a state electrician’s license for network and communications cabling. City rules can still apply, so we check with your city before running cable through walls. A new outlet behind the screen is different: that’s electrical work, which needs a state electrician’s license we don’t hold, so plan on an electrician for that part. We look at the room in person before we quote, whether it’s a huddle room on [Richardson’s Telecom Corridor](/service-areas/richardson-tx/) or a [Plano](/service-areas/plano-tx/) office. Our [conference room video setup checklist](/guides/conference-room-video-setup-checklist/) lays out each step."
+      ]
+    }
+  ],
+  "process": [
+    {
+      "title": "Free consultation",
+      "text": "We look at the room: seats, sight lines, windows, power and network jacks. We also ask which platforms you and your clients meet on."
+    },
+    {
+      "title": "Fixed-price quote",
+      "text": "You get a written scope with the equipment list, cable path and any room licenses, plus a fixed price before work begins. If Texas sales tax applies, it’s shown as its own line."
+    },
+    {
+      "title": "Install and set up",
+      "text": "We mount and cable the equipment, connect the room to your wired network and set up the room account. Then we change default passwords."
+    },
+    {
+      "title": "Test and hand over",
+      "text": "We run test calls on your platforms from the farthest seat and show your team how to join. If a defect within the original scope is reported within 14 days of completion, we fix it at no cost ([guarantee terms](/terms/#guarantee))."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How much does it cost to set up a conference room for video calls?",
+      "a": "It depends on three things: the equipment (a video bar, display and mounts, or a full room system), any per-room software license, and the labor for mounting and cabling. Licenses vary a lot. Teams Rooms Basic costs nothing extra with approved Teams Rooms hardware, while Zoom’s price page listed Zoom Rooms at $49 per room per month, billed monthly, in November 2026. We look at the room first and give you a detailed scope and a fixed-price quote before any work starts."
+    },
+    {
+      "q": "What equipment do you need for a video conference room?",
+      "a": "At minimum you need a display, a camera, microphones and a speaker (often combined in one video bar), plus a computer to run the call. That computer can be the laptop people bring or a dedicated room system. Add a wired network connection and a table cable for showing a laptop on the screen. Longer tables need extra table microphones, and a scheduling panel by the door is optional."
+    },
+    {
+      "q": "What is a huddle room?",
+      "a": "It’s a small meeting room for a handful of people, usually without a big conference table. Microsoft’s planning templates call a room of about 10 by 9 feet for 2–4 people a focus room, and one of about 16 by 16 feet for 4–6 people a small room. Either is what most offices mean by a huddle room. Both suit an all-in-one video bar, because everyone sits close to the camera and microphones."
+    },
+    {
+      "q": "Do I need special Teams Rooms or Zoom Rooms hardware?",
+      "a": "Only if you want a dedicated room system. Teams Rooms licenses are for systems on Microsoft’s approved Teams Rooms hardware list, and any shared meeting device needs a Teams Rooms license. A Zoom Room runs on a Zoom Rooms appliance, a Mac or Windows computer or an iPad, plus a Zoom Rooms license. If people will join from their own laptops, any video bar that works with your platform will do, and no room license is needed."
+    },
+    {
+      "q": "Where should the camera go in a conference room?",
+      "a": "Put it at the front, centered on the screen and usually just below it, facing away from windows. Microsoft’s guidance puts it about 1–1.1 meters (39–43 inches) off the floor for a standard-height table and about 1.5 meters (5 feet) from the near end of the table. In a tight room, choose a wide-angle camera so the people closest to the screen stay in the frame."
+    },
+    {
+      "q": "How do I stop echo in a conference room?",
+      "a": "First make sure only one device in the room has audio on. A laptop joining with its own mic and speakers next to a room system is the usual culprit. In Teams, choose Room audio when you join from a laptop in a Teams Room. If the echo stays, soften the room with a rug and wall panels, and keep speakers away from microphones."
+    }
+  ],
+  "related": [
+    "small-business-it",
+    "network-security",
+    "tech-consulting"
+  ],
+  "cta": "Tell us how many people use the room and which platform you meet on, and we’ll reply within one business day to set up a free consultation.",
+  "sources": [
+    {
+      "claim": "Microsoft room-size planning template: focus 10′×9′ (2–4 people), small 16′×16′ (4–6), medium 18′×20′ (6–12); check for excessive echo and noisy air conditioning; Teams Rooms Basic suits organizations with only a few room devices",
+      "url": "https://learn.microsoft.com/en-us/microsoftteams/rooms/rooms-plan"
+    },
+    {
+      "claim": "Teams Rooms Basic: no additional cost with a certified Teams Rooms system, up to 25 licenses, can’t license Teams panels; Pro adds dual screen support, AI noise suppression, room check-in with Teams panel; Basic includes Direct Guest Join for Zoom and Webex and automatic software updates; shared meeting devices need a Teams Rooms license and per-user Microsoft 365 licenses aren’t authorized on them",
+      "url": "https://learn.microsoft.com/en-us/microsoftteams/rooms/rooms-licensing"
+    },
+    {
+      "claim": "Microsoft recommends 10 Mbps up/down per Teams Room, strongly recommends a wired network connection, and says to change the Teams Rooms on Windows default admin password as soon as possible",
+      "url": "https://learn.microsoft.com/en-us/microsoftteams/rooms/rooms-prep"
+    },
+    {
+      "claim": "Microsoft training: small rooms (16′×16′, 4–6) ≥55-inch screen, medium rooms (18′×20′, 6–12) ≥65-inch with added table microphones; camera height 1–1.10 m for a standard-height table; camera 1.5 m from the front of the table; a camera pointed into light shows participants dark and washed out; provide a display cable (HDMI, DisplayPort, USB‑C) at the table",
+      "url": "https://learn.microsoft.com/en-us/training/modules/plan-microsoft-teams-rooms-surface-hub/5-understand-teams-accessories-components-peripherals"
+    },
+    {
+      "claim": "Microsoft room design: primary camera below the display and centered is often a good location; at least two table microphones so no participant is more than a few feet from one, with overlapping coverage; keep speakers and microphones separated; acoustic treatment on at least two walls and carpeted or treated floor; power and network at the table and equipment location; local video presentation at the table",
+      "url": "https://learn.microsoft.com/en-us/microsoftteams/hybrid-meetings-room-design"
+    },
+    {
+      "claim": "Teams panels mount outside meeting spaces, show green when available and red or purple when reserved, let people reserve the space on the spot, generally support PoE+, and need a Teams Rooms Pro or Teams Shared Device license",
+      "url": "https://learn.microsoft.com/en-us/microsoftteams/devices/teams-panels"
+    },
+    {
+      "claim": "Teams: before joining, connect to a meeting room and use its audio and video devices by selecting Room audio",
+      "url": "https://support.microsoft.com/en-us/office/join-a-meeting-in-microsoft-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9"
+    },
+    {
+      "claim": "Microsoft Teams preview team: when multiple users are in a Teams meeting in the same room, a feedback loop is created, causing an echo",
+      "url": "https://techcommunity.microsoft.com/discussions/microsoftteamspublicpreview/now-in-public-preview-ultrasound-howling-detection-in-teams-meetings/3752205"
+    },
+    {
+      "claim": "Zoom Rooms: each room needs a Zoom Rooms Appliance, iPad, macOS or Windows computer; a full Zoom Room needs a Zoom Rooms license; wired networking recommended for the room computer or appliance; a scheduling display is an additional controller device",
+      "url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0063391"
+    },
+    {
+      "claim": "Zoom Rooms controllers and scheduling displays communicate directly with the Zoom Rooms computer (TCP 9090/9091); Wi‑Fi client/AP isolation must be disabled to allow it",
+      "url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0065712"
+    },
+    {
+      "claim": "Zoom Rooms price: $49 per room per month billed monthly (checked 2026-11-03)",
+      "url": "https://zoom.us/pricing/zoom-rooms"
+    },
+    {
+      "claim": "Zoom Rooms can directly join Microsoft Teams meetings, and Teams Rooms can directly join Zoom meetings (Direct Guest Join)",
+      "url": "https://www.zoom.com/en/blog/direct-guest-join"
+    },
+    {
+      "claim": "Google Meet hardware needs a Meet hardware license for each device, sold for a one-year term, in addition to a Google Workspace subscription",
+      "url": "https://knowledge.workspace.google.com/admin/meet-hardware/buy-meet-hardware-licenses?hl=en"
+    },
+    {
+      "claim": "Google Meet hardware can join Zoom, Webex and Teams meetings at no additional cost",
+      "url": "https://knowledge.workspace.google.com/admin/meet-hardware/allow-meet-hardware-to-join-third-party-video-conferencing-services?hl=en"
+    },
+    {
+      "claim": "Google recommends a wired network connection for Meet hardware for best sound and video quality",
+      "url": "https://knowledge.workspace.google.com/admin/meet-hardware/network-requirements"
+    },
+    {
+      "claim": "Logitech MeetUp 2: for huddle and small rooms; BYOD laptop connection with a two-cable setup; works with Microsoft Teams, Zoom and Google Meet",
+      "url": "https://www.logitech.com/en-us/products/video-conferencing/conference-cameras/meetup2.html"
+    },
+    {
+      "claim": "Logitech MeetUp 2 specifications: 120° diagonal / 113° horizontal field of view; microphone pickup range up to 7 m (23 ft)",
+      "url": "https://hub.sync.logitech.com/meetup2/post/meetup-2-specifications-FyK0iLzDqbLkLkQ"
+    },
+    {
+      "claim": "Logitech C920s webcam: fixed 78° diagonal field of view",
+      "url": "https://www.logitech.com/en-us/shop/p/c920s-pro-hd-webcam.960-001257"
+    },
+    {
+      "claim": "AVIXA display image size (DISCAS): sizing is based on the farthest viewer and the element height of the content shown",
+      "url": "https://www.avixa.org/standards/discas-calculators/discas/learn-more-about-display-size"
+    },
+    {
+      "claim": "TDLR: people working on communications circuits, optical fiber and power-limited circuits are not required by the state to be licensed as electricians; municipal or regional regulations may override these exemptions (Occ. Code §1305.003(a)(12), §1305.201)",
+      "url": "https://www.tdlr.texas.gov/electricians/exemptions.htm"
+    },
+    {
+      "claim": "Tex. Occ. Code §1305.151: electrical work requires a license; §1305.002(11) defines electrical work as installing, maintaining or extending an electrical wiring system",
+      "url": "https://tcss.legis.texas.gov/resources/OC/htm/OC.1305.htm"
+    },
+    {
+      "claim": "Tex. Occ. Code §1702.002(1)(C) and §1702.102: camera systems that record images of a residence or business are alarm systems; installing them or offering to requires a DPS security services contractor license",
+      "url": "https://tcss.legis.texas.gov/resources/OC/htm/OC.1702.htm"
+    },
+    {
+      "claim": "Telecom Corridor: technology business center in Richardson, TX along US 75 (North Central Expressway)",
+      "url": "https://en.wikipedia.org/wiki/Telecom_Corridor"
+    }
+  ]
+}

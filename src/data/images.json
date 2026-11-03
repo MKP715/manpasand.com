@@ -1,0 +1,87 @@
+{
+  "work-new-home-desktop": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1440
+    ],
+    "width": 1440,
+    "height": 900,
+    "alt": "The rebuilt Mahnken Painting & More home page at desktop width: a header with the client\u2019s pen-and-ink emblem logo, the headline \u201cPainting in Rowlett, done by the owner, start to finish\u201d, estimate and phone buttons, a short checklist, and the emblem illustration beside a recent-work photo."
+  },
+  "work-new-home-mobile": {
+    "widths": [
+      360,
+      560,
+      780
+    ],
+    "width": 780,
+    "height": 1688,
+    "alt": "The rebuilt home page on a phone: a compact header with call and menu buttons, the headline, full-width estimate and phone buttons, a checklist, and a bottom bar with Call, Text and Free estimate buttons."
+  },
+  "work-new-service-desktop": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1440
+    ],
+    "width": 1440,
+    "height": 900,
+    "alt": "The rebuilt interior painting service page: a breadcrumb, the heading \u201cInterior painting in Rowlett, TX: walls, ceilings, trim and doors\u201d, an introduction, estimate and phone buttons, and a photo of a repainted kitchen and dining area."
+  },
+  "work-new-gallery-desktop": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1440
+    ],
+    "width": 1440,
+    "height": 900,
+    "alt": "The rebuilt gallery page: the heading \u201cRecent painting projects\u201d, then a before-and-after pair of a two-story living room repainted from sage green to warm beige, with a caption and a link to the interior painting page."
+  },
+  "work-new-contact-mobile": {
+    "widths": [
+      360,
+      560,
+      780
+    ],
+    "width": 780,
+    "height": 1688,
+    "alt": "The rebuilt contact page on a phone: the heading \u201cGet a free painting estimate\u201d, a short introduction, and a form with labeled name, phone and email fields marked as required."
+  },
+  "work-old-home-desktop": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1440
+    ],
+    "width": 1440,
+    "height": 900,
+    "alt": "Our 2025 one-page version at desktop width, scrolled to the top: an emoji palette logo, the headline \u201cTransform Your Space\u201d over a darkened copy of the emblem, rounded badge buttons, a gradient estimate button and the start of a chamber banner. The badge and banner text is blurred."
+  },
+  "work-old-home-mobile": {
+    "widths": [
+      360,
+      560,
+      780
+    ],
+    "width": 780,
+    "height": 1688,
+    "alt": "Our 2025 version on a phone: the business name wrapped over two lines, a hero with stacked rounded badges over the darkened emblem, a gradient estimate button and a blue chamber banner below. The badge and banner text is blurred."
+  },
+  "work-old-home-landed": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1440
+    ],
+    "width": 1440,
+    "height": 900,
+    "alt": "Our 2025 version as Chrome showed it right after loading: the page has already jumped down, so the top of the headline is cut off under the sticky header. The badge and banner text is blurred."
+  }
+}

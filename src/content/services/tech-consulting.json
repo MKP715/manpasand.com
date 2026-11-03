@@ -1,0 +1,191 @@
+{
+  "slug": "tech-consulting",
+  "name": "Tech consulting",
+  "eyebrow": "Technology consulting",
+  "title": "IT Consultant for Small Businesses in DFW | Manpasand",
+  "description": "An IT consultant for DFW small businesses: second opinions on quotes and contracts, then a written plan you can act on. Free initial consultation.",
+  "h1": "IT consulting: a second pair of eyes",
+  "lede": "Before you sign a quote, renew a contract or replace a closet full of equipment, get a second opinion. We’re based in Rowlett and work with small businesses and homes across Dallas–Fort Worth. We read the fine print, lay out the options in plain English and tell you what we’d do.",
+  "summary": "Second opinions on quotes and contracts, tech roadmaps and budgets, and plain-English comparisons for small businesses and homes.",
+  "audience": [
+    "Owners holding a quote or contract they’re unsure about",
+    "Offices with aging PCs, a server or software nearing end of support",
+    "Businesses choosing software, an IT provider or a new office setup",
+    "Homeowners weighing an internet plan, Wi‑Fi gear or a new computer"
+  ],
+  "included": [
+    "Line-by-line review of quotes and proposals from other vendors",
+    "Contract check: term, auto-renewal, cancellation, who owns what",
+    "Inventory of PCs, servers, network gear, software and subscriptions",
+    "End-of-support dates flagged for everything you run",
+    "Replacement and renewal calendar with rough budget figures",
+    "Side-by-side comparison of two or three options in plain English",
+    "Questions to put to each vendor before you sign",
+    "A written summary you can act on with us or anyone else"
+  ],
+  "sections": [
+    {
+      "heading": "What an IT consultant checks before you sign",
+      "paragraphs": [
+        "A quote can look reasonable and still leave out what matters. Send us the proposal for a new office network, a phone system, a [website redesign](/services/web-development/), a software rollout or a monthly IT plan, and we’ll read it line by line. Whatever you share with us stays confidential.",
+        "The FTC’s advice to small businesses fits in one line: put your security expectations in the contract, and don’t just take vendors at their word. What you get back is a plain list of what looks fair, what to question and what to ask before you sign. Sometimes the right call is the quote you already have, and we’ll say so. Here’s what we check:"
+      ],
+      "list": [
+        "**Scope.** Does each line say what will be done, to which equipment and by when, or just “network upgrade” and a number?",
+        "**Equipment and licenses.** Model numbers, quantities and seat counts that match your actual staff, and whether gear you already own could stay in service.",
+        "**One-time vs. recurring costs.** The three-year total, not just the first invoice, and whether each subscription is an annual commitment or month to month. Microsoft 365 Business Standard, for example, is $14 per user per month on an auto-renewing annual plan, or $16.80 month to month.",
+        "**Contract terms.** Length, auto-renewal, notice period, price-increase clauses and cancellation fees.",
+        "**Ownership and exit.** Who holds the admin passwords, the domain name and your data, and how you get all three back if you leave.",
+        "**Security duties.** CISA’s guidance for businesses that use IT providers says contracts should spell out the security controls you expect, monitoring of the provider’s access to your network, and notice when the provider has a security incident of its own."
+      ]
+    },
+    {
+      "heading": "Technology roadmaps and budgets, built on real dates",
+      "paragraphs": [
+        "A roadmap starts with an inventory: every PC, laptop, server, router, firewall, printer and subscription, with its age, what it runs and when support for it ends. For an office we do that walk-through on-site anywhere in our [Dallas–Fort Worth service area](/service-areas/).",
+        "Then everything goes on one calendar with rough costs, so ten PCs don’t all come due in the same quarter and a renewal notice doesn’t arrive as a surprise. Microsoft publishes its support dates years ahead. These, plus one Texas law, are worth planning a 2027 budget around:"
+      ],
+      "list": [
+        "**Windows 10** stopped getting free security updates on October 14, 2025. Businesses can buy Extended Security Updates for up to three more years, at a price that doubles each year (the math is below).",
+        "**Office 2016 and 2019** reached end of support on October 14, 2025, and **Office 2021** followed on October 13, 2026.",
+        "**Windows Server 2016** reaches end of support on January 12, 2027.",
+        "**SQL Server 2016** reached end of support on July 14, 2026, and **SQL Server 2017** follows on October 12, 2027. If your business software runs on either, see our [SQL Server consulting](/services/database-consulting/).",
+        "**Texas law.** Since September 1, 2025, a Texas business with fewer than 250 employees that keeps a qualifying cybersecurity program is shielded from exemplary (punitive) damages in a data-breach lawsuit. Our guide explains [Texas’s 2025 cybersecurity safe harbor](/guides/texas-data-breach-notification/) and the notice deadlines."
+      ]
+    },
+    {
+      "heading": "Choosing between options, in plain English",
+      "paragraphs": [
+        "Most tech decisions come down to two or three sensible choices that cost different amounts over different stretches of time. We put them side by side, then tell you which one we’d pick for your situation and why. Three common ones:"
+      ],
+      "list": [
+        "**Microsoft 365 or a one-time Office purchase.** Business Standard costs $14 per user per month on an annual plan, about $504 per person over three years at today’s price, and includes business email and 1 TB of cloud storage per user. Office Home & Business 2024 costs $249.99 once for one PC or Mac and covers the desktop apps only, and its support ends in October 2029. Subscriptions also go up: Business Standard was $12.50 until July 1, 2026.",
+        "**Upgrade, extend or replace a Windows 10 PC.** If it meets Windows 11’s requirements, including TPM 2.0 and a compatible 64-bit processor, upgrading is the cheap route. If not, business Extended Security Updates cost $61 per PC for year one and double each year. Year one began in November 2025, and late buyers pay for the years they missed, so buying now costs $183 per PC for a stopgap that ends by October 2028. Weigh that against a replacement.",
+        "**Keep the server or move to the cloud.** A server in the closet is paid for once and keeps working when the internet is down, but its backups, power and eventual replacement are on you. Cloud services bill every month and need a dependable connection, but someone else maintains the hardware. A mix of the two is often the practical answer."
+      ]
+    },
+    {
+      "heading": "Second opinions for homes",
+      "paragraphs": [
+        "Household tech decisions get the same treatment. Before you switch internet plans, search your address on the FCC National Broadband Map to see which providers report service there. Then compare their FCC broadband labels. Providers must post one for each plan, showing price, introductory rates, data allowances and speeds. A faster plan won’t fix weak Wi‑Fi in a back bedroom; that’s usually a router placement or [mesh Wi‑Fi](/services/home-network/) question.",
+        "If the family computer still runs Windows 10, Microsoft’s consumer Extended Security Updates run through October 12, 2027, at no cost if you sync your PC settings. That buys time to decide between upgrading and replacing. And if a call, text or pop-up says your computer has a virus, check with someone you trust before you pay anyone. As the FTC puts it, “Legitimate tech companies won’t contact you by phone, email, or text message to tell you there’s a problem with your computer.”"
+      ]
+    }
+  ],
+  "process": [
+    {
+      "title": "Free first conversation",
+      "text": "Call (715) 255-0420 or email info@manpasand.com with what you’re deciding. We reply within one business day, and the first consultation is free."
+    },
+    {
+      "title": "Scope and fixed price",
+      "text": "If the question needs more than a conversation, we write down what we’ll review and quote a fixed price before any work starts. Any Texas sales tax appears as its own line."
+    },
+    {
+      "title": "Review and compare",
+      "text": "We read the quotes and contracts, walk the office or home when the job calls for it, and check support dates and renewal costs."
+    },
+    {
+      "title": "Written recommendations",
+      "text": "You get a plain-English summary of what we’d do now, what can wait and roughly what each step costs. Act on it with us, with another vendor or on your own."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does an IT consultant do for a small business?",
+      "a": "An IT consultant helps you decide; IT support does the hands-on fixing. In practice that means reviewing what you have, checking quotes and contracts, planning replacements around support dates and explaining your options with their trade-offs. If you’d also like the work done, our [on-demand IT help for your office](/services/small-business-it/) covers that side."
+    },
+    {
+      "q": "How much does an IT consultant cost?",
+      "a": "Consultants usually charge by the hour, by the project or with a monthly retainer. We don’t publish prices because the work varies too much: reading one quote is a different job from inventorying a 20-PC office. The [first consultation is free](/contact/#estimate), and anything beyond it gets a written scope and a fixed price before we start, with any Texas sales tax shown as its own line."
+    },
+    {
+      "q": "When should a small business hire an IT consultant?",
+      "a": "Before money changes hands: ahead of a multi-year contract, a batch of new PCs, a switch to a new IT provider or new business software. A support deadline is another good trigger, such as Windows Server 2016 on January 12, 2027. If you’re in the middle of a security problem, start with [network security help](/services/network-security/) to contain it, restore systems and close the gap; planning comes after."
+    },
+    {
+      "q": "How do I choose an IT provider?",
+      "a": "Get at least two written proposals and compare what each one includes, not just the monthly number. Ask who will do the work, what response times they commit to in writing, who holds your admin passwords and how you get everything back if you leave. CISA also recommends requiring multi-factor authentication and limiting the provider’s accounts to the systems they manage, without blanket administrator rights. Once you have the finalists, we can review their proposals side by side."
+    },
+    {
+      "q": "What should I ask before buying new business software?",
+      "a": "Ask for the full yearly cost per user, including add-ons and the renewal price, plus the contract length and cancellation terms. Ask whether it supports multi-factor sign-in, how you export your data and in what format, and what happens to that data if you cancel. Then confirm it works with what you already use, such as your accounting, email or POS system, before anyone signs."
+    },
+    {
+      "q": "Can you look over a quote we got from another company?",
+      "a": "Yes. Email it to info@manpasand.com or bring it to the free first conversation, and we’ll tell you what looks fair, what’s vague and what to ask before you sign. What you send us stays confidential. If the review grows into a bigger comparison, we’ll quote a fixed price for it before we start."
+    }
+  ],
+  "related": [
+    "small-business-it",
+    "network-security",
+    "database-consulting"
+  ],
+  "cta": "Holding a quote, a renewal notice or a short list of options? Send it over, and we’ll reply within one business day to set up a free first conversation.",
+  "sources": [
+    {
+      "claim": "Windows 10 support ended October 14, 2025; business ESU costs $61 per device for year one, the price doubles every consecutive year for a maximum of three years, and buying in year two requires paying for year one (“Year One starts in November 2025”; ESUs are cumulative); commercial ESU covers up to three years after end of support, i.e. no later than October 2028 ($61 + $122 = $183 per PC when bought in year two)",
+      "url": "https://learn.microsoft.com/en-us/windows/whats-new/extended-security-updates"
+    },
+    {
+      "claim": "Consumer Windows 10 ESU runs through October 12, 2027; enrollment is at no additional cost if you sync your PC settings (or 1,000 Microsoft Rewards points or a one-time $30 purchase)",
+      "url": "https://www.microsoft.com/en-us/windows/extended-security-updates"
+    },
+    {
+      "claim": "Microsoft Office 2016 and Office 2019 reached end of support on October 14, 2025",
+      "url": "https://learn.microsoft.com/en-us/lifecycle/end-of-support/end-of-support-2025"
+    },
+    {
+      "claim": "Office 2021 retired October 13, 2026 (Office LTSC 2021 end of support the same day); SQL Server 2016 end of support July 14, 2026",
+      "url": "https://learn.microsoft.com/en-us/lifecycle/end-of-support/end-of-support-2026"
+    },
+    {
+      "claim": "Windows Server 2016 end of support January 12, 2027; SQL Server 2017 end of support October 12, 2027",
+      "url": "https://learn.microsoft.com/en-us/lifecycle/end-of-support/end-of-support-2027"
+    },
+    {
+      "claim": "Office 2024 (Home & Business, Home) retirement date October 2029 (listed as 10/10/2029 6:59:59 AM, i.e. end of October 9, 2029 Pacific)",
+      "url": "https://learn.microsoft.com/en-us/lifecycle/products/office-2024"
+    },
+    {
+      "claim": "Windows 11 minimum requirements include TPM 2.0 and a compatible 64-bit processor (plus 4 GB RAM, 64 GB storage, UEFI Secure Boot capable)",
+      "url": "https://www.microsoft.com/en-us/windows/windows-11-specifications"
+    },
+    {
+      "claim": "Microsoft 365 pricing update effective July 1, 2026: Business Standard $12.50 → $14.00 per user per month (Business Basic $6.00 → $7.00); existing customers stay on current pricing until renewal",
+      "url": "https://www.microsoft.com/en-us/licensing/news/2026-m365-packaging-pricing-updates"
+    },
+    {
+      "claim": "Microsoft 365 Business Standard: $14.00 user/month paid yearly (annual subscription, auto-renews) or $16.80 user/month on a monthly subscription; includes custom business email and 1 TB of cloud storage per user ($14 × 36 months = $504)",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-business-standard"
+    },
+    {
+      "claim": "Office Home & Business 2024: $249.99 one-time purchase, installed on 1 PC or Mac, classic desktop versions of Word, Excel, PowerPoint, Outlook and OneNote",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/p/office-home-business-2024/cfq7ttc0pbm7"
+    },
+    {
+      "claim": "CISA: small businesses should review contracts with service providers and ensure they include the security controls the customer deems appropriate, monitoring of the provider’s presence and connections, and notification of security incidents on the provider’s infrastructure; require MFA; keep MSP accounts out of administrator groups and limited to the systems they manage",
+      "url": "https://cisa.gov/sites/default/files/publications/CISA%20Insights_Guidance-for-MSPs-and-Small-and-Mid-sized-Businesses_S508C.pdf"
+    },
+    {
+      "claim": "FTC: spell out security expectations up front and include specific data-protection provisions in vendor contracts; “Don’t just take vendors at their word”",
+      "url": "https://www.ftc.gov/business-guidance/blog/2018/12/cybersecurity-small-business-vendor-security"
+    },
+    {
+      "claim": "Texas SB 2610 (89R): applies to business entities with fewer than 250 employees; a person may not recover exemplary damages from an entity that had a compliant cybersecurity program at the time of the breach; effective September 1, 2025",
+      "url": "https://capitol.texas.gov/tlodocs/89R/billtext/html/SB02610F.htm"
+    },
+    {
+      "claim": "FCC: internet providers must have a broadband label for each standalone plan; labels disclose prices, introductory rates, data allowances and speeds (page updated July 23, 2026)",
+      "url": "https://www.fcc.gov/broadbandlabels"
+    },
+    {
+      "claim": "FCC National Broadband Map lets you search by address to see providers reporting service at a location",
+      "url": "https://broadbandmap.fcc.gov/home"
+    },
+    {
+      "claim": "FTC: “Legitimate tech companies won’t contact you by phone, email, or text message to tell you there’s a problem with your computer”; talk to someone you trust if unsure",
+      "url": "https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams"
+    }
+  ]
+}

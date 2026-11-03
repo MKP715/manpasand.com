@@ -1,0 +1,177 @@
+{
+  "slug": "richardson-tx",
+  "city": "Richardson",
+  "eyebrow": "Richardson, TX",
+  "title": "IT Support for Richardson, TX Offices & Homes | Manpasand",
+  "description": "On-site IT support in Richardson, TX from Rowlett: office networks, Teams and Zoom rooms, home-office Wi‑Fi, and SQL database help, on-site or remote.",
+  "h1": "IT support for Richardson offices and home offices",
+  "lede": "Richardson’s office economy grew up along US 75, and most of the businesses here are small. We’re based in Rowlett, about 20 minutes east, and provide on-site IT support in Richardson, TX for office networks, meeting rooms and home offices. Database and web work can also be done remotely.",
+  "summary": "Office networks, Teams and Zoom rooms and SQL help for Richardson’s small offices and home offices, about 20 minutes from Rowlett.",
+  "sections": [
+    {
+      "heading": "From Collins Radio to the IQ: who works in Richardson now",
+      "paragraphs": [
+        "Richardson became a technology town in the 1950s. Central Expressway opened through the city in 1954, Collins Radio bought land for a Richardson office in 1955 and opened it in 1958, and that same year Texas Instruments opened a plant just south of the city line. In 1969, TI executives donated a research center, the Southwest Center for Advanced Studies, to the state, and it became the University of Texas at Dallas. The city still calls the area along US 75 the Telecom Corridor, and it says more than 88,000 people work in Richardson each day. About two-thirds of the city is in Dallas County; the rest is in Collin.",
+        "The big names are easy to spot: State Farm and Raytheon at CityLine, the 186-acre development at US 75 and the Bush Turnpike, and UT Dallas, with 30,139 students in fall 2025. The city’s 1,200-acre Innovation Quarter, the IQ, counts more than 1,000 businesses on its own. Most Richardson businesses are small. Census Bureau ZIP Code Business Patterns for 2023 count about 4,480 business locations with paid employees in ZIP codes 75080, 75081 and 75082, and 82 percent have fewer than 20 employees. Of those locations, 735 are professional, scientific and technical firms, the Census category for law, accounting, engineering, design, computer and consulting offices.",
+        "That’s the scale we work at. A six-person engineering office needs the same basics as a big one, without an IT department to own them: a firewall someone manages, Wi‑Fi that keeps guests off the staff network, PCs and printers set up the same way, and a database somebody understands. [We set those up](/services/small-business-it/) and give you a fixed-price quote before any work starts."
+      ]
+    },
+    {
+      "heading": "Meeting rooms when half the meeting isn’t in the room",
+      "paragraphs": [
+        "Richardson has four DART light-rail stations: Spring Valley, Arapaho Center, Galatyn Park and CityLine/Bush. Since October 25, 2025, the Silver Line has also stopped at UT Dallas and CityLine/Bush on its 26-mile run between DFW Airport and Plano. Census survey estimates for 2020–2024 show about a quarter of Richardson’s working residents, roughly 16,000 people, work from home. Between rail commuters and home workers, plenty of meetings here have some people at the table and some on a screen.",
+        "For a small room, the choice usually comes down to two setups. With bring-your-own-laptop, a USB camera bar and speaker plug into whichever laptop is running the meeting. It costs less and works with Teams, Zoom or anything else, but it depends on that laptop and that cable. A dedicated room system starts the meeting with one tap. For Teams, Microsoft’s Teams Rooms Basic license comes at no extra cost with Microsoft-approved Teams Rooms hardware, for up to 25 rooms; dual screens, remote device management and some other features need the paid Pro license. Either way, the camera belongs at the screen, the microphones need to reach the far chair, and the room should be on a wired connection, not the guest Wi‑Fi.",
+        "Our [conference room video setup checklist](/guides/conference-room-video-setup-checklist/) walks through those decisions, or we can [set up the room for you](/services/conference-room-av/)."
+      ]
+    },
+    {
+      "heading": "On-site IT support in Richardson, and what to check first",
+      "paragraphs": [
+        "Richardson is about 20 minutes and 12 miles from Rowlett without traffic, most of it on the Bush Turnpike, a toll road. Network installs, office moves, meeting rooms and home-office visits happen on-site, Mon–Fri, 9 AM – 5 PM. [Database work](/services/database-consulting/) and [web projects](/services/web-development/) can be done remotely. We respond within one business day and acknowledge critical support requests within two hours during business hours.",
+        "A few local details save time. The city says most residents can get fiber or cable internet (its guide lists AT&T and Spectrum), with DSL in some areas. Before you sign a lease, look the suite up on the [FCC National Broadband Map](https://broadbandmap.fcc.gov/home), which lists the providers, service types and speeds reported for each address. Ask the landlord where the provider’s line enters the building and whether you can run network cable to your suite. You can choose your electricity company, but Oncor handles power outages; the city lists Oncor’s outage line as 1-888-313-4747. A [battery backup for the modem, firewall and switch](/guides/power-outage-protection-office-tech/) keeps a short flicker from dropping the whole office offline.",
+        "For the home offices behind those video calls, the work laptop often shares the house network with TVs, game consoles and smart speakers. We can put those devices on their own network and run a cable to the desk where Wi‑Fi is weak. Our [home network and Wi‑Fi security](/services/home-network/) page covers the details."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drive from Rowlett",
+      "value": "About 20 minutes / 12 miles (no traffic, via toll road)"
+    },
+    {
+      "label": "Counties",
+      "value": "Dallas (about two-thirds) and Collin"
+    },
+    {
+      "label": "ZIP codes",
+      "value": "75080–75083, 75085"
+    },
+    {
+      "label": "Population",
+      "value": "119,469 (2020 Census)"
+    },
+    {
+      "label": "DART rail",
+      "value": "4 light-rail stations; Silver Line stops at UT Dallas and CityLine/Bush"
+    },
+    {
+      "label": "Power outages",
+      "value": "Oncor, 1-888-313-4747"
+    }
+  ],
+  "services": [
+    {
+      "slug": "small-business-it",
+      "text": "For Richardson suites with a handful of PCs, a printer and a firewall nobody has logged into since move-in: setup, office moves and on-demand fixes, with a fixed-price quote up front."
+    },
+    {
+      "slug": "conference-room-av",
+      "text": "Huddle rooms and small conference rooms set up for Teams or Zoom, with the camera at the screen, microphones that reach the far chair and a wired connection."
+    },
+    {
+      "slug": "database-consulting",
+      "text": "SQL Server, MySQL and PostgreSQL help for Richardson firms that run on their data: slow queries, ETL jobs and reports, done remotely or at your office."
+    },
+    {
+      "slug": "network-security",
+      "text": "Firewalls and separate networks for staff, guests and printers or smart TVs, plus a plan for a bad day: contain, restore, review logs, close the gap."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you offer on-site IT support in Richardson?",
+      "a": "Yes. We’re based in Rowlett and we come to your office or home Mon–Fri, 9 AM – 5 PM. We don’t have an office in Richardson. The [first consultation is free](/contact/#estimate), and you get a detailed scope of work and a fixed-price quote before anything starts."
+    },
+    {
+      "q": "Can you set up a small conference room for Teams or Zoom?",
+      "a": "Yes. We look at the room, the screen and how your team meets, then recommend either a laptop-and-camera-bar setup or a dedicated room system and explain what each one takes to run. Our [conference room checklist](/guides/conference-room-video-setup-checklist/) covers what to decide before you buy anything."
+    },
+    {
+      "q": "Do you offer remote IT and database support?",
+      "a": "Yes. Account, email and software problems can often be fixed remotely, in a session you start and can end at any time, and SQL Server, MySQL and PostgreSQL work and website projects can be done remotely, with an on-site visit when it helps. Network gear, PC hardware and meeting rooms are hands-on jobs, so in Richardson we come to you. We respond within one business day and acknowledge critical support requests within two hours during business hours."
+    },
+    {
+      "q": "What should a small office network include?",
+      "a": "At minimum: a firewall you control (not only the internet provider’s box), a switch with spare ports, business Wi‑Fi with a separate guest network, a separate network for printers, TVs and other smart devices, and battery backup for the modem, firewall and switch. Keep the admin passwords and settings written down somewhere other than the network itself. In a shared office building, find out what the landlord controls before changing anything."
+    }
+  ],
+  "nearby": [
+    "garland-tx",
+    "plano-tx",
+    "sachse-tx"
+  ],
+  "sources": [
+    {
+      "claim": "Central Expressway opened through Richardson in 1954; Collins Radio bought land for its Richardson office in 1955 and opened in 1958; in 1958 Texas Instruments opened its plant just south of the Richardson border; TI executives donated the Southwest Center for Advanced Studies to the state in 1969 and it became UT Dallas; the city calls the area the Telecom Corridor; more than 88,000 people work in Richardson each day; 2020 population 119,469; four DART light-rail stations (Spring Valley, Arapaho, Galatyn Park, Bush Turnpike)",
+      "url": "https://www.cor.net/our-city/visitors/city-history"
+    },
+    {
+      "claim": "Richardson is in Dallas and Collin counties, about two-thirds in Dallas County (18.2 sq mi Dallas, 9.2 sq mi Collin); ZIP codes 75080–75083 and 75085; DART light-rail stations Spring Valley, Arapaho Center, Galatyn Park and CityLine/Bush; Silver Line in service since October 25, 2025, with Richardson stations at UT Dallas and CityLine",
+      "url": "https://en.wikipedia.org/wiki/Richardson,_Texas"
+    },
+    {
+      "claim": "DART Silver Line opened to riders the Saturday after the October 23, 2025 ceremony (October 25, 2025); spans 26 miles and connects seven cities and DFW International Airport; stops include UT Dallas and CityLine/Bush",
+      "url": "https://www.cbsnews.com/texas/news/darts-silver-line-opens-linking-seven-cities-dfw-airport"
+    },
+    {
+      "claim": "Silver Line has two Richardson stations, CityLine/Bush and UT Dallas, and runs to DFW Airport",
+      "url": "https://richardsontoday.com/dart-silver-line-now-in-service-ride-from-richardson-to-dfw-airport/"
+    },
+    {
+      "claim": "Silver Line: 26 miles through 7 cities, from DFW Airport to Plano (Shiloh Road); Richardson served by CityLine/Bush and UT Dallas stations",
+      "url": "https://www.cor.net/departments/traffic-transportation/cotton-belt-rail-line"
+    },
+    {
+      "claim": "CityLine is a 186-acre mixed-use development in north Richardson along US 75 and the President George Bush Turnpike; corporate tenants include State Farm and Raytheon",
+      "url": "https://communityimpact.com/richardson/development/cityline-campus-in-richardson-sold-to-real-estate-firm/"
+    },
+    {
+      "claim": "UT Dallas had 30,139 students enrolled in fall 2025",
+      "url": "https://www.utdallas.edu/about-us/fast-facts"
+    },
+    {
+      "claim": "The Richardson Innovation Quarter (the IQ) is a 1,200-acre hub with over 19,000 workers and more than 1,000 businesses",
+      "url": "https://richardsoniq.com/what-is-the-iq/"
+    },
+    {
+      "claim": "The IQ is within Richardson’s Telecom Corridor area along US 75 and the Red/Orange DART light-rail line",
+      "url": "https://richardsoniq.com/"
+    },
+    {
+      "claim": "2023 ZIP Code Business Patterns, ZIPs 75080, 75081, 75082 (all industries): 1,970 + 1,749 + 759 = 4,478 establishments; 3,685 (82.3%) have fewer than 20 employees (size classes <5, 5–9, 10–19); NAICS 54 professional, scientific and technical services: 356 + 251 + 128 = 735 establishments",
+      "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2023/zbp23detail.zip"
+    },
+    {
+      "claim": "County/ZIP Code Business Patterns cover establishments with paid employees; ZBP published with CBP from reference year 2022",
+      "url": "https://www.census.gov/programs-surveys/cbp/about.html"
+    },
+    {
+      "claim": "NAICS sector 54 covers legal, accounting, architectural/engineering/design, computer, consulting, research and advertising services",
+      "url": "https://www.census.gov/naics/?input=54&year=2022&details=54"
+    },
+    {
+      "claim": "ACS 2020–2024 5-year estimates (table B08301): 15,975 ± 1,280 of 64,071 ± 1,612 Richardson workers 16+ (24.9%) worked from home",
+      "url": "https://api.censusreporter.org/1.0/data/show/latest?table_ids=B08301&geo_ids=16000US4861796"
+    },
+    {
+      "claim": "Microsoft Teams Rooms Basic provides core meeting features at no additional cost to organizations that buy a certified Teams Rooms system; up to 25 Basic licenses per organization; Teams Rooms Pro is required for dual screen support, remote device management/remote configuration and other features (page dated 2026-08-14)",
+      "url": "https://learn.microsoft.com/en-us/microsoftteams/rooms/rooms-licensing"
+    },
+    {
+      "claim": "City of Richardson: consumers can choose their electricity provider; power outages are handled by Oncor, customer service 1-888-313-4747; most residents have access to fiber or cable internet, with DSL in some areas; providers listed are AT&T and Spectrum",
+      "url": "https://www.cor.net/our-city/new-resident-guide/service-activation"
+    },
+    {
+      "claim": "FCC National Broadband Map: enter an address to see the Internet providers that can serve it and the types of service and speeds offered, as reported by ISPs",
+      "url": "https://broadbandmap.fcc.gov/about"
+    },
+    {
+      "claim": "Drive from Rowlett to Richardson (Census 2024 Gazetteer internal points): 19,933 m (about 12.4 miles), 1,171 s (about 19.5 minutes) free-flow without traffic, mostly via the President George Bush Turnpike (OSRM); re-derived 2026-11-03: 10.8 km of the 19.9 km on the President George Bush Turnpike (toll road)",
+      "url": "https://router.project-osrm.org/route/v1/driving/-96.548587,32.915926;-96.708069,32.972291?overview=false&steps=true"
+    },
+    {
+      "claim": "Census 2024 Gazetteer internal points: Rowlett city 32.915926, -96.548587; Richardson city 32.972291, -96.708069",
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_gaz_place_48.txt"
+    }
+  ]
+}

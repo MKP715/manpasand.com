@@ -1,0 +1,97 @@
+/* Design tokens — "Cyanotype" (design-final.md §2). Shared file: page CSS must use
+   these variables, never raw colours, so both themes keep working. */
+:root{
+  /* ---------- colour: light ---------- */
+  --paper:#F5F2EA;          /* page */
+  --paper-2:#ECE7DB;        /* alternate section band */
+  --surface:#FBFAF6;        /* plates, cards, dropdowns, hovered cells, inputs */
+  --ink:#141821;            /* headings, body, strong rules */
+  --ink-2:#3D4350;          /* lead / secondary text */
+  --muted:#5A606C;          /* captions, mono labels (≥5.1:1 on all light surfaces) */
+  --rule:#D6CFBF;           /* decorative hairlines only */
+  --rule-ui:#8E8774;        /* UI borders that must reach 3:1 (inputs, chips, icon buttons) */
+  --accent:#1C4C8C;         /* cyanotype blue: links, schematic lines, italic emphasis */
+  --accent-hover:#123866;
+  --accent-fill:#1C4C8C;    /* primary button fill */
+  --on-accent:#FFFFFF;
+  --accent-tint:#DFE6EF;    /* audience chips, selected rows, TOC current */
+  --signal:#D2461E;         /* safelight vermilion: marks + focus ring ONLY (4.05:1, never text) */
+  --signal-ink:#B23A17;     /* vermilion when it must be text (5.35:1) e.g. form errors */
+  --night:#0F1F33;          /* CTA band */
+  --night-2:#0B1726;        /* footer */
+  --on-night:#F5F2EA;
+  --on-night-muted:#A9B4C4;
+  --night-rule:rgba(245,242,234,.16);
+  --signal-on-night:#E8693F;
+  --accent-on-night:#B9CDEB;
+  --grid-line:rgba(28,76,140,.075);   /* blueprint grid on plates */
+  --focus:#D2461E;
+  --ok:#2F6B3A;             /* form success text (6.0:1 on paper) */
+
+  /* ---------- type ---------- */
+  --font-serif:"Newsreader","Newsreader Fallback","Iowan Old Style",Georgia,serif;
+  --font-sans:"Instrument Sans","Instrument Sans Fallback","Segoe UI",system-ui,-apple-system,sans-serif;
+  --font-mono:"IBM Plex Mono","IBM Plex Mono Fallback",ui-monospace,"Cascadia Mono",Consolas,monospace;
+
+  --fs-display:clamp(2.75rem, 1.55rem + 4.3vw, 5.375rem);  /* home H1 44→86 */
+  --fs-h1:clamp(2.5rem, 1.7rem + 3vw, 4.25rem);            /* inner-page H1 40→68 */
+  --fs-h1-guide:clamp(2.25rem, 1.6rem + 2.4vw, 3.5rem);    /* guide H1 36→56 */
+  --fs-h2:clamp(2.125rem, 1.4rem + 2.6vw, 3.5rem);         /* section H2 34→56 */
+  --fs-h2-prose:clamp(1.75rem, 1.45rem + 1.1vw, 2.25rem);  /* H2 inside long-form 28→36 */
+  --fs-h3:clamp(1.375rem, 1.2rem + .6vw, 1.625rem);        /* serif card titles 22→26 */
+  --fs-h3-prose:1.25rem;                                   /* sans 600 inside prose */
+  --fs-quote:clamp(1.625rem, 1.2rem + 1.4vw, 2.375rem);
+  --fs-stat:clamp(2.25rem, 1.6rem + 1.8vw, 3.25rem);       /* commitment numerals */
+  --fs-mast:clamp(3rem, 1.6rem + 6vw, 7.5rem);             /* footer masthead */
+  --fs-lead:clamp(1.0625rem, 1rem + .35vw, 1.1875rem);
+  --fs-body:1.0625rem;      /* 17px */
+  --fs-sm:.9375rem;         /* 15px */
+  --fs-xs:.875rem;          /* 14px, minimum for sans text */
+  --fs-label:.75rem;        /* 12px mono uppercase */
+  --fs-label-sm:.6875rem;   /* 11px mono chips/tags only */
+  --lh-tight:1.02; --lh-head:1.08; --lh-body:1.6; --lh-prose:1.7;
+  --track-display:-.028em; --track-head:-.018em; --track-label:.09em;
+
+  /* ---------- space ---------- */
+  --s-1:4px; --s-2:8px; --s-3:12px; --s-4:16px; --s-5:24px; --s-6:32px; --s-7:48px; --s-8:64px; --s-9:96px;
+  --section:clamp(64px, 8vw, 120px);
+  --section-sm:clamp(40px, 5vw, 72px);
+  --gutter:clamp(16px, 4vw, 40px);
+
+  /* ---------- layout ---------- */
+  --maxw:1240px;            /* page container */
+  --maxw-narrow:880px;      /* contact form, legal pages */
+  --maxw-prose:68ch;        /* long-form measure (≈720px at 17px) */
+  --header-h:76px;          /* 64px ≤640px */
+
+  /* ---------- shape / depth ---------- */
+  --radius:2px;             /* everything: buttons, chips, inputs, cards. Never pills. */
+  --shadow-pop:0 24px 40px -24px rgba(20,24,33,.35);   /* dropdowns, drawer */
+  --shadow-header:0 8px 24px -18px rgba(20,24,33,.30); /* header after scroll */
+
+  /* ---------- motion ---------- */
+  --dur:150ms; --dur-slow:200ms; --ease:cubic-bezier(.2,.7,.2,1);
+
+  /* ---------- z ---------- */
+  --z-header:50; --z-dropdown:55; --z-actionbar:60; --z-drawer:70; --z-skip:100;
+
+  color-scheme:light;
+}
+@media (max-width:640px){ :root{ --header-h:64px; } }
+
+/* ---------- colour: dark (system) — the single source of the dark values ---------- */
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0E131A; --paper-2:#131A24; --surface:#18202B;
+    --ink:#ECE8DF; --ink-2:#C9CCD2; --muted:#A0A6B0;
+    --rule:#2B3441; --rule-ui:#5E6878;
+    --accent:#93B4E6; --accent-hover:#B8CEF1; --accent-fill:#93B4E6; --on-accent:#0E131A; --accent-tint:#1B2738;
+    --signal:#EF6A42; --signal-ink:#F28A68;
+    --night:#13243B; --night-2:#070C13; --on-night:#ECE8DF; --on-night-muted:#A9B4C4;
+    --grid-line:rgba(147,180,230,.07); --focus:#EF6A42; --ok:#7FC48C;
+    --shadow-pop:0 24px 48px -24px rgba(0,0,0,.7); --shadow-header:0 8px 24px -16px rgba(0,0,0,.6);
+    color-scheme:dark;
+  }
+}
+/* ---------- colour: dark (manual switch) — the bundler copies the block above in ---------- */
+:root[data-theme="dark"]{ /* @dark-tokens */ }

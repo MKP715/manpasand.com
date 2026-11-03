@@ -1,0 +1,201 @@
+{
+  "slug": "network-security",
+  "name": "Network & Cybersecurity",
+  "eyebrow": "Network security",
+  "title": "Small Business Network Security & Firewalls | Manpasand",
+  "description": "Firewalls, separate Wi-Fi for staff, guests and smart devices, MFA and offline backups for DFW small businesses, with a fixed-price quote up front.",
+  "h1": "Network security sized for a small business",
+  "lede": "We set up and lock down the networks Dallas–Fort Worth small businesses run on: the firewall, Wi‑Fi for staff, guests and smart devices, sign-in protection and backups. You get a written scope and a fixed price before anything changes.",
+  "summary": "Firewalls, separate Wi‑Fi for staff, guests and smart devices, MFA, updates and offline backups for DFW small offices and shops.",
+  "audience": [
+    "Small offices without a full-time IT person",
+    "Shops and restaurants with card readers and guest Wi‑Fi on one connection",
+    "Offices that keep client records: accounting, legal, real estate, insurance",
+    "Owners still running on the router the internet company installed",
+    "Anyone filling out a cyber insurance form who isn’t sure how to answer it"
+  ],
+  "included": [
+    "Firewall setup, or a check of the one you already have",
+    "Separate networks (VLANs) for staff, guests, card readers and devices",
+    "Guest Wi‑Fi that reaches the internet and nothing else",
+    "Multi-factor sign-in for email, admin accounts and remote access",
+    "An update routine for the firewall, Wi‑Fi and computers",
+    "Backups with an offline or immutable copy, and a test restore",
+    "Office Wi‑Fi planned around your floor plan and headcount",
+    "Office network cabling for computers, phones and Wi‑Fi",
+    "Remote access that doesn’t expose Remote Desktop to the internet",
+    "Admin passwords and a simple network map, handed to you"
+  ],
+  "sections": [
+    {
+      "heading": "What network security a small business actually needs",
+      "paragraphs": [
+        "For most small offices, five things do most of the work:"
+      ],
+      "list": [
+        "A firewall that still gets security updates.",
+        "Separate networks, so a guest’s phone or the lobby TV can’t reach your files.",
+        "Multi-factor sign-in (MFA) on email and admin accounts.",
+        "A routine for updates.",
+        "Backups an attacker can’t reach."
+      ],
+      "after": [
+        "CISA calls patching “one of the most cost-effective practices” for improving security and says any form of MFA is better than none.",
+        "Does that mean buying a business-grade firewall? Not always. We check the box you have: does the maker still release firmware for it, can it keep separate networks apart, can remote management be turned off, and does it keep readable logs? If it passes, we configure it and you skip the purchase. If not, we quote a replacement. In May 2025 the FBI warned that criminals were planting malware on end-of-life routers, which no longer get security patches, and using them as proxies to hide their activity. Its advice was to replace them.",
+        "We put MFA on email first. Business email compromise, where a criminal gets into a mailbox and redirects payments, accounted for $3.05 billion in reported losses in the FBI’s 2025 IC3 Annual Report. Texas ranked second among the states that year for all internet crime: 97,912 complaints and $1.83 billion lost. For tax preparers, mortgage brokers and other firms covered by the FTC’s Safeguards Rule, MFA for anyone accessing customer information is already required. For a second opinion on an existing plan, see [technology consulting](/services/tech-consulting/)."
+      ]
+    },
+    {
+      "heading": "Separate networks for staff, guests and smart devices",
+      "paragraphs": [
+        "Network segmentation means one internet connection carrying several networks that can’t see each other unless the firewall allows it. A typical small office gets four: staff computers and files; card readers and the point-of-sale system; guest Wi‑Fi; and smart devices such as TVs, speakers, thermostats and printers. The FTC says guest Wi‑Fi should be “separate from and not connected to your business network.” CISA notes that segmentation can “prevent or limit lateral movement,” so a compromised smart plug doesn’t become a path to your files.",
+        "Smart devices get the tightest rules: you can’t run antivirus on a thermostat, and its updates depend on the manufacturer. Staff can print, for example, but the printer rarely needs to reach a laptop, so that direction stays blocked. Scan-to-folder is the exception, and we open just that path. Some older devices can’t use WPA3, which the Wi‑Fi Alliance has required in new devices carrying its logo since 2020. Rather than weaken security for everyone, we give them a separate WPA2 network with its own password, one of the options the Alliance suggests.",
+        "If you take cards, the PCI Security Standards Council’s FAQ says segmentation that isolates card systems can shrink the scope of a PCI DSS assessment, and that VLANs are one way to do it. We build the separation; your card processor or assessor decides whether it’s adequate. The register itself falls under [POS and office network support](/services/small-business-it/).",
+        "**Security cameras, alarms and door access.** We don’t install or service security cameras, video doorbells, alarm sensors, smart locks or door-access systems, and we don’t run their wiring. Texas requires a Private Security license from the Department of Public Safety for that work (Occupations Code ch. 1702), and we don’t hold one. If you’re adding cameras, hire a licensed company and contract with them directly. You can check any installer at [tops.portal.texas.gov](https://tops.portal.texas.gov/psp-self-service/search/index)."
+      ]
+    },
+    {
+      "heading": "Office Wi‑Fi planned around the space",
+      "id": "office-wifi",
+      "paragraphs": [
+        "Office Wi‑Fi that keeps dropping or crawls usually comes down to a few things:"
+      ],
+      "list": [
+        "The internet provider’s box or the router restarting.",
+        "One access point carrying more devices than it can handle.",
+        "A channel crowded with the neighbors’ networks.",
+        "Out-of-date firmware.",
+        "One router in a back closet trying to reach the front desk through walls and filing cabinets."
+      ],
+      "after": [
+        "We check the boxes, the logs and the firmware first. Then we walk the space and note where people sit and how many devices connect. We place access points on ceilings or high walls, each wired back to a switch rather than relaying the signal over the air. That can mean new office network cabling for computers, phones and Wi‑Fi. In a commercial space we ask the city about permits first, whether the office is in Rowlett, [across the lake in Rockwall](/service-areas/rockwall-tx/) or elsewhere in our [service area](/service-areas/).",
+        "Each band is a trade-off. Intel notes that 2.4 GHz reaches farthest through walls but is the most crowded, a real issue in strip centers full of neighbors’ networks. 5 GHz is much faster, and the range difference is often small. 6 GHz, added with Wi‑Fi 6E, supports gigabit speeds but only on newer devices, and it requires WPA3. We steer staff laptops to 5 or 6 GHz and leave 2.4 GHz for the gear that needs it.",
+        "CISA says not to expose remote desktop to the internet, so staff working from home connect through a VPN with MFA in front of it."
+      ]
+    },
+    {
+      "heading": "Backups that survive ransomware, and what Texas law expects",
+      "paragraphs": [
+        "Ransomware locks up your files until money is paid, and a backup drive left connected to the network is within its reach. The FTC says to keep a full backup on a drive or server “that’s not connected to your network.” The FBI adds that backups should be encrypted and immutable, meaning they can’t be altered or deleted. We set up a routine backup plus a protected copy, then run a test restore with you. CISA notes that many ransomware victims had no backups or damaged ones.",
+        "If something gets through, our part is incident response: contain it, restore from clean backups, review logs to see what was affected, and close the gap. Critical support requests are acknowledged within two hours during business hours (Mon–Fri, 9 AM – 5 PM).",
+        "Sometimes the affected data includes sensitive personal information, such as names with Social Security or driver’s license numbers. Then Texas law requires notice to affected people no later than 60 days after the business determines a breach occurred (Bus. & Com. Code §521.053). If 250 or more Texans are involved, notice to the Attorney General is due within 30 days. If we discover a breach in data we maintain for you, we tell you immediately, as §521.053(c) requires. Since September 1, 2025, a Texas business with fewer than 250 employees that can show it kept a qualifying cybersecurity program at the time of a breach is also shielded from exemplary (punitive) damages in a lawsuit over it (ch. 542). Our guide to [who you must notify after a breach](/guides/texas-data-breach-notification/) covers the details, including that safe harbor. This is general information, not legal advice."
+      ]
+    }
+  ],
+  "process": [
+    {
+      "title": "Free consultation",
+      "text": "We talk through how your office works and look at what’s there now: the internet box, firewall, Wi‑Fi, accounts and backups. The consultation is free, and we reply within one business day."
+    },
+    {
+      "title": "Written scope, fixed price",
+      "text": "You get a detailed scope of work and a fixed-price quote before anything changes, with no hidden fees. If Texas sales tax applies, it’s shown as its own line."
+    },
+    {
+      "title": "Build and test",
+      "text": "We set up the networks, firewall rules, MFA and backups. Then we test from a staff laptop, a guest phone and a smart device to confirm each one reaches only what it should."
+    },
+    {
+      "title": "Walk-through and handoff",
+      "text": "We show you what changed and hand over the admin passwords and a simple network map. If a defect within the original scope is reported within 14 days of completion, we fix it at no cost ([guarantee terms](/terms/#guarantee))."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is network segmentation?",
+      "a": "It means splitting one network into several smaller ones, usually with VLANs, and letting the firewall decide what can pass between them. Guests get internet access only, smart devices get only what they need, and your computers and card readers each sit on networks of their own. If one segment is compromised, the attacker doesn’t automatically get the rest."
+    },
+    {
+      "q": "Should guest Wi‑Fi be on a separate network?",
+      "a": "Yes. The FTC says guest Wi‑Fi should be separate from your business network and not connected to it. Set up properly, a guest network reaches the internet and nothing else: not your printer, not your files, not the card reader. Change its password now and then, since it tends to get passed around."
+    },
+    {
+      "q": "How do I secure smart devices on a business network?",
+      "a": "Put them on their own network so a weak device can’t reach your computers. Then follow the FTC’s basics: change default passwords, install the maker’s firmware updates, and turn off remote management and features you don’t use. Unplug devices nobody uses anymore, since their security is likely out of date. For homes, our [home network security](/services/home-network/) page applies the same approach."
+    },
+    {
+      "q": "How much does small business network security cost?",
+      "a": "It depends on what you have and what you need: whether your current firewall can stay, how much space the Wi‑Fi has to cover, whether new cable is needed, and how many accounts need MFA and backup. We don’t publish prices, because two offices rarely need the same work. The first consultation is free, and you get a fixed-price quote before any work begins."
+    },
+    {
+      "q": "What should we do first if we think we’ve been hacked?",
+      "a": "Disconnect the affected computers from the network, but don’t power them down; the FTC notes that shutting down can lose information that matters later. Then call us at (715) 255-0420 so we can contain the problem, restore from clean backups and review logs to see what was affected. If customer data may be involved, bring in your attorney early, since Texas notice deadlines run from when you determine a breach occurred. You can also report the crime to the [FBI’s Internet Crime Complaint Center](https://www.ic3.gov/)."
+    }
+  ],
+  "related": [
+    "small-business-it",
+    "home-network",
+    "tech-consulting"
+  ],
+  "cta": "Tell us how your office network is set up and what worries you about it, and we’ll reply within one business day to schedule a free consultation.",
+  "sources": [
+    {
+      "claim": "CISA small-business guidance: patching is “one of the most cost-effective practices to improve your security posture”; “Any form of MFA is better than no MFA”; many ransomware victims had no backups or incomplete/damaged backups; regularly test partial and full restores",
+      "url": "https://www.cisa.gov/cyber-guidance-small-businesses"
+    },
+    {
+      "claim": "CISA MFA page: any MFA is better than no MFA; phishing-resistant MFA is the standard to strive for",
+      "url": "https://www.cisa.gov/MFA"
+    },
+    {
+      "claim": "FBI PSA I-050725-PSA (May 7, 2025): criminals use TheMoon malware variants to install proxies on end-of-life routers (no longer supported or patched, e.g. routers dated 2010 or earlier); replace them, or disable remote administration and reboot",
+      "url": "https://www.ic3.gov/PSA/2025/PSA250507"
+    },
+    {
+      "claim": "FBI “2025 IC3 Annual Report” (cover title): business email compromise losses $3,046,598,558; Texas ranked 2nd with 97,912 complaints and $1,825,636,181 in reported losses; BEC definition (compromised email used to conduct unauthorized transfers of funds); ransomware “designed to block access to a computer system until money is paid”; FBI ransomware recommendations: off-site or offline backups that are encrypted and immutable, MFA particularly for webmail and VPNs, network segmentation, keep firmware up to date",
+      "url": "https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf"
+    },
+    {
+      "claim": "FTC Safeguards Rule: covered financial institutions include mortgage brokers and tax preparation firms; “Implement multi-factor authentication for anyone accessing customer information on your system”",
+      "url": "https://www.ftc.gov/business-guidance/resources/ftc-safeguards-rule-what-your-business-needs-know"
+    },
+    {
+      "claim": "FTC Cybersecurity for Small Business: guest Wi‑Fi “separate from and not connected to your business network”; save a full backup “to a drive or server that’s not connected to your network”; “Immediately disconnect infected devices from your network without powering them down” because information may be lost if you power down; “Certain information useful for investigation may be lost if you power down devices”",
+      "url": "https://www.ftc.gov/business-guidance/small-businesses/cybersecurity"
+    },
+    {
+      "claim": "FTC Cybersecurity Basics fact sheet: secure your router, turn off remote management, use WPA2 or WPA3, require multi-factor authentication",
+      "url": "https://www.ftc.gov/system/files/attachments/cybersecurity-basics/cybersecurity_sb_cyber-basics.pdf"
+    },
+    {
+      "claim": "FTC on internet-connected devices: change default usernames and passwords, update firmware from the manufacturer, disable remote management if unused, turn off unneeded features, disconnect old devices whose security may be out of date",
+      "url": "https://consumer.ftc.gov/articles/securing-your-internet-connected-devices-home"
+    },
+    {
+      "claim": "CISA #StopRansomware Guide: segmentation can “prevent or limit lateral movement”; “Do not expose services, such as remote desktop protocol, on the web”; maintain offline, encrypted backups and test them",
+      "url": "https://www.cisa.gov/stopransomware/ransomware-guide"
+    },
+    {
+      "claim": "Wi‑Fi Alliance: WPA3 support required in all new Wi‑Fi CERTIFIED devices since 2020 and mandatory in the 6 GHz band; for older devices, one alternative is two SSIDs (WPA3 and WPA2) with different passwords",
+      "url": "https://www.wi-fi.org/system/files/WPA3_Deployment_Options_Highlights_202602.pdf"
+    },
+    {
+      "claim": "Intel: 2.4 GHz has the longest range and wall penetration and is the most used (most legacy devices), causing congestion in multi-unit buildings; the range difference is often negligible; 6 GHz channels are accessible only to Wi‑Fi 6E devices and enable gigabit speeds",
+      "url": "https://www.intel.com/content/www/us/en/products/docs/wireless/2-4-vs-5ghz.html"
+    },
+    {
+      "claim": "PCI SSC FAQ 1135: adequate network segmentation that isolates cardholder-data systems can reduce PCI DSS assessment scope; VLANs can be used; the Council cannot opine on adequacy for a given organization (consult a QSA)",
+      "url": "https://www.pcisecuritystandards.org/faqs/1135/"
+    },
+    {
+      "claim": "Tex. Occ. Code ch. 1702: camera systems that record images of a residence or business are “alarm systems” (§1702.002(1)(C)); detection devices include wiring (§1702.002(6)); a license is required to act as or offer the services of an alarm systems company (§1702.102(a)); the Department of Public Safety administers licensing",
+      "url": "https://tcss.legis.texas.gov/resources/OC/htm/OC.1702.htm"
+    },
+    {
+      "claim": "Texas DPS TOPS portal public “Search Licensees” page (alarm, electronic access, locksmith and other private security licenses)",
+      "url": "https://tops.portal.texas.gov/psp-self-service/search/index"
+    },
+    {
+      "claim": "Tex. Bus. & Com. Code §521.002(a)(2) sensitive personal information; §521.053(b) notify individuals no later than the 60th day after determining the breach occurred; §521.053(c) a person maintaining data it doesn’t own must notify the owner immediately after discovering a breach; §521.053(i) notify the AG no later than the 30th day if at least 250 Texas residents are involved (last amended by S.B. 768, eff. Sept 1, 2023)",
+      "url": "https://tcss.legis.texas.gov/resources/BC/htm/BC.521.htm"
+    },
+    {
+      "claim": "Tex. Bus. & Com. Code ch. 542 (S.B. 2610, eff. Sept 1, 2025): applies to business entities with fewer than 250 employees that own or license computerized data including sensitive personal information (§542.002); no exemplary damages if the entity demonstrates it implemented and maintained a compliant cybersecurity program at the time of the breach (§542.003); fewer than 20 employees: simplified requirements including password policies and employee training; 20–99: CIS Controls IG1; 100–249: an industry-recognized framework (§542.004); no private cause of action (§542.005)",
+      "url": "https://tcss.legis.texas.gov/resources/BC/htm/BC.542.htm"
+    },
+    {
+      "claim": "Lake Ray Hubbard lies between Rowlett and Rockwall (joined by the SH 66 bridge; I-30 crosses on the Eastern Dallas Causeway)",
+      "url": "https://en.wikipedia.org/wiki/Lake_Ray_Hubbard"
+    }
+  ]
+}

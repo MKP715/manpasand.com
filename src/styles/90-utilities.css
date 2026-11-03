@@ -1,0 +1,41 @@
+/* Utilities, forced colours, print. Shared file — keep it small. */
+.mt-0{margin-top:0!important}
+.mt-s{margin-top:16px}
+.mt-m{margin-top:32px}
+.mt-l{margin-top:clamp(40px,5vw,64px)}
+.center{text-align:center}
+.nowrap{white-space:nowrap}
+.muted{color:var(--muted)}
+.ink-2{color:var(--ink-2)}
+.measure{max-width:var(--maxw-prose)}
+.small{font-size:var(--fs-xs)}
+
+/* 404 page (shared because it is part of the shell) */
+.nf{padding-block:clamp(48px,8vw,120px)}
+.nf-code{font:400 clamp(5rem,3rem + 10vw,11rem)/.85 var(--font-serif);letter-spacing:-.04em;color:var(--ink)}
+.nf-code em{font-style:italic;color:var(--accent)}
+.nf .lead{margin-top:20px}
+.nf .related{margin-top:12px}
+
+/* Windows High Contrast / forced colours (§9) */
+@media (forced-colors: active){
+  .plate,.case,.direct,.readout,.quote,.callout,.dd-panel,.drawer{border:1px solid CanvasText}
+  .btn{border:1px solid ButtonText}
+  .logo-sq{forced-color-adjust:none;fill:#D2461E}
+  .eyebrow::before,.prose ul > li::before,.status::before{forced-color-adjust:none;background:CanvasText}
+  .fig-line,.fig-ink,.fig-port,.fig-node,.fig-af,.fig-ghost{stroke:CanvasText}
+  .fig-text,.fig-dim,.fig-fill,.fig-head,.fig-accent{fill:CanvasText}
+  .fig-num text{fill:Canvas}
+  .theme button[aria-pressed="true"]{outline:2px solid ButtonText}
+}
+
+/* Print */
+@media print{
+  .site-header,.drawer,.actionbar,.skip,.band-mark,.theme,.starts{display:none!important}
+  body{background:#fff;color:#000}
+  .band,.site-footer{background:#fff!important;color:#000}
+  .band h2,.band .lead,.site-footer *{color:#000!important}
+  a[href^="http"]:not(.btn)::after{content:" (" attr(href) ")";font-size:.8em}
+  .faq details{break-inside:avoid}
+  .section{padding-block:24px}
+}

@@ -1,0 +1,211 @@
+{
+  "slug": "plano-tx",
+  "city": "Plano",
+  "eyebrow": "Plano, TX",
+  "title": "IT Support & Home Wi-Fi Help in Plano, TX | Manpasand",
+  "description": "IT support for Plano homes and businesses: home Wi-Fi, home-office setups and small conference rooms on-site, database work remote. Free consultation.",
+  "h1": "IT support and home Wi‑Fi help in Plano",
+  "lede": "We’re based in Rowlett, about 27 minutes from the middle of Plano without traffic. Our IT support in Plano is on-site for home Wi‑Fi, home offices and small conference rooms; database work happens remotely. Plano is the farthest of our six service-area cities, so we’re upfront about the drive.",
+  "summary": "Home-office Wi‑Fi, small conference rooms and remote database work for Plano homes and firms, about 27 minutes from Rowlett.",
+  "sections": [
+    {
+      "heading": "One in five Plano workers works from home",
+      "paragraphs": [
+        "Plano is a corporate town. When the Legacy West development opened in 2017, NBC 5 reported that its corporate tenants, including Toyota’s new North American headquarters, brought more than 20,000 jobs. Toyota Motor North America is still headquartered in Plano, on Headquarters Drive.",
+        "Plenty of Plano’s work happens in spare bedrooms, too. In the Census Bureau’s 2024 American Community Survey, about 21% of Plano workers said they usually worked from home, against 12.9% statewide. The survey asks how people *usually* got to work, so someone in the office three days a week counts as a commuter. The number of Plano homes with a work desk is likely higher.",
+        "That work laptop often shares one network with smart TVs, game consoles and the kids’ tablets. If your employer owns it, its VPN and security settings are their IT team’s call, and we leave them alone. Our [home Wi‑Fi help in Plano](/services/home-network/) covers everything around it:"
+      ],
+      "list": [
+        "A network cable or mesh access point at the desk, so video calls don’t ride a weak signal through three walls",
+        "TVs, speakers, thermostats and printers on their own network, away from the work laptop",
+        "A guest network, so fewer people need your main Wi‑Fi password",
+        "The FTC’s router basics: WPA3 or WPA2, a new admin username and password, current router software, and remote management, WPS and UPnP turned off"
+      ]
+    },
+    {
+      "heading": "Small firms, meeting rooms and the data behind them",
+      "paragraphs": [
+        "Most Plano businesses are small, though. Census ZIP Code Business Patterns for 2023 count about 10,900 business locations with paid employees in six Plano ZIP codes, and 83% of them have fewer than 20 employees. About 2,100 are professional, scientific and technical firms: law, accounting, engineering, design, computer and consulting offices. ZIP 75024, around the corporate campuses on Legacy Drive, has the most locations of the six.",
+        "If your clients are large companies, your meeting room has two jobs: hosting calls on your own platform and joining clients’ calls on whatever they use. A USB camera bar and speaker that plug into a laptop work with any app the laptop runs; the catch is that someone has to bring the laptop and plug it in. A dedicated room system starts a meeting with one tap, but it’s set up around one main platform and joins the others as a guest. Our [conference room setup](/services/conference-room-av/) page compares the two.",
+        "Then there’s the data: a database somebody set up years ago, or a spreadsheet that quietly turned into one. [Database work](/services/database-consulting/) on SQL Server, MySQL or PostgreSQL doesn’t need us in your building, so for a Plano firm there’s no drive at all. Planning an office move? [Tech consulting](/services/tech-consulting/) helps most before the lease is signed, while you can still check what internet the suite can get."
+      ]
+    },
+    {
+      "heading": "On-site IT support in Plano, and what the drive means",
+      "paragraphs": [
+        "Plano is the farthest of our service-area cities from Rowlett: about 27 minutes and 18 miles to the middle of the city without traffic, mostly on the President George Bush Turnpike, a toll road. Plano is wide. East Plano (75074) is about 21 minutes away; the Legacy area (75024) is about 32. Rush hour adds to all of those.",
+        "So here’s the honest fit. We come on-site in Plano Mon–Fri, 9 AM – 5 PM, and planned work suits the distance: a home-office setup, a Wi‑Fi rebuild, a meeting room, an office move. We acknowledge critical support requests within two hours during business hours, but that’s a reply, not a technician at your door. If you need someone on-site within the hour, a provider based in Plano may serve you better. Either way, the [first consultation is free](/contact/#estimate), and you get a detailed scope and a fixed-price quote before any work starts.",
+        "Two local things to know. Report a power outage to the company that owns the poles and wires, not the one that sends your bill. In Plano that’s usually Oncor: call 1-888-313-4747 any time, or text OUT to 66267 once you’ve signed up for MyOncor Alerts. Storm outages here can be large and slow to clear. At 3 p.m. on May 29, 2024, the day after a severe storm, Oncor still counted 10,025 Plano households without power, and a March 2025 windstorm cut power to more than 20,000 Plano residents, by Oncor’s count. A battery backup keeps the modem and router up through short flickers; our [power outage guide](/guides/power-outage-protection-office-tech/) goes further. And before paying for a faster plan, check your address on the [FCC National Broadband Map](https://broadbandmap.fcc.gov/) to see which providers report service there."
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Drive from Rowlett",
+      "value": "About 27 minutes / 18 miles (no traffic)"
+    },
+    {
+      "label": "East to west",
+      "value": "About 21 minutes to 75074, about 32 minutes to 75024"
+    },
+    {
+      "label": "Counties",
+      "value": "Collin, with a small part in Denton"
+    },
+    {
+      "label": "ZIP codes",
+      "value": "75023–75026, 75074–75075, 75086, 75093–75094"
+    },
+    {
+      "label": "Work from home",
+      "value": "About 21% of workers in 2024 (Texas: 12.9%)"
+    },
+    {
+      "label": "Power outages",
+      "value": "Usually Oncor: 1-888-313-4747, 24/7"
+    }
+  ],
+  "services": [
+    {
+      "slug": "home-network",
+      "text": "For Plano home offices: a cable or mesh point at the desk, smart TVs and speakers on their own network, and the router settings the FTC recommends."
+    },
+    {
+      "slug": "conference-room-av",
+      "text": "Small Plano conference rooms set up so you can host your own Teams or Zoom calls and join your clients’ calls on whatever platform they use."
+    },
+    {
+      "slug": "database-consulting",
+      "text": "SQL Server, MySQL and PostgreSQL work, ETL jobs and reports, done remotely, so the drive from Rowlett doesn’t come into it."
+    },
+    {
+      "slug": "tech-consulting",
+      "text": "Before an office move or a new internet contract, we help you compare options, check what the address can get and plan the network."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can someone set up my home Wi‑Fi in Plano?",
+      "a": "Yes. We come to Plano homes Mon–Fri, 9 AM – 5 PM, to fix weak spots, add a cable or mesh access point where the desk is, put smart TVs and speakers on their own network and lock down the router. We’re based in Rowlett, so we book a time rather than drop in. The [first consultation is free](/contact/#estimate)."
+    },
+    {
+      "q": "Do you make on-site visits in Plano?",
+      "a": "Yes, Mon–Fri, 9 AM – 5 PM. We don’t have an office in Plano; without traffic it’s about 21 minutes from Rowlett to east Plano and about 32 minutes to the Legacy area. For planned work that’s no problem. If you need someone on-site within the hour, a provider closer to you may be the better call."
+    },
+    {
+      "q": "How do I secure a home office network?",
+      "a": "Start with the router. The FTC recommends WPA3 or WPA2 encryption, a new admin username and password, up-to-date router software, and turning off remote management, WPS and UPnP. Then separate things: guests on a guest network, and smart TVs, speakers and thermostats on their own network so they can’t reach the work computer. If the laptop belongs to your employer, leave its VPN and security settings to their IT team."
+    },
+    {
+      "q": "Do you offer remote IT help?",
+      "a": "Yes, for some jobs. For Plano clients, a locked-out account, a mailbox that won’t sync or a software problem can often be fixed remotely, in a session you start and can end at any time ([small business IT support](/services/small-business-it/)). Database and web projects can be handled remotely from anywhere. Wi‑Fi, cabling, PC hardware and meeting rooms are hands-on, so for those we come to you in Plano. We respond within one business day and acknowledge critical support requests within two hours during business hours."
+    }
+  ],
+  "nearby": [
+    "richardson-tx",
+    "sachse-tx",
+    "garland-tx"
+  ],
+  "sources": [
+    {
+      "claim": "Plano is the largest city in Collin County, and a small portion of Plano is in Denton County; ZIP codes 75023–26, 75074–75, 75086, 75093–94; Legacy Drive in ZIP 75024, between Preston Road and the Dallas North Tollway, has many corporate campuses",
+      "url": "https://en.wikipedia.org/wiki/Plano,_Texas"
+    },
+    {
+      "claim": "Texas Almanac data in the TSHA Handbook of Texas lists Plano in both Collin and Denton counties",
+      "url": "https://www.tshaonline.org/handbook/entries/plano-tx"
+    },
+    {
+      "claim": "Toyota Motor North America headquarters: 6565 Headquarters Drive, Plano, Texas",
+      "url": "https://en.wikipedia.org/wiki/Toyota_Motor_North_America"
+    },
+    {
+      "claim": "NBC 5 DFW (June 2, 2017): Legacy West includes the new North American headquarters of Toyota (and FedEx Office); the corporate tenants brought more than 20,000 jobs to Legacy West",
+      "url": "https://www.nbcdfw.com/news/local/planos-massive-legacy-west-development-opens-friday/24109/"
+    },
+    {
+      "claim": "ACS 2024 1-year, table B08301: 32,724 (±3,665) of 155,771 Plano workers 16+ worked from home (21.0%); Texas 1,956,349 of 15,130,603 (12.9%); US 13.3%",
+      "url": "https://api.censusreporter.org/1.0/data/show/acs2024_1yr?table_ids=B08301&geo_ids=16000US4858016,04000US48,01000US"
+    },
+    {
+      "claim": "The ACS asks about the method of transportation usually used to get to work, of people 16+ who were employed and at work in the previous week; home-based workers are those who reported working from home on that question",
+      "url": "https://www.census.gov/data/academy/resources/one-pagers/home-based-workers.html"
+    },
+    {
+      "claim": "FTC home Wi‑Fi advice: use WPA3 Personal or WPA2 Personal; change the default administrative username, password and network name; update router software; turn off remote management, WPS and UPnP; set up a guest network so fewer people know the main password",
+      "url": "https://consumer.ftc.gov/articles/how-secure-your-home-wi-fi-network"
+    },
+    {
+      "claim": "2023 ZIP Code Business Patterns, all industries, ZIPs 75023, 75024, 75025, 75074, 75075, 75093: 1,041 + 2,852 + 859 + 2,043 + 1,408 + 2,686 = 10,889 establishments; 9,077 (83.4%) have fewer than 20 employees; NAICS 54 professional, scientific and technical services: 185 + 698 + 253 + 348 + 212 + 424 = 2,120; 75024 has the most establishments of the six (2,852). PO-box ZIPs 75026 and 75086 and 75094 (shared with Murphy and Parker) excluded",
+      "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2023/zbp23detail.zip"
+    },
+    {
+      "claim": "County Business Patterns covers establishments with paid employees; ZIP Code Business Patterns released with CBP starting with reference year 2022",
+      "url": "https://www.census.gov/programs-surveys/cbp/about.html"
+    },
+    {
+      "claim": "NAICS 54 (Professional, Scientific, and Technical Services) includes legal, accounting, architectural, engineering and design, computer and consulting services, among others",
+      "url": "https://www.bls.gov/iag/tgs/iag54.htm"
+    },
+    {
+      "claim": "Drive from Rowlett to Plano (Census 2024 Gazetteer internal points): 29,636 m (about 18.4 miles), 1,611 s (about 26.8 minutes) free-flow without traffic, mostly via the President George Bush Turnpike (OSRM)",
+      "url": "https://router.project-osrm.org/route/v1/driving/-96.548587,32.915926;-96.747944,33.050769?overview=false&steps=true"
+    },
+    {
+      "claim": "Drive from Rowlett to ZIP 75074 (east Plano, Gazetteer ZCTA internal point): 22,740 m (about 14.1 miles), 1,261 s (about 21 minutes) free-flow, via the Bush Turnpike and Jupiter Road (OSRM)",
+      "url": "https://router.project-osrm.org/route/v1/driving/-96.548587,32.915926;-96.672758,33.033284?overview=false&steps=true"
+    },
+    {
+      "claim": "Drive from Rowlett to ZIP 75024 (west Plano/Legacy, Gazetteer ZCTA internal point): 41,393 m (about 25.7 miles), 1,912 s (about 32 minutes) free-flow, via the Bush Turnpike and the Dallas North Tollway (OSRM)",
+      "url": "https://router.project-osrm.org/route/v1/driving/-96.548587,32.915926;-96.811028,33.077854?overview=false&steps=true"
+    },
+    {
+      "claim": "Plano is the farthest of the six service-area cities: from Rowlett, Rockwall is about 20.1 minutes / 10.2 miles (OSRM, Gazetteer point 32.918056, -96.43805); Richardson 19.5 min / 12.4 mi; Garland 13.5 min / 6.9 mi; Sachse 11.4 min / 5.8 mi; Plano 26.8 min / 18.4 mi",
+      "url": "https://router.project-osrm.org/route/v1/driving/-96.548587,32.915926;-96.43805,32.918056?overview=false"
+    },
+    {
+      "claim": "Richardson drive used in the farthest-city comparison: about 19.5 minutes / 12.4 miles from Rowlett (OSRM)",
+      "url": "https://router.project-osrm.org/route/v1/driving/-96.548587,32.915926;-96.708069,32.972291?overview=false"
+    },
+    {
+      "claim": "Census 2024 Gazetteer place internal points: Rowlett city 32.915926, -96.548587; Plano city 33.050769, -96.747944 (land area 71.7 sq mi)",
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_gaz_place_48.txt"
+    },
+    {
+      "claim": "Census 2024 Gazetteer ZCTA internal points: 75074 33.033284, -96.672758; 75024 33.077854, -96.811028",
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_zcta_national.zip"
+    },
+    {
+      "claim": "The President George Bush Turnpike is operated by the North Texas Tollway Authority, uses all-electronic toll collection and runs through Rowlett, Sachse, Garland, Richardson and Plano",
+      "url": "https://en.wikipedia.org/wiki/President_George_Bush_Turnpike"
+    },
+    {
+      "claim": "Oncor outage reporting: call 888.313.4747, available 24 hours a day/7 days a week; customers signed up for MyOncor Alerts can text OUT to 66267 (register by texting REG to 66267)",
+      "url": "https://www.oncor.com/content/oncorwww/us/en/home/outage-weather.html"
+    },
+    {
+      "claim": "Oncor: Texas is a deregulated market, so customers choose or switch their retail electric provider",
+      "url": "https://www.oncor.com/content/oncorwww/us/en/home/faqs/faqs-details.html"
+    },
+    {
+      "claim": "Plano is part of the Steering Committee of Cities Served by Oncor, and Oncor’s proposed rate increase would affect Plano residents’ bills (Community Impact, Oct. 17, 2025) — supports “in Plano that’s usually Oncor”",
+      "url": "https://communityimpact.com/dallas-fort-worth/plano-south/government/2025/10/17/plano-council-opposes-oncor-834m-rate-increase/"
+    },
+    {
+      "claim": "After severe weather early May 28, 2024, Plano residents were directed to Oncor’s storm center to report outages",
+      "url": "https://communityimpact.com/dallas-fort-worth/plano-north/weather/2024/05/28/plano-crews-work-to-clear-debris-restore-power-following-severe-weather/"
+    },
+    {
+      "claim": "Plano Magazine (May 29, 2024): “Oncor reported that 10,025 Plano households are still without power as of 3 p.m. on May 29”",
+      "url": "https://planomagazine.com/after-the-storm-may-27/"
+    },
+    {
+      "claim": "Plano Magazine (March 4, 2025): per the City of Plano, wind gusts up to 60 mph; “over 20,000 Planoites without power, according to Oncor”",
+      "url": "https://planomagazine.com/wind-storm-march-2025/"
+    },
+    {
+      "claim": "On the FCC National Broadband Map (broadbandmap.fcc.gov), searching an address shows the fixed and mobile services internet providers report are available there",
+      "url": "https://www.benton.org/headlines/fcc-releases-new-national-broadband-maps"
+    }
+  ]
+}

@@ -1,0 +1,408 @@
+{
+  "slug": "conference-room-video-setup-checklist",
+  "title": "Conference Room Video Setup Checklist | Manpasand",
+  "description": "A practical checklist for video meeting rooms: camera height and framing, microphones, displays, cabling, network and a five-minute pre-meeting test.",
+  "h1": "The conference room video setup checklist",
+  "lede": "A video meeting room works when the people on the screen can see every face and hear every voice without echo. This conference room video setup checklist covers room size, screen size, camera height, light, microphones, acoustics, the network and cabling, plus a five-minute check for meeting days.",
+  "summary": "Screen size, camera height, light, mics, echo, network and cabling for small meeting rooms, plus a five-minute pre-meeting check.",
+  "updated": "2026-11-03",
+  "keyTakeaways": [
+    "Size the screen for the farthest seat and the smallest text you’ll share, not for the room’s square footage.",
+    "Center the camera on the screen, close to seated eye level, and keep windows behind the camera rather than behind the people.",
+    "Echo usually starts with a second device in the room that has its audio on, so make one device carry the audio before you buy acoustic panels.",
+    "Wire the room system to your staff network: Microsoft, Zoom and Google all recommend a wired connection, and Microsoft suggests 10 Mbps up and 10 Mbps down for each Teams Room.",
+    "Test from the farthest chair with someone outside the building before the first real meeting, then run a five-minute check on meeting days."
+  ],
+  "sections": [
+    {
+      "heading": "Measure the room and decide how people will join",
+      "paragraphs": [
+        "Start with a tape measure and a headcount. Note the room’s size, how many people usually sit in it, where the windows, outlets and network jacks are, and which platform your clients invite you on: Teams, Zoom or Google Meet. Microsoft’s Teams Rooms planning guidance sorts rooms into the four sizes below; what most offices call a huddle room is its focus or small room.",
+        "Then pick a setup. With **bring your own device (BYOD)**, a USB video bar (camera, microphones and speaker in one unit) sits under the screen, and whoever runs the meeting plugs in a laptop and joins from the app they already use. Logitech’s MeetUp 2, a typical huddle-room bar, uses a standard two-cable laptop setup and works with Teams, Zoom and Meet. There’s no room license, but someone has to plug in a laptop before every call.",
+        "A **dedicated room system** keeps its own small computer and touch console in the room, so people walk in and tap Join. Each room needs a license. Microsoft’s Teams Rooms Basic costs nothing extra with approved Teams Rooms hardware, for up to 25 room systems; a Zoom Room needs a Zoom Rooms license. Don’t sign a spare PC in to an employee’s Teams account instead: Microsoft says per-user Microsoft 365 licenses aren’t authorized on shared meeting devices.",
+        "Our rule of thumb: a room used a few times a week does fine with BYOD. A room booked most of the day, or used by visitors, is worth a room system."
+      ],
+      "table": {
+        "caption": "Room sizes and screen sizes from Microsoft’s Teams Rooms planning guidance (the audio entries for focus and small rooms are our usual approach)",
+        "head": [
+          "Room type",
+          "People",
+          "Approx. size",
+          "Screen (Microsoft)",
+          "Audio to plan for"
+        ],
+        "rows": [
+          [
+            "Focus (often called a huddle room)",
+            "2–4",
+            "10 × 9 ft",
+            "Not listed",
+            "The video bar’s built-in microphones"
+          ],
+          [
+            "Small",
+            "4–6",
+            "16 × 16 ft",
+            "55 inches or larger",
+            "The video bar’s built-in microphones"
+          ],
+          [
+            "Medium",
+            "6–12",
+            "18 × 20 ft",
+            "65 inches or larger",
+            "Extra table microphones with mute buttons"
+          ],
+          [
+            "Large",
+            "12–16",
+            "15 × 32 ft",
+            "85 inches or larger, or a projector",
+            "External microphone arrays"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Size the screen for the farthest seat",
+      "paragraphs": [
+        "Size the screen for the farthest seat and the smallest text you’ll share. That’s the logic of AVIXA’s display-sizing standard, DISCAS (ANSI/AVIXA V202.01), which relates the farthest viewer’s distance to the picture’s height, and the picture’s height to the smallest thing on screen, such as one character of text.",
+        "For everyday viewing, AVIXA’s basic-viewing table works out to text being readable from up to about 200 times its own height. Text that’s 2.5% of the screen height holds up to 5 screen-heights away; text at 1% holds up to only 2. Faces need far less detail: Cisco’s room guide puts the best distance for video and normal content at one to four times the screen diagonal, and says to sit closer for spreadsheets and detailed graphics.",
+        "So Microsoft’s sizes in the table above work for faces and large-type slides, but small text needs a bigger screen or presenters who zoom in when they share. Before you buy, put your real content on a screen that size and sit in the farthest chair.",
+        "Mount it on a wall that can carry the weight, with a clear path for cables. On a consumer TV, try Game or PC mode: Cisco’s guide notes that delay through most displays is often over 100 milliseconds, which hurts conversation, and that those modes can reduce it."
+      ],
+      "table": {
+        "caption": "How far away the farthest seat can be: our arithmetic from AVIXA’s basic-viewing table, for 16:9 screens",
+        "head": [
+          "Screen (diagonal)",
+          "Picture height",
+          "Smallest text 2.5% of screen height",
+          "Smallest text 1% of screen height"
+        ],
+        "rows": [
+          [
+            "55-inch",
+            "About 27 in",
+            "About 11 ft",
+            "About 4½ ft"
+          ],
+          [
+            "65-inch",
+            "About 32 in",
+            "About 13 ft",
+            "About 5¼ ft"
+          ],
+          [
+            "75-inch",
+            "About 37 in",
+            "About 15 ft",
+            "About 6 ft"
+          ],
+          [
+            "85-inch",
+            "About 42 in",
+            "About 17 ft",
+            "About 7 ft"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Put the camera near eye level and light the faces",
+      "paragraphs": [
+        "Center the camera on the screen that shows the remote people, as close to it as you can, so anyone looking at the screen is also looking at the lens. Keep the lens near seated eye level, which AVIXA’s calculator suggests taking as 48 inches. Microsoft’s diagrams put it 1–1.1 meters (about 39–43 inches) off the floor for a standard-height table. Cisco’s guide says ideally 44–72 inches; any higher and the camera looks down on the room and can miss the nearest people. For a standard table, we aim for roughly 40–48 inches.",
+        "Microsoft says below the display and centered is often a good spot, and a video bar may have to go there anyway; Cisco suggests above the screen for displays under 80 inches. Use whichever keeps the lens in range, and if it sits low, add a modesty panel across the table’s front edge.",
+        "Field of view decides how close the table can come. Microsoft suggests about 1.5 meters (5 feet) from the camera to the front of the table; Cisco says at least 0.7 times the width of the table’s near end. A wider lens helps: the MeetUp 2 sees 113 degrees horizontally. Before mounting anything, open self-view and check that the two chairs nearest the screen are fully in frame.",
+        "Light the faces, not the walls. Cisco recommends 400–500 lux on faces, no more than 1.5 times that on the table and surroundings, about 4000 K color temperature and a color-rendering index of 80 or better. Microsoft notes that a camera pointed into the light shows people dark and washed out, and suggests blinds or blackout film for windows that cause glare. Check at the hour you usually meet: a west window that’s fine at 10 a.m. can glare by late afternoon."
+      ]
+    },
+    {
+      "heading": "Microphones, speakers, echo and acoustics",
+      "paragraphs": [
+        "Echo usually starts with a second device in the room that has its audio on. Zoom’s help article on echo lists computer and phone audio active at once, and several computers with active audio in one room, among its causes, and notes that muting isn’t enough because the speaker is still on. Make it a room rule: one device carries the audio. In Zoom, people on laptops in the room disconnect their computer audio; in a Teams Room, they can choose **Room audio** before joining.",
+        "Next, make sure every seat is in range. Logitech rates the MeetUp 2’s microphones for voices up to 7 meters (23 feet) away. For 6–12 person rooms, Microsoft recommends added table microphones placed so no one is more than a few feet from one; Cisco’s guide figures one table microphone for about four people. Keep speakers apart from microphones, and skip a TV’s built-in speakers: Cisco says they usually fall short, and a poor speaker can cause echo for the far end.",
+        "Then treat the room. Drywall, glass and tile bounce sound back into the microphones; clap once, and a ringing, fluttering tail points to bare parallel walls. Cisco’s target is 0.3–0.4 seconds of reverberation and background noise no louder than 30 dBA. You don’t need a meter to move toward it:"
+      ],
+      "list": [
+        "Treat at least two walls, and carpet the floor or add a large rug (Microsoft).",
+        "Add absorption equal to about half the ceiling area, on adjacent walls rather than only opposite ones; curtains count (Cisco).",
+        "Mount acoustic panels so they stand at least 2 inches off the wall, which helps them absorb lower frequencies (Cisco).",
+        "Listen with the A/C running, and redirect any vent that blows across the table."
+      ],
+      "ordered": false,
+      "callout": {
+        "title": "A North Texas note on air conditioning",
+        "text": "Microsoft lists noisy air conditioning among the things to check in a meeting room. DFW Airport’s 1991–2020 climate normals average about 106 days a year at 90°F or hotter, so here the A/C runs through a big share of meetings. Test the room on a hot afternoon, not a mild morning."
+      }
+    },
+    {
+      "heading": "Wire the network, power and cables",
+      "paragraphs": [
+        "Microsoft, Zoom and Google all recommend a wired connection for room systems, and Microsoft warns that wireless networks can be prone to interference that degrades quality. Plug the room computer into a jack on your staff network, not guest Wi‑Fi.",
+        "Microsoft’s design guidance asks for power and a network connection both at the table and where the equipment mounts. Add a display cable at the table (HDMI, DisplayPort or USB‑C) so someone can show a laptop on the screen without joining the call, and run the rest through a duct or raceway. Measure the runs before you buy: the MeetUp 2 ships with a 3-meter (about 10-foot) USB‑C cable, so a table farther away needs a longer cable or extender made for that bar. Label both ends of every cable.",
+        "Texas doesn’t require a state electrician’s license for communications and other low-voltage, power-limited cabling (Occupations Code §1305.003(a)(12)), but the Texas Department of Licensing and Regulation notes that city rules can override that exemption, so check with your city before opening walls in a commercial suite. A new outlet behind the screen is electrical work, and §1305.151 requires an electrician’s license for it.",
+        "The bandwidth figures below are modest, but they’re per device, and upload matters as much as download because every camera on the call sends video out. Check your plan’s upload speed, not just the headline download number."
+      ],
+      "table": {
+        "caption": "Bandwidth each platform asks for, per room system or device (checked November 3, 2026)",
+        "head": [
+          "Setup",
+          "Upload",
+          "Download",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Microsoft Teams Room (room system)",
+            "10 Mbps",
+            "10 Mbps",
+            "Microsoft’s recommendation for each room"
+          ],
+          [
+            "Teams on a laptop, meeting with video",
+            "2.5 Mbps",
+            "4 Mbps",
+            "Microsoft’s “recommended” level; 4 Mbps each way for best performance"
+          ],
+          [
+            "Zoom Room at 1080p, one screen",
+            "4 Mbps",
+            "4 Mbps",
+            "Download rises to 8 Mbps with two screens"
+          ],
+          [
+            "Zoom on a laptop, group call at 1080p",
+            "3.8 Mbps",
+            "3.0 Mbps",
+            "Zoom’s estimated peak use"
+          ],
+          [
+            "Google Meet hardware, HD video",
+            "3.2 Mbps",
+            "2.6–4.0 Mbps",
+            "Download for 2 to 10 participants; latency under 50 ms"
+          ]
+        ]
+      },
+      "callout": {
+        "title": "Add it up for a busy hour, then check the details",
+        "text": "A room system plus three laptops joined from the same room means four devices sending video, and an echo unless the laptops’ audio is off. Add the other calls likely to run at once, leave headroom, and run a speed test from the room’s jack at a busy hour. A few platform details: Google asks Meet hardware for a ping under 50 milliseconds to its public DNS server, 8.8.8.8; Microsoft suggests 5 GHz and a signal of −60 dBm or better if a Teams Room has to use Wi‑Fi; Zoom Rooms controllers talk directly to the room computer, so Wi‑Fi “client isolation” must be off; and Microsoft says to change a Teams Rooms on Windows device’s default admin password right away. Our [network security work](/services/network-security/) covers the rest of the office network."
+      }
+    },
+    {
+      "heading": "Test before the first meeting, then keep a five-minute check",
+      "paragraphs": [
+        "Before the first real meeting, call someone outside the building from the farthest chair, ideally on a phone using cellular data, so you hear what clients will hear. Each platform has a built-in check. The Teams desktop app’s test call (Settings, then Devices, then Make a test call) records a short message and plays it back. [Zoom’s test meeting](https://zoom.us/test) checks your internet and device settings. Google Meet’s “Check your audio and video” button previews your devices and connection before you join.",
+        "After that, this short check before each meeting day catches most problems:"
+      ],
+      "list": [
+        "**Screen and input.** The display is on the right input, and the video bar or room console shows it’s ready.",
+        "**One audio device.** Any laptop joining from the room has its audio disconnected or is connected to Room audio.",
+        "**Framing and light.** Self-view shows the nearest chairs and the far end of the table, and nobody is a silhouette against a window.",
+        "**Far-end sound.** Someone on the call confirms they can hear the farthest seat at a normal speaking voice.",
+        "**Sharing.** Share a screen and check that the smallest text is readable from the back of the room.",
+        "**Network.** If video stutters, confirm the room system is on its wired jack, not guest Wi‑Fi."
+      ],
+      "ordered": true
+    },
+    {
+      "heading": "The conference room video setup checklist at a glance",
+      "paragraphs": [
+        "Keep this summary with the room’s remote and spare cables. Each row names where the target comes from; the sections above explain the trade-offs."
+      ],
+      "table": {
+        "caption": "The checklist at a glance (the camera-height range is our reading of the three sources)",
+        "head": [
+          "Item",
+          "Target",
+          "Based on"
+        ],
+        "rows": [
+          [
+            "Screen size",
+            "Farthest seat within 5 screen-heights for large text, 2 for small text",
+            "AVIXA DISCAS"
+          ],
+          [
+            "Camera height",
+            "Lens about 40–48 in for a standard table, ideally under 72 in",
+            "Microsoft, Cisco, AVIXA"
+          ],
+          [
+            "Camera distance",
+            "About 5 ft to the front of the table, and at least 0.7 × the width of its near end",
+            "Microsoft, Cisco"
+          ],
+          [
+            "Light",
+            "400–500 lux on faces; no window behind the people",
+            "Cisco, Microsoft"
+          ],
+          [
+            "Echo",
+            "One device in the room carries the audio",
+            "Zoom, Microsoft"
+          ],
+          [
+            "Acoustics",
+            "Two or more treated walls plus carpet or a rug; 0.3–0.4 s reverberation",
+            "Microsoft, Cisco"
+          ],
+          [
+            "Background noise",
+            "30 dBA or less, with the A/C running",
+            "Cisco"
+          ],
+          [
+            "Network",
+            "Wired, staff network; 10 Mbps each way per Teams Room",
+            "Microsoft, Zoom, Google"
+          ],
+          [
+            "At the table",
+            "Power, a network jack and a display cable",
+            "Microsoft"
+          ],
+          [
+            "Admin password",
+            "Room system’s default admin password changed",
+            "Microsoft"
+          ]
+        ]
+      },
+      "callout": {
+        "title": "Where we fit",
+        "text": "We set up small conference and huddle rooms around Dallas–Fort Worth: the equipment list, mounting, the network connection, room accounts and test calls from every seat. We’re based in Rowlett, and offices in [Richardson](/service-areas/richardson-tx/) are about 20 minutes / 12 miles away without traffic. See our [conference room AV setup](/services/conference-room-av/) page, or [contact us](/contact/) for a free consultation and a fixed-price quote. For the computers and network around the room, there’s our [small business IT support](/services/small-business-it/)."
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What equipment do I need for a video conference room?",
+      "a": "A screen, a camera, microphones and a speaker (often combined in one video bar), plus a computer to run the call. That computer can be the laptop people bring or a dedicated room system with its own touch console. Add a wired network connection and a display cable at the table. Rooms for 6–12 people usually need extra table microphones, and a scheduling panel by the door is optional."
+    },
+    {
+      "q": "Where should the camera be placed in a meeting room?",
+      "a": "At the front, centered on the screen that shows the remote people, near seated eye level. Microsoft’s diagrams use 39–43 inches off the floor for a standard-height table and about 5 feet from the camera to the table. Don’t point it toward a window, and keep it under 72 inches, which Cisco’s guide gives as the ideal maximum."
+    },
+    {
+      "q": "How do I reduce echo in a conference room?",
+      "a": "First make sure only one device in the room has audio on. A laptop joined with its own microphone and speakers next to the room system is the usual cause, and muting the laptop isn’t enough. If echo remains, keep speakers away from microphones and soften the room with carpet or a rug and fabric panels on at least two walls."
+    },
+    {
+      "q": "What internet speed does a video conference room need?",
+      "a": "Microsoft recommends 10 Mbps up and 10 Mbps down for each Teams Room. Zoom estimates 4 Mbps each way for a one-screen Zoom Room at 1080p, and Google lists 3.2 Mbps up and 2.6–4 Mbps down, depending on the number of participants, for Meet hardware in HD. Add whatever else the office is doing at the same time, and use a wired connection."
+    },
+    {
+      "q": "What is the difference between a huddle room and a conference room?",
+      "a": "Size and gear. A huddle room seats roughly 2–6 people close to one screen, so an all-in-one video bar usually covers everyone. A conference room for 6–12 or more needs a larger screen (Microsoft recommends 65 inches or larger for 6–12 people), table microphones so the far end of the table is heard, and often a dedicated room system."
+    }
+  ],
+  "relatedServices": [
+    "conference-room-av",
+    "small-business-it"
+  ],
+  "disclaimer": "Platform requirements, license terms and product specifications in this guide were checked on November 3, 2026, from the publishers’ own pages listed below. Microsoft, Zoom, Google and equipment makers update them, so check the linked pages before you buy. Product names are examples, not endorsements.",
+  "sources": [
+    {
+      "label": "AVIXA — Learn More About Display Size (DISCAS, Display Image Size for 2D Content in Audiovisual Systems)",
+      "url": "https://www.avixa.org/standards/discas-calculators/discas/learn-more-about-display-size"
+    },
+    {
+      "label": "AVIXA — DISCAS Basic Decision Making calculator (viewing ratio; default seated eye level of 48 inches)",
+      "url": "https://www.avixa.org/standards/discas-calculators/discas/bdm"
+    },
+    {
+      "label": "Microsoft Learn — Plan for Microsoft Teams Rooms",
+      "url": "https://learn.microsoft.com/en-us/microsoftteams/rooms/rooms-plan"
+    },
+    {
+      "label": "Microsoft Learn (training) — Understand and plan Teams Room accessories, components, and peripherals",
+      "url": "https://learn.microsoft.com/en-us/training/modules/plan-microsoft-teams-rooms-surface-hub/5-understand-teams-accessories-components-peripherals"
+    },
+    {
+      "label": "Microsoft Learn — Design and build a Signature Teams Rooms meeting space or update an existing space",
+      "url": "https://learn.microsoft.com/en-us/microsoftteams/hybrid-meetings-room-design"
+    },
+    {
+      "label": "Microsoft Learn — Prepare your environment for Teams Rooms",
+      "url": "https://learn.microsoft.com/en-us/microsoftteams/rooms/rooms-prep"
+    },
+    {
+      "label": "Microsoft Learn — Prepare your organization’s network for Teams (bandwidth requirements)",
+      "url": "https://learn.microsoft.com/en-us/microsoftteams/prepare-network"
+    },
+    {
+      "label": "Microsoft Learn — Microsoft Teams Rooms licenses",
+      "url": "https://learn.microsoft.com/en-us/microsoftteams/rooms/rooms-licensing"
+    },
+    {
+      "label": "Microsoft Support — Make a test call in Microsoft Teams",
+      "url": "https://support.microsoft.com/en-us/office/make-a-test-call-6c131ac4-8998-4cb1-9076-1801741d0e59"
+    },
+    {
+      "label": "Microsoft Support — Join a meeting in Microsoft Teams (Room audio)",
+      "url": "https://support.microsoft.com/en-us/office/join-a-meeting-in-microsoft-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9"
+    },
+    {
+      "label": "Zoom — Calculating bandwidth usage for Zoom Meetings and Phone",
+      "url": "https://library.zoom.com/admin-corner/network-management/quality-of-service-and-network-best-practices-explainer/calculating-bandwidth-usage-for-zoom-meetings-and-phone"
+    },
+    {
+      "label": "Zoom Support — Zoom Rooms hardware, license and network requirements (KB0063391)",
+      "url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0063391"
+    },
+    {
+      "label": "Zoom Support — Managing audio echo in a meeting (KB0061720)",
+      "url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061720"
+    },
+    {
+      "label": "Zoom Support — Zoom Rooms controller and scheduling display network requirements (KB0065712)",
+      "url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0065712"
+    },
+    {
+      "label": "Zoom — Join a test meeting",
+      "url": "https://zoom.us/test"
+    },
+    {
+      "label": "Google Workspace Admin Help — Google Meet hardware requirements",
+      "url": "https://knowledge.workspace.google.com/admin/meet-hardware/google-meet-hardware-requirements?hl=en"
+    },
+    {
+      "label": "Google Workspace Updates — Check video and peripheral device quality with Google Meet self-check (Feb. 2021)",
+      "url": "https://workspaceupdates.googleblog.com/2021/02/check-video-and-peripheral-device-quality-with-google-meet-self-check.html"
+    },
+    {
+      "label": "Cisco — Project Workplace: Best Practices for Creating Effective Video-Enabled Rooms (2015)",
+      "url": "https://www.cisco.com/c/dam/m/zh_cn/projectworkplace/assets/pdf/best-practice.pdf"
+    },
+    {
+      "label": "Logitech — MeetUp 2 product page",
+      "url": "https://www.logitech.com/en-us/products/video-conferencing/conference-cameras/meetup2.html"
+    },
+    {
+      "label": "Logitech — MeetUp 2 specifications",
+      "url": "https://hub.sync.logitech.com/meetup2/post/meetup-2-specifications-FyK0iLzDqbLkLkQ"
+    },
+    {
+      "label": "Texas Legislature — Occupations Code ch. 1305 (§§1305.002, 1305.003, 1305.151)",
+      "url": "https://tcss.legis.texas.gov/resources/OC/htm/OC.1305.htm"
+    },
+    {
+      "label": "Texas Department of Licensing and Regulation — Electricians: exemptions",
+      "url": "https://www.tdlr.texas.gov/electricians/exemptions.htm"
+    },
+    {
+      "label": "NOAA NCEI — 1991–2020 annual normals, Dallas–Fort Worth International Airport (days at 90°F or hotter)",
+      "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USW00003927&format=json&dataTypes=ANN-TMAX-AVGNDS-GRTH090,ANN-TMAX-AVGNDS-GRTH100,JJA-TMAX-AVGNDS-GRTH090"
+    },
+    {
+      "label": "U.S. Census Bureau — 2024 Gazetteer, Texas places (internal points for Rowlett and Richardson)",
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_gaz_place_48.txt"
+    },
+    {
+      "label": "OSRM — driving route, Rowlett to Richardson (about 20 minutes / 12.4 miles, free-flow)",
+      "url": "https://router.project-osrm.org/route/v1/driving/-96.548587,32.915926;-96.708069,32.972291?overview=false"
+    }
+  ]
+}

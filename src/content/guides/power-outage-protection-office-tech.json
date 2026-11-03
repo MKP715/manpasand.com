@@ -1,0 +1,376 @@
+{
+  "slug": "power-outage-protection-office-tech",
+  "title": "Protect Office Electronics from Power Outages | Manpasand",
+  "description": "What to put on a UPS, how to size it, why the modem and router come first, and what to do before and after an outage. Written for small DFW offices.",
+  "h1": "How to protect office electronics from power outages",
+  "lede": "To protect office electronics from power outages, you need battery backup on the gear that keeps you online, real surge protection on everything else, and a plan for when the battery runs out. Here’s how we handle each for North Texas offices and home offices, and who to call when the lights go out.",
+  "summary": "Which UPS to buy and how to size it, surge protection that works, clean shutdowns, closet heat, generator safety and who to call in a DFW outage.",
+  "updated": "2026-11-03",
+  "keyTakeaways": [
+    "Put the modem, router or firewall and network switch on battery first; at a 50-watt load, even an 850 VA UPS is rated for about an hour.",
+    "Size a UPS by watts, leave 20–30% headroom, then read the maker’s runtime chart, because runtime drops much faster than load rises.",
+    "A UPS buys minutes, so set servers, network storage and key PCs to shut themselves down cleanly before the battery runs out.",
+    "Not every power strip is a surge protector: look for a UL 1449 listing and a low voltage protection rating (VPR), and replace protectors as they wear out.",
+    "Report outages to the company that owns the wires (usually Oncor here), and keep any generator outside, at least 20 feet from the building."
+  ],
+  "sections": [
+    {
+      "heading": "Why protect office electronics from power outages in North Texas?",
+      "paragraphs": [
+        "Winter Storm Uri is the outage everyone here remembers. In February 2021, more than 4.5 million people in Texas lost power, some for as long as four days. By 7 p.m. on February 15, ERCOT had ordered 20,000 megawatts of rotating outages, and DFW Airport bottomed out at 4°F that day, against a normal low of 40°F. Oncor, which delivers power to most of our area, carried the largest share of those outages: 36% of every order.",
+        "Summer brings its own risks. DFW Airport averages about 20 days a year at 100°F or hotter (1991–2020 normals); 2011 set the record with 71, and the National Weather Service had counted 52 for 2026 by late September. Storms knock out power too: on May 28, 2024, the City of Sachse reported widespread outages, and its animal shelter lost phone and internet service. ERCOT’s [TXANS alerts](https://www.ercot.com/txans) include a Weather Watch about 3–5 days before forecast significant weather and high demand, a good cue to check your batteries.",
+        "When the power drops, the modem and router go first, taking internet, Wi‑Fi, internet phones and card readers with them. Computers shut off without saving, and Microsoft’s own disk settings have long warned that “a power outage or equipment failure might result in data loss or corruption.” Power can also come back badly: Ready.gov warns it “may return with momentary surges or spikes that can cause damage.”"
+      ]
+    },
+    {
+      "heading": "Pick the right kind of UPS",
+      "paragraphs": [
+        "A UPS (uninterruptible power supply) is a battery unit between the wall and your equipment. Schneider Electric’s white paper on UPS designs describes the three types a small office will run into:"
+      ],
+      "table": {
+        "caption": "Small-office UPS types (Schneider Electric White Paper 1)",
+        "head": [
+          "Type",
+          "How it works",
+          "Switch to battery",
+          "Best fit"
+        ],
+        "rows": [
+          [
+            "Standby (offline)",
+            "Passes wall power through; the inverter starts only when power fails. Usually a stepped or square wave on battery, and it runs on battery during brownouts.",
+            "Under 10 ms",
+            "A single desktop PC"
+          ],
+          [
+            "Line-interactive",
+            "Adds automatic voltage regulation, so low or high voltage is corrected without using the battery.",
+            "Under 10 ms",
+            "Network gear and small servers; the dominant type from 500 to 5,000 VA"
+          ],
+          [
+            "Double-conversion online",
+            "Runs everything through the inverter all the time, so output stays clean and steady.",
+            "None (0 ms)",
+            "Gear that can’t tolerate any switch-over; expensive below 5,000 VA"
+          ]
+        ]
+      },
+      "callout": {
+        "title": "Why we favor sine-wave output",
+        "text": "For most small offices, we put a line-interactive UPS with pure sine-wave output on the network closet and the computers that matter. CyberPower warns that computers with “Active PFC” power supplies may shut down unexpectedly on battery when the UPS puts out a simulated (stepped) sine wave. A standby unit is fine for a single desk PC."
+      }
+    },
+    {
+      "heading": "What size UPS do you need?",
+      "paragraphs": [
+        "A UPS has two ratings, VA and watts, and your equipment must fit under both. Watts is the power your gear actually uses; VA also counts power it draws but doesn’t use, so it’s the bigger number. CyberPower’s example: a 1,000 VA / 700 W unit delivers only 700 usable watts. It recommends a watt rating 20–30% above the total of everything plugged in.",
+        "For that total, read each device’s label or power adapter. An adapter marked 12 V and 2 A supplies at most 24 W, and the device usually draws less; a plug-in watt meter gives the real number. If you only have VA figures, Tripp Lite counts network gear and computers with power-factor-corrected supplies at 1 watt per VA and a basic desktop at 0.7, and calls 1.0 the safest guess.",
+        "Then read the runtime chart: runtime falls faster than load rises. On CyberPower’s curve for its 1,500 VA / 1,000 W CP1500PFCLCD (below, new batteries), doubling from 500 to 1,000 W cuts runtime to a quarter. Its 850 VA model is rated about 60 minutes at 50 W, plenty for a modem, router and small switch. Older batteries deliver less."
+      ],
+      "table": {
+        "caption": "Rated runtime, CyberPower CP1500PFCLCD (new batteries)",
+        "head": [
+          "Load",
+          "Runtime"
+        ],
+        "rows": [
+          [
+            "50 W",
+            "About 100 minutes"
+          ],
+          [
+            "100 W",
+            "About 66 minutes"
+          ],
+          [
+            "200 W",
+            "About 31 minutes"
+          ],
+          [
+            "500 W",
+            "About 10 minutes"
+          ],
+          [
+            "1,000 W (full load)",
+            "About 2.5 minutes"
+          ]
+        ]
+      },
+      "list": [
+        "**Battery outlets:** the modem or fiber box, router or [firewall](/services/network-security/), network switch (including a PoE switch powering Wi‑Fi access points or desk phones), server or network storage, and the PCs where unsaved work lives.",
+        "**Surge-only outlets:** chargers, lamps and anything that can simply switch off.",
+        "**Never on a UPS:** laser printers, copiers, space heaters, paper shredders and vacuums. APC says a laser printer belongs on its own surge protector, and CyberPower says plugging any of these in voids its UPS warranty."
+      ],
+      "ordered": false
+    },
+    {
+      "heading": "Surge protector vs. UPS",
+      "paragraphs": [
+        "A surge protector clips voltage spikes but does nothing when the power simply goes out. A UPS keeps equipment running, and many include surge protection. So the network closet and key PCs get a UPS, and everything else gets a real surge protector.",
+        "“Real” is the catch. Garland Power & Light points out that not every power strip offers surge protection, and that surge protectors wear out. Look for a UL 1449 listing, the safety standard for surge protective devices. Plug-in protectors are Type 3 devices with a voltage protection rating (VPR): the voltage that gets through during a standard 6,000-volt, 3,000-amp test surge. Ratings come in steps of 330 V, 400 V, 500 V and up, and lower is better.",
+        "Surges also arrive on data lines. GP&L notes that a whole-house protector at the panel or meter covers only electric lines, not phone or TV cable lines, and a cable modem’s coax runs straight into your network. Choose protectors or a UPS that cover the data lines you use. Whole-house protectors are an electrician’s job; plug-in protection is ours."
+      ],
+      "callout": {
+        "title": "Unplug, or leave it?",
+        "text": "Ready.gov and GP&L both advise unplugging electronics during an outage, because power can return with surges. Leave equipment on a UPS connected, and unplug what’s on plain power strips and surge protectors."
+      }
+    },
+    {
+      "heading": "Clean shutdowns and backups",
+      "paragraphs": [
+        "A UPS buys minutes; what counts is what happens in them. Connect the UPS to the server or PC with its USB cable and install the maker’s software (CyberPower’s is PowerPanel), and the computer shuts itself down during an outage instead of crashing when the battery dies.",
+        "Synology’s network storage does the same: it stops services and unmounts its drives to prevent data loss, either at low battery or after a set time on battery. We set shutdown to start after a few minutes on battery, since runtime shrinks as batteries age, and turn on automatic restart. Synology says to test with a simulated outage first, so we unplug the UPS on a quiet afternoon and watch.",
+        "Backups cover what a UPS can’t. Ready.gov’s IT disaster recovery guidance says to back up frequently, decide how much data you could afford to lose, and confirm how long a restore takes. Keep at least one copy off-site or in the cloud, since a backup drive on the same power strip shares the same risks, and test a restore. For SQL Server, PostgreSQL or MySQL, see our [database consulting](/services/database-consulting/)."
+      ],
+      "callout": {
+        "title": "Where we fit",
+        "text": "We help you choose and set up battery backup for network gear, configure automatic shutdown for servers, network storage and PCs, add plug-in surge protection, check closet heat and set up backups with a test restore. We don’t do electrical work or generator hookups. Start with [small business IT support](/services/small-business-it/) or [home network setup](/services/home-network/), or see our [Garland page](/service-areas/garland-tx/). Call (715) 255-0420 (Mon–Fri, 9 AM – 5 PM) or [send us a note](/contact/)."
+      }
+    },
+    {
+      "heading": "Heat in the network closet",
+      "paragraphs": [
+        "Heat shortens UPS battery life. APC puts the ideal temperature for a lead-acid UPS battery at 68–77°F and says every 15°F hotter halves its life: a battery good for 4 years at 77°F lasts about 2 at 95°F. The battery also runs warmer than the room. CyberPower gives the same rule and says most UPS batteries last 3–5 years.",
+        "Network gear has limits too: NETGEAR rates its GS308, a basic 8-port office switch, for 32–104°F. A closed closet holding a modem, router, switch and UPS warms up on its own, and in an outage the air conditioning is off as well."
+      ],
+      "list": [
+        "Check the closet with a thermometer on a hot afternoon. If it runs much warmer than the office, add airflow, such as a vented door or a small fan.",
+        "Give the UPS room. CyberPower recommends at least 2 inches of space on each side.",
+        "Write the battery’s install date on the UPS. APC recommends replacing sealed lead-acid batteries before about five years.",
+        "Run the UPS battery self-test before summer and before winter."
+      ],
+      "ordered": false
+    },
+    {
+      "heading": "When the power goes out: who to call",
+      "paragraphs": [
+        "Your internet provider can’t fix a power outage, and neither can the retail company on your bill; the utility that owns the wires restores power. Around Rowlett, Rockwall, Sachse, Richardson and Plano, that’s usually Oncor: the state’s Power to Choose site lists Oncor as the delivery utility for every ZIP code we checked there. Garland has its own utility, Garland Power & Light, though some Garland addresses are on Oncor, and Farmers Electric Cooperative serves some addresses in Dallas, Collin and Rockwall counties. Your bill shows which you have.",
+        "Report the outage even if the neighbors probably have. Oncor says it knows automatically only “if our systems detect it,” and GP&L notes that neighbors can be on different circuits or even different utilities. If you see a downed line, leave the area and call 911."
+      ],
+      "table": {
+        "caption": "Outage reporting, as each utility listed it on November 3, 2026",
+        "head": [
+          "Utility",
+          "Report an outage",
+          "Good to know"
+        ],
+        "rows": [
+          [
+            "Oncor",
+            "Call 888-313-4747, [report online](https://www.oncor.com/outages/) or text OUT to 66267",
+            "Register for texting first by texting REG to 66267. Oncor’s [outage map](https://stormcenter.oncor.com/) gets new data every 10 minutes."
+          ],
+          [
+            "Garland Power & Light",
+            "Call 972-205-3000 or 833-403-2106, or text OUT to 972-205-4000",
+            "Text from the cell number on your account, or text your account number instead. Text STATUS for updates."
+          ],
+          [
+            "Farmers Electric Cooperative",
+            "Call 903-455-1715",
+            "Register by texting FEC to 903-455-1715; then text OUT to report."
+          ]
+        ]
+      },
+      "list": [
+        "Save work on anything running on battery, and let servers and network storage shut down on schedule.",
+        "Report the outage and check the outage map.",
+        "Unplug whatever is on plain power strips and surge protectors.",
+        "If the outage looks long, shut down the network gear yourself instead of draining the UPS. A drained battery takes hours to recharge: 8 hours for the CP1500PFCLCD, per CyberPower.",
+        "Once power is steady, start the modem, then the router, switch, server and PCs, and check that backups ran."
+      ],
+      "ordered": true,
+      "callout": {
+        "title": "Generators: outside, 20 feet away, never into a wall outlet",
+        "text": "Carbon monoxide from portable generators kills nearly 100 people in the U.S. a year, the Consumer Product Safety Commission says, and Texas counted 19 carbon monoxide deaths tied to the February 2021 storm. Never run a generator in a home, office, garage, basement or shed; open doors and windows won’t clear the gas. Run it outside, at least 20 feet from the building, away from doors, windows and vents, and not on a porch or in a carport. Put battery-powered carbon monoxide detectors on every level. Never plug a generator into a wall outlet: power can feed back onto utility lines and injure line workers. That takes a transfer switch, installed by an electrician."
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long will a UPS keep my router running?",
+      "a": "Usually longer than people expect, because a modem, router and small switch draw little power. CyberPower rates its 850 VA CP850PFCLCD at about an hour at a 50-watt load, and its 1,500 VA CP1500PFCLCD at about 100 minutes at the same load. Add up your own gear’s watts, check your UPS’s runtime chart, and expect less from an older battery. If the outage also takes down your internet provider’s equipment, the connection drops anyway."
+    },
+    {
+      "q": "Is a surge protector enough?",
+      "a": "For a lamp, a charger or a laser printer, usually yes. For the modem, router, switch and any computer holding unsaved work, no: a surge protector does nothing when the power simply goes out. Put those on a UPS, and make sure the surge protectors you do use carry a UL 1449 listing and haven’t worn out."
+    },
+    {
+      "q": "Should I unplug electronics during a power outage?",
+      "a": "Unplug or switch off anything that’s only on a power strip or surge protector. Ready.gov and Garland Power & Light both recommend it, because power can return with surges. Equipment on a UPS can stay connected, but if the outage drags on, shut it down before the battery runs flat."
+    },
+    {
+      "q": "How do I report a power outage in my area?",
+      "a": "Contact the utility that owns the lines, not your internet company or the retail company on your bill. For most addresses around Rowlett that’s Oncor: call 888-313-4747, report online, or text OUT to 66267 once you’ve registered by texting REG. In Garland, Garland Power & Light takes reports at 972-205-3000. Farmers Electric Cooperative members call 903-455-1715. If a line is down, stay away and call 911."
+    },
+    {
+      "q": "Can a power outage damage a computer?",
+      "a": "Yes, in two ways. A computer that loses power mid-write can lose or corrupt files, which Microsoft’s own disk settings have long warned about. And power can come back with surges or spikes, which is why Ready.gov says to disconnect electronics during an outage. A UPS with automatic shutdown, surge protection and a recent off-site backup together cover both."
+    }
+  ],
+  "relatedServices": [
+    "small-business-it",
+    "network-security",
+    "home-network"
+  ],
+  "disclaimer": "General information as of November 3, 2026. Follow the instructions from your UPS, generator and equipment makers, and use an electrician for anything wired into your electrical panel. Utility numbers change; confirm them on your utility’s website.",
+  "sources": [
+    {
+      "label": "FERC, NERC and Regional Entity Staff Report — The February 2021 Cold Weather Outages in Texas and the South Central United States (November 2021)",
+      "url": "https://www.nerc.com/globalassets/our-work/reports/event-reports/february_2021_cold_weather_report.pdf"
+    },
+    {
+      "label": "Texas Department of State Health Services — February 2021 Winter Storm-Related Deaths, Texas (Dec. 30, 2021)",
+      "url": "https://www.dshs.texas.gov/sites/default/files/news/updates/SMOC_FebWinterStorm_MortalitySurvReport_12-30-21.pdf"
+    },
+    {
+      "label": "NOAA NCEI — Daily summaries, DFW Airport, Feb. 13–17, 2021 (low of 4°F on Feb. 15)",
+      "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=daily-summaries&stations=USW00003927&startDate=2021-02-13&endDate=2021-02-17&dataTypes=TMIN,TMAX&units=standard&format=json"
+    },
+    {
+      "label": "NOAA NCEI — 1991–2020 daily normals, DFW Airport (normal low of 40°F on Feb. 15)",
+      "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-daily-1991-2020&stations=USW00003927&startDate=2010-02-15&endDate=2010-02-15&format=json&dataTypes=DLY-TMIN-NORMAL"
+    },
+    {
+      "label": "NOAA NCEI — 1991–2020 Climate Normals, DFW Airport (annual days at 100°F or above)",
+      "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USW00003927&format=json&dataTypes=ANN-TMAX-AVGNDS-GRTH100,ANN-TMAX-AVGNDS-GRTH090"
+    },
+    {
+      "label": "National Weather Service Fort Worth — DFW Annual and Consecutive 100° Days (updated Sept. 22, 2026)",
+      "url": "https://www.weather.gov/fwd/danncon10"
+    },
+    {
+      "label": "City of Sachse — Severe Weather Update (May 28, 2024)",
+      "url": "https://www.cityofsachse.com/CivicSend/ViewMessage/message/231651"
+    },
+    {
+      "label": "ERCOT — Texas Advisory and Notification System (TXANS)",
+      "url": "https://www.ercot.com/txans"
+    },
+    {
+      "label": "Microsoft DevBlogs, The Old New Thing — Why you shouldn’t turn off write cache buffer flushing (Windows write-caching warnings)",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20130416-00/?p=4643"
+    },
+    {
+      "label": "Ready.gov — Power Outages",
+      "url": "https://www.ready.gov/power-outages"
+    },
+    {
+      "label": "Schneider Electric — White Paper 1: The Different Types of UPS Systems (version 10)",
+      "url": "https://download.schneider-electric.com/files?p_Doc_Ref=SPD_SADE-5TNM3Y_EN"
+    },
+    {
+      "label": "CyberPower — PFC Sinewave Series UPS Systems (Active PFC power supplies and simulated sine wave)",
+      "url": "https://www.cyberpowersystems.com/news/pfc-sinewave-series-ups-systems-the-most-affordable-feature-rich-pure-sine-wave-ups/"
+    },
+    {
+      "label": "CyberPower — Watts vs. Volt-Amperes (VA): Key Power Ratings for Choosing the Right UPS",
+      "url": "https://www.cyberpower.com/uk/en/blog/watts-vs-volt-amperes-va-key-power-ratings-for-choosing-the-right-ups"
+    },
+    {
+      "label": "Tripp Lite — What is the “total load” on a UPS system? (power factor guidance)",
+      "url": "https://assets.tripplite.com/model-support-page/what-is-the-total-load-on-a-ups-system.pdf"
+    },
+    {
+      "label": "CyberPower — CP1500PFCLCD specifications, runtime chart and FAQ (outlets, data-line protection, recharge time, excluded devices, PowerPanel)",
+      "url": "https://www.cyberpowersystems.com/product/ups/pfc-sinewave/cp1500pfclcd/"
+    },
+    {
+      "label": "CyberPower — CP850PFCLCD specifications and runtime chart",
+      "url": "https://www.cyberpowersystems.com/product/ups/pfc-sinewave/cp850pfclcd/"
+    },
+    {
+      "label": "APC by Schneider Electric — Recommendations for protecting a laser printer (FA158812)",
+      "url": "https://www.se.com/ww/en/faqs/FA158812/"
+    },
+    {
+      "label": "Garland Power & Light — Surge Protection",
+      "url": "https://www.gpltexas.org/outage-center/electric-safety/surge-protection"
+    },
+    {
+      "label": "Hubbell — UL 1449 3rd Edition: SPD types and voltage protection ratings",
+      "url": "https://hubbellcdn.com/ohwassets/HCI/WiringDevice/media/Wiring_UL14493rdEdition.pdf"
+    },
+    {
+      "label": "UL LLC (Joe DeGregoria, P.E.) — UL 1449 Surge Protective Devices overview",
+      "url": "https://peg.atis.org/wp-content/uploads/2018/08/Overview_of_UL1449-JDegregoria.pdf"
+    },
+    {
+      "label": "Synology — DSM Help: UPS (Standby Mode, network UPS server, outage simulation test)",
+      "url": "https://kb.synology.com/en-us/DSM/help/DSM/AdminCenter/system_hardware_ups?version=7"
+    },
+    {
+      "label": "Ready.gov — IT Disaster Recovery Plan (data backup)",
+      "url": "https://www.ready.gov/business/emergency-plans/recovery-plan"
+    },
+    {
+      "label": "APC by Schneider Electric — What is the expected life of my APC UPS battery? (FA158934)",
+      "url": "https://www.se.com/us/en/faqs/FA158934/"
+    },
+    {
+      "label": "CyberPower — Making Sure Your Battery Backup Has Your Back (battery life, temperature, spacing)",
+      "url": "https://www.cyberpowersystems.com/blog/making-sure-your-battery-backup-has-your-back/"
+    },
+    {
+      "label": "NETGEAR — GS308 8-Port Gigabit Unmanaged Switch specifications",
+      "url": "https://www.netgear.com/business/wired/switches/unmanaged/gs308/"
+    },
+    {
+      "label": "Gexa Energy — How Do I Report a Power Outage in My Area? (retail providers vs. delivery utilities)",
+      "url": "https://www.gexaenergy.com/residential/learn-and-explore/how-do-i-report-a-power-outage-in-my-area"
+    },
+    {
+      "label": "Public Utility Commission of Texas, Power to Choose — plan data for ZIP 75088 (also checked 75080, 75048, 75087 and 75093; every listed plan names Oncor as the delivery utility)",
+      "url": "https://api.powertochoose.org/api/PowerToChoose/plans?zip_code=75088"
+    },
+    {
+      "label": "Public Utility Commission of Texas — Utility outage contacts",
+      "url": "https://www.puc.texas.gov/storm/contact/"
+    },
+    {
+      "label": "Oncor — Outage Reporting and Status",
+      "url": "https://www.oncor.com/outages/"
+    },
+    {
+      "label": "Oncor — FAQs (reporting an outage, MyOncor Alerts, outage map)",
+      "url": "https://www.oncor.com/content/oncorwww/us/en/home/faqs/faqs-details.html"
+    },
+    {
+      "label": "Oncor — Storm Center outage map (information updated every 10 minutes)",
+      "url": "https://stormcenter.oncor.com/"
+    },
+    {
+      "label": "Garland Power & Light — About Us",
+      "url": "https://www.gpltexas.org/my-account/about-us"
+    },
+    {
+      "label": "Garland Power & Light — Outage Text Reporting",
+      "url": "https://www.gpltexas.org/outage-center/outage-text-reporting"
+    },
+    {
+      "label": "Garland Power & Light — My Power Is Out, My Neighbor’s Power Is On",
+      "url": "https://www.gpltexas.org/outage-center/my-power-is-out-neighbor-s-power-is-on"
+    },
+    {
+      "label": "Farmers Electric Cooperative — Outage Center",
+      "url": "https://farmerselectric.coop/outages-safety/outage-center/"
+    },
+    {
+      "label": "Farmers Electric Cooperative — Who We Are (counties served)",
+      "url": "https://farmerselectric.coop/about-my-cooperative/who-we-are/"
+    },
+    {
+      "label": "U.S. Consumer Product Safety Commission — As Winter Storms Continue, CPSC Urges Families to Take Steps to Prevent Carbon Monoxide Poisoning and Fires (2024)",
+      "url": "https://www.cpsc.gov/Newsroom/News-Releases/2024/As-Winter-Storms-Continue-CPSC-Urges-Families-to-Take-Steps-to-Prevent-Carbon-Monoxide-Poisoning-and-Fires"
+    },
+    {
+      "label": "CDC — Avoiding Carbon Monoxide Poisoning (natural disasters PSA toolkit)",
+      "url": "https://www.cdc.gov/natural-disasters/psa-toolkit/avoiding-carbon-monoxide-poisoning.html"
+    },
+    {
+      "label": "Generac — Why you should never back-feed your electric panel with a generator",
+      "url": "https://support.generac.com/s/article/why-you-should-never-back-feed-your-electric-panel-with-a-generator"
+    }
+  ]
+}

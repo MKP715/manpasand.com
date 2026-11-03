@@ -1,0 +1,241 @@
+{
+  "slug": "web-development",
+  "name": "Web development",
+  "eyebrow": "Web design & development",
+  "title": "Web Design & Development in Rowlett, TX | Manpasand",
+  "description": "Fast, mobile-friendly websites for Rowlett and DFW businesses: redesigns, WordPress, online stores and web apps. See our Mahnken Painting rebuild.",
+  "h1": "Fast, clear websites you can keep current",
+  "lede": "We handle web design and development for small businesses in Rowlett, TX, and across Dallas–Fort Worth. Our sites are built to load quickly on a phone, work with a keyboard or screen reader, and give search engines a clear page for every service. You get a fixed-price quote before any work starts.",
+  "summary": "Fast, accessible small-business websites, landing pages and simple web apps, in WordPress or static, with the technical SEO basics done right.",
+  "audience": [
+    "Businesses with no website, or one that’s slow and awkward on a phone",
+    "Service businesses that depend on calls and estimate requests",
+    "Owners weighing WordPress against a simpler static site",
+    "Teams that need a simple web app or form tied to their data",
+    "Anyone unsure who controls their domain and hosting"
+  ],
+  "included": [
+    "Small-business websites and single-offer landing pages",
+    "Website redesigns that keep your old links working",
+    "WordPress or static builds, matched to how you’ll update",
+    "Responsive layouts checked at phone, tablet and desktop widths",
+    "Built to WCAG 2.2 AA: contrast, labels, keyboard access",
+    "Unique titles, a sitemap and structured data on every page",
+    "Images resized to WebP at several widths for fast loading",
+    "Simple web apps: quote calculators, booking requests, job trackers",
+    "Google Business Profile basics: name, service area, website link",
+    "Written notes on how to update the site after launch"
+  ],
+  "sections": [
+    {
+      "heading": "A Rowlett web design project we built twice, and what changed",
+      "paragraphs": [
+        "Mahnken Painting & More is an owner-operated painting company in Rowlett, and we’ve built its website twice: a single page in October 2025, then the multi-page static rebuild from November 2026 now live at [mahnkenpainting.com](https://mahnkenpainting.com/).",
+        "Our first version made common mistakes. Its six “pages” were hidden sections of one URL, its sitemap listed #-fragment links that Google says it generally doesn’t support, and it carried keyword lists and hidden text that Google ignores or treats as spam.",
+        "The site went from 1 indexable page to 22. In lab tests on a local server, the home page’s Lighthouse mobile scores rose from 55 to 95 for performance, 91 to 100 for accessibility and 75 to 100 for best practices. Its first load dropped from about 1.39 MB over 20 requests to about 218 KB over 9.",
+        "These are lab numbers from one simulated phone, not real-visitor data, and we have no traffic or lead figures to share. Both versions scored 100 for SEO, so the real gain there is structure: one page per service and per city. The [Mahnken case study](/work/mahnken-painting-website/) walks through what we changed and why, and it’s the first project on [our work page](/work/).",
+        "We’re [based in Rowlett](/service-areas/rowlett-tx/), and web work can be done remotely, so we take projects from anywhere. If you’d rather meet in person, we’ll come to your shop anywhere in [our service area](/service-areas/)."
+      ]
+    },
+    {
+      "heading": "WordPress or a static site: the honest trade-off",
+      "paragraphs": [
+        "WordPress runs 39.5% of all websites (W3Techs, November 2026), and its big advantage is that you can log in and edit pages yourself. The cost is upkeep: a server running PHP with a MySQL or MariaDB database, plus regular updates to WordPress, the theme and every plugin. Patchstack counted 11,334 new vulnerabilities in the WordPress ecosystem in 2025, 91% of them in plugins, and 46% had no fix from the developer by the time they were made public.",
+        "A static site is a set of finished pages. Nothing runs on the server when someone visits, so there’s little to patch and pages load quickly. Hosting can be inexpensive: the Mahnken site runs on GitHub Pages, which is free with a public repository (so the source files are public) and supports HTTPS on a custom domain. The trade-off is editing: a change means editing a file and rebuilding, so the Mahnken site came with a README on updating text, photos and reviews.",
+        "Our rule of thumb: if several people post every week, or you need a blog or a plugin-based feature, WordPress earns its upkeep. If the content changes a few times a year, a fast static website is simpler and cheaper to keep. Online stores are a third case. GitHub Pages doesn’t allow e-commerce sites, and Stripe notes that a business handling raw card data may need to meet more than 300 PCI DSS security controls. So for e-commerce website development we use the payment processor’s hosted checkout, and card numbers never pass through your site.",
+        "A quote calculator, a booking request that lands in a spreadsheet or a job tracker needs more than pages. We plan small web apps like these with the [database and ETL work](/services/database-consulting/) behind them."
+      ]
+    },
+    {
+      "heading": "What fast, mobile-friendly and accessible mean in practice",
+      "paragraphs": [
+        "Pew Research Center found in 2026 that 91% of U.S. adults own a smartphone, and Google indexes and ranks the mobile version of a site. So we design for the phone first: one responsive layout (the approach Google recommends), text you can read without zooming and no sideways scrolling.",
+        "Google’s Core Web Vitals set speed targets for the 75th percentile of visits: the largest content on screen within 2.5 seconds (LCP), a response to a tap or click within 200 milliseconds (INP) and a layout that doesn’t jump around (CLS of 0.1 or less). Often what slows a small-business site is extra weight, so we resize photos into WebP at several widths, self-host trimmed fonts and load video embeds only when someone presses play.",
+        "We build to WCAG 2.2 Level AA, the W3C’s accessibility standard: body text contrast of at least 4.5:1, tap targets of at least 24 by 24 CSS pixels, labeled form fields and every feature usable from a keyboard. Automated scores don’t catch everything, and Lighthouse’s own documentation treats tab order as a manual test, so we tab through every page template ourselves."
+      ]
+    },
+    {
+      "heading": "Technical SEO basics and your Google Business Profile",
+      "paragraphs": [
+        "Most technical SEO is housekeeping: every page gets its own address, one topic and a concise, descriptive title. We generate a sitemap (Google says a well-linked site of about 500 pages or fewer may not need one) and add LocalBusiness structured data so search engines can read details like your name and hours. Google doesn’t guarantee special search displays from markup (it stopped showing FAQ rich results in May 2026), so we don’t promise them.",
+        "Some old tactics now work against you. Google doesn’t use the meta keywords tag, treats text hidden from visitors to sway rankings as spam, and calls pages aimed at a list of cities that all funnel visitors to one place doorway abuse. If a proposal includes dozens of near-identical city pages, ask what each one says that the others don’t.",
+        "Your website and your Google Business Profile work together. Google ranks local results on relevance, distance and prominence, and prominence counts how many websites link to your business and how many reviews you have. Profile basics we’ll go over with you:"
+      ],
+      "list": [
+        "Use your real-world business name. Google says extra details in the name can get a profile suspended.",
+        "If you work at customers’ locations, hide your address and list up to 20 service areas within about 2 hours’ drive.",
+        "Keep the description to 750 characters or fewer, with no links, and about the business rather than prices or sales.",
+        "Use the same name, phone and hours on your profile and your website.",
+        "Reply to reviews. Google says replies show customers you value their feedback."
+      ]
+    }
+  ],
+  "process": [
+    {
+      "title": "Free consultation",
+      "text": "We talk through what the site needs to do, who will update it and what you have today. The consultation is free, and we reply within one business day."
+    },
+    {
+      "title": "Scope and fixed price",
+      "text": "You get a written scope of work and a fixed-price quote before anything starts: pages, features, platform, and who holds the domain, hosting and files. If Texas sales tax applies, it’s shown as its own line."
+    },
+    {
+      "title": "Build and review",
+      "text": "We build the pages and you review them on your own phone and computer. Revisions within the agreed scope are part of the price."
+    },
+    {
+      "title": "Launch and hand over",
+      "text": "We point your domain at the new site, redirect old links and hand over logins and editing notes. If a defect within the original scope is reported within 14 days of completion, we fix it at no cost ([guarantee terms](/terms/#guarantee))."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How much does a small business website cost?",
+      "a": "It depends on scope, so we don’t publish a price list. The main factors are the number of pages, whether you supply the text and photos, WordPress versus static, and extras like booking requests, forms that feed a database or an online store. After a [free consultation](/contact/#estimate) we send a written scope and a fixed-price quote, with any Texas sales tax shown as its own line, and you decide from there. Budget for running costs too: domain renewal, hosting and, on WordPress, regular updates."
+    },
+    {
+      "q": "How long does it take to build a website?",
+      "a": "A single landing page is a much smaller job than a 20-page site, but content usually sets the pace more than code does. Waiting on text, photos and feedback is often the longest part, so having those ready speeds things up. We’ll talk through timing at the free consultation, and if you need new photos, our [business and real estate photography](/services/photography/) can be planned alongside the build."
+    },
+    {
+      "q": "Should I use WordPress or a static website?",
+      "a": "Choose WordPress if several people will edit the site often or you need a blog or plugin-based feature, and budget for keeping it updated. Choose static if the content changes a few times a year and you want speed with very little to maintain. If you already have a proposal and want a second opinion on it, that’s part of our [technology consulting](/services/tech-consulting/)."
+    },
+    {
+      "q": "Do I need a website if I have a Google Business Profile?",
+      "a": "The profile is often the first thing people see, but you get a 750-character description inside Google’s fixed layout, and a profile can be suspended if it breaks Google’s guidelines. A website lets you explain each service in depth, show your work and give you a page that can appear in regular search results for the specific jobs you do. Google’s local ranking also counts how many websites link to your business, and your own site is the obvious place for those links to point."
+    },
+    {
+      "q": "Who owns my website and domain after it is built?",
+      "a": "You should. ICANN, which coordinates the domain name system, recommends against listing web designers, hosting providers or other third parties as a domain’s registrant, and suggests using an email address that isn’t on that domain. Our written scope spells out who holds the domain, the hosting account and the site’s files, so there’s no question later."
+    },
+    {
+      "q": "What makes a website mobile-friendly?",
+      "a": "A layout that adapts to the screen instead of shrinking the desktop version, text you can read without zooming, no sideways scrolling, and links and buttons big enough to tap (WCAG 2.2 sets 24 by 24 CSS pixels as the minimum for most targets). It also has to load quickly on a phone connection. That matters for search too, because Google uses the mobile version of a page for indexing and ranking."
+    }
+  ],
+  "related": [
+    "photography",
+    "database-consulting",
+    "tech-consulting"
+  ],
+  "cta": "Tell us what your website needs to do, and we’ll reply within one business day to set up a free consultation.",
+  "sources": [
+    {
+      "claim": "Mahnken Painting & More (owner-operated painter, Rowlett): Manpasand built v1 (single page, first published Oct 2025; six sections sharing one URL; fragment-URL sitemap; keyword metas and hidden SEO text) and the Nov 2026 multi-page static rebuild now live on GitHub Pages; 1 → 22 indexable pages; Lighthouse 12.8.2 mobile, local server: 55/91/75/100 → 95/100/100/100; home first load ≈1,387,047 B / 20 requests → ≈218,070 B / 9 requests (main frame); old SEO score also 100; no traffic or lead data; README covers editing text, photos and reviews; WebP srcset, self-hosted trimmed fonts, click-to-load video embeds; old #-links redirect (measured 2026-11-03)",
+      "url": "https://mahnkenpainting.com/"
+    },
+    {
+      "claim": "Google Search generally doesn’t support URL fragments (Mahnken v1 sitemap used #-fragment URLs)",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/url-structure"
+    },
+    {
+      "claim": "Google does not use the meta keywords tag; no effect on indexing or ranking",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/special-tags"
+    },
+    {
+      "claim": "Google spam policies: hidden text, keyword stuffing, and doorway abuse including multiple pages targeted at specific regions or cities that funnel users to one page",
+      "url": "https://developers.google.com/search/docs/essentials/spam-policies"
+    },
+    {
+      "claim": "Lab data comes from a controlled environment (one device, one network); field data from real users",
+      "url": "https://web.dev/articles/lab-and-field-data-differences"
+    },
+    {
+      "claim": "WordPress is used by 39.5% of all websites (58.2% of sites with a known CMS), W3Techs, 3 November 2026",
+      "url": "https://w3techs.com/technologies/details/cm-wordpress"
+    },
+    {
+      "claim": "WordPress requires a server with PHP (8.3 or greater recommended) and MySQL 8.0+ or MariaDB 10.11+, plus HTTPS support",
+      "url": "https://wordpress.org/about/requirements/"
+    },
+    {
+      "claim": "Patchstack: 11,334 new WordPress-ecosystem vulnerabilities in 2025; 91% in plugins, 9% in themes; 46% did not receive a developer fix in time for public disclosure",
+      "url": "https://patchstack.com/whitepaper/state-of-wordpress-security-in-2026/"
+    },
+    {
+      "claim": "GitHub Free includes GitHub Pages in public repositories",
+      "url": "https://docs.github.com/en/get-started/learning-about-github/githubs-plans"
+    },
+    {
+      "claim": "All GitHub Pages sites, including those with a custom domain, support HTTPS",
+      "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https"
+    },
+    {
+      "claim": "Stripe: a business handling sensitive card data directly might be required to meet more than 300 PCI DSS security controls; low-risk integrations send payment details to Stripe without passing through your servers",
+      "url": "https://docs.stripe.com/security/guide"
+    },
+    {
+      "claim": "Pew Research Center: 91% of U.S. adults own a smartphone (survey Jan. 30–June 18, 2026)",
+      "url": "https://www.pewresearch.org/internet/fact-sheet/mobile/"
+    },
+    {
+      "claim": "Google uses the mobile version of a site’s content for indexing and ranking, and recommends responsive web design",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing"
+    },
+    {
+      "claim": "Core Web Vitals good thresholds: LCP within 2.5 s, INP 200 ms or less, CLS 0.1 or less, at the 75th percentile of page loads",
+      "url": "https://web.dev/articles/vitals"
+    },
+    {
+      "claim": "WCAG 2.2 (W3C Recommendation, 12 Dec 2024): contrast at least 4.5:1 for normal text (1.4.3); all functionality operable through a keyboard interface (2.1.1)",
+      "url": "https://www.w3.org/TR/WCAG22/"
+    },
+    {
+      "claim": "WCAG 2.2 SC 2.5.8 Target Size (Minimum), Level AA: targets at least 24 by 24 CSS pixels, with listed exceptions",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html"
+    },
+    {
+      "claim": "WCAG 2.2 SC 3.3.2 Labels or Instructions (Level A): labels or instructions are provided when content requires user input",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html"
+    },
+    {
+      "claim": "Lighthouse documentation: logical tab order is tested manually by tabbing through the page",
+      "url": "https://developer.chrome.com/docs/lighthouse/accessibility/logical-tab-order"
+    },
+    {
+      "claim": "Google title-link guidance: descriptive and concise titles; avoid keyword stuffing",
+      "url": "https://developers.google.com/search/docs/appearance/title-link"
+    },
+    {
+      "claim": "Google: properly linked sites are usually discoverable; a site of about 500 pages or fewer may not need a sitemap",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview"
+    },
+    {
+      "claim": "LocalBusiness structured data can tell Google business hours and other details; Google does not guarantee features that consume structured data will show in results",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/local-business"
+    },
+    {
+      "claim": "Google uses structured data to understand the content of the page",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data"
+    },
+    {
+      "claim": "FAQ rich result no longer appears in Google Search starting May 7, 2026",
+      "url": "https://developers.google.com/search/updates"
+    },
+    {
+      "claim": "Google local ranking factors: relevance, distance, prominence; prominence uses how many websites link to the business and how many reviews; replying to reviews shows you value feedback",
+      "url": "https://support.google.com/business/answer/7091"
+    },
+    {
+      "claim": "Business Profile name must reflect the real-world name; unnecessary information in the name could result in suspension; service-area businesses should hide their address",
+      "url": "https://support.google.com/business/answer/3038177"
+    },
+    {
+      "claim": "Up to 20 service areas; overall area shouldn’t be more than about 2 hours of driving time from the business base",
+      "url": "https://support.google.com/business/answer/9157481"
+    },
+    {
+      "claim": "Business description: no more than 750 characters; no URLs or HTML; focus on the business rather than promotions, prices or sales",
+      "url": "https://support.google.com/business/answer/3039617?hl=en"
+    },
+    {
+      "claim": "ICANN: it is not recommended to list website designers, hosting providers or other third parties as a domain’s registrant; best to use an email address not associated with the domain",
+      "url": "https://www.icann.org/en/blogs/details/do-you-have-a-domain-name-heres-what-you-need-to-know-26-3-2018-en"
+    },
+    {
+      "claim": "GitHub Pages is not intended for or allowed to be used as a free web-hosting service to run an online business or e-commerce site, and shouldn’t be used for sensitive transactions like credit card numbers",
+      "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits"
+    }
+  ]
+}
